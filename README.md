@@ -9,11 +9,17 @@
 ### Experience
 Senior Director of Risk Data Science | DigniFi, Inc. | Fort Lauderdale, FL | January 2022 – February 2026
 - Modeling
+![Python Decision Tree](/assets/img/Decision Tree for Take Rate 1 Python.png)
 - Visualizations
 - Reporting
+- Automations
+![Credit Policy Monitoring with Tableau Dashboard](/assets/img/Credit Policy Monitoring p1 automation Tableau.jpg)
 
 Innovation Unit Supervisor | Broward County Government | Fort Lauderdale, FL | March 2020 – January 2022
 - Visualizations
+![Covid PowerBI Dashboard](/assets/img/Broward Covid dashboard 1 PowerBI.png)
+![Animal Shelter ArcGIS Dashboard](/assets/img/Broward Animal Care Dashboard 2 ArcGIS.png)
+![Animal Shelter ArcGIS Newsletter](/assets/img/Broward Animal Care Newsletter 2 ArcGIS.png)
 
 Senior Risk Analyst | Southeast Toyota Finance | Fort Lauderdale, FL | January 2018 – March 2020
 
@@ -24,6 +30,8 @@ Experience Insights Analytics Manager | The Walt Disney Company | Orlando, FL | 
 Senior Revenue Analyst | The Walt Disney Company | Orlando, FL | November 2011 – December 2013
 
 Senior Industrial Engineer | The Walt Disney Company | Orlando, FL | November 2008 – November 2011
+![SAS Dashboard - Proc Ganno](/assets/img/Disney New York Times article training 1 SAS.jpg)
+![As seen in NY Times](/assets/img/Disney New York Times article SAS dashboard.png)
 
 Marketing Reporting & Analytics Manager | The Walt Disney Company | Orlando, FL | July 2007 – November 2008
 
