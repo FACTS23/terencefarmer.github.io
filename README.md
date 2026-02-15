@@ -1,27 +1,27 @@
 # Portfolio
 
 ### Education
-### **M.S.  |   Computer Science**  | Florida Atlantic University |   *2019-2020*
-### **M.S.  |   Industrial Engineering** | University of Missouri | *2000-2009*
-### **M.S.  | Applied Mathematics** | University of Missouri  |   *1997-2000*
-### **B.S.  |   Mathematics** |   Alabama State University    |   *1993-1997*
+- **M.S., Computer Science**  | Florida Atlantic University |   *2019-2020*
+- **M.S., Industrial Engineering** | University of Missouri | *2000-2009*
+- **M.S., Applied Mathematics** | University of Missouri  |   *1997-2000*
+- **B.S., Mathematics** |   Alabama State University    |   *1993-1997*
 
 ![Bachelor of Science Degree](/assets/img/Bachelor of Science Degree.jpg)
 ![MS Applied Mathematics](/assets/img/MS Applied Mathematics 2000.bmp)
 
 ### Experience
 **Senior Director of Risk Data Science** | DigniFi, Inc. | Fort Lauderdale, FL | January 2022 – February 2026
-- Data Science
+- Data Science\
     ![Python Decision Tree](/assets/img/Decision Tree for Take Rate 1 Python.png)
     ![Logistic Regression Analysis](/assets/img/Logistic Regression Model Validation p2 automation Tableau.jpg)
-- Visualizations
+- Visualizations\
     ![Credit Strategy Analysis Analysis](/assets/img/Credit Strategy analysis automation Tableau.jpg)
-- Reporting
+- Reporting\
     ![Tableau gallery](/assets/img/Tableau gallery.jpg)
     ![WasIs](/assets/img/Deliquencies and Loss WasIs automated Tableau.jpg)
-- Automations
+- Automations\
     ![Credit Policy Monitoring with Tableau Dashboard](/assets/img/Credit Policy Monitoring p1 automation Tableau.jpg)
-- Advanced SQL
+- Advanced SQL\
     1. Window Functions (Analytical Processing)
 
         These functions are extensively used to perform calculations across a set of table rows that are related to the current row, without reducing the number of rows returned.
@@ -141,7 +141,7 @@
 - **SAS Certified Base Programmer**| SAS | 2005
 - **IBM Certified Database Associate**| IBM | 2005
 - **Microsoft Excel Expert Certification**| Microsoft | 2004 \
-![SAS Badge](/assets/img/SAS badge.tif) ![IBM badge](/assets/img/IBM badge.tif)
+![SAS Badge](/assets/img/SAS badge.bmp) ![IBM badge](/assets/img/IBM badge.bmp)
 
 
 
@@ -161,5 +161,5 @@
 ![Web Authoring Fundamentals](/assets/img/Web Authoring Fundamentals.bmp)
 ![Advanced Wiring and NEC Code](/assets/img/Advanced Wiring and NEC Code.bmp)
 ![CPR](/assets/img/CPR_front.bmp)
-![Introduction to Urban and Regional Planning Concepts](/assets/img/Introduction to Urban and Regional Planning Concepts.tif)
+![Introduction to Urban and Regional Planning Concepts](/assets/img/Introduction to Urban and Regional Planning Concepts.bmp)
 
