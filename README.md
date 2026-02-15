@@ -1,13 +1,13 @@
 # Portfolio
 
 ### Education
-- **M.S.  |   Computer Science**  | Florida Atlantic University |   *2019-2020*
-- **M.S.  |   Industrial Engineering** | University of Missouri | *2000-2009*
-- **M.S.  | Applied Mathematics** | University of Missouri  |   *1997-2000*
-- **B.S.  |   Mathematics** |   Alabama State University    |   *1993-1997*
+### **M.S.  |   Computer Science**  | Florida Atlantic University |   *2019-2020*
+### **M.S.  |   Industrial Engineering** | University of Missouri | *2000-2009*
+### **M.S.  | Applied Mathematics** | University of Missouri  |   *1997-2000*
+### **B.S.  |   Mathematics** |   Alabama State University    |   *1993-1997*
 
 ![Bachelor of Science Degree](/assets/img/Bachelor of Science Degree.jpg)
-![MS Applied Mathematics](/assets/img/MS Applied Mathematics 2000.jpg)
+![MS Applied Mathematics](/assets/img/MS Applied Mathematics 2000.bmp)
 
 ### Experience
 **Senior Director of Risk Data Science** | DigniFi, Inc. | Fort Lauderdale, FL | January 2022 – February 2026
