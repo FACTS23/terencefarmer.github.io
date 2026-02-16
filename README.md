@@ -11,12 +11,18 @@
 |   |   |   |   |
 
 \* Ph.D. Candidate from 2000-2008.
+
 <details>
 
 <summary>Show credentials:</summary>
 
-![Bachelor of Science Degree](<assets/img/Bachelor of Science Degree.jpg>){: .portfolio-image}
-![MS Applied Mathematics](<assets/img/MS Applied Mathematics 2000.bmp>){: .portfolio-image}
+![Bachelor of Science Degree](<assets/img/Bachelor of Science Degree.jpg>)
+
+![MS Applied Mathematics](<assets/img/MS Applied Mathematics 2000.bmp>)
+
+<!-- ![Bachelor of Science Degree](<assets/img/Bachelor of Science Degree.jpg>){: .portfolio-image}
+
+![MS Applied Mathematics](<assets/img/MS Applied Mathematics 2000.bmp>){: .portfolio-image} -->
 
 </details>
 
