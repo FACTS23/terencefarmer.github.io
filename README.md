@@ -26,6 +26,7 @@
 
 </details>
 
+<!-- 
 ### Experience
 **Senior Director of Risk Data Science** | DigniFi, Inc. | Fort Lauderdale, FL | January 2022 – February 2026
 - Data Science\
@@ -220,4 +221,4 @@
 
 ![NSF](<assets/img/National Science Foundation.jpg>){: .portfolio-image}
 
-</details>
+</details> -->
