@@ -1,27 +1,44 @@
 # Portfolio
 
 ### Education
-- **M.S., Computer Science**  | Florida Atlantic University |   *2019-2020*
-- **M.S., Industrial Engineering** | University of Missouri | *2000-2009*
-- **M.S., Applied Mathematics** | University of Missouri  |   *1997-2000*
-- **B.S., Mathematics** |   Alabama State University    |   *1993-1997*
 
-![Bachelor of Science Degree](/assets/img/Bachelor of Science Degree.jpg)
-![MS Applied Mathematics](/assets/img/MS Applied Mathematics 2000.bmp)
+|   |   |   |   |
+|--|--|--|--|
+|**M.S.**|**Computer Science**|Florida Atlantic University|*2019-2020*
+|**M.S.**|**Industrial Engineering**|University of Missouri|*2000-2009* <sup>*</sup>
+|**M.S.**|**Applied Mathematics** |University of Missouri|*1997-2000*
+|**B.S.**|**Mathematics** |Alabama State University|*1993-1997*
+|   |   |   |   |
+
+\* Ph.D. Candidate from 2000-2008.
+
+![Bachelor of Science Degree](</assets/img/Bachelor of Science Degree.jpg>)
+![MS Applied Mathematics](</assets/img/MS Applied Mathematics 2000.bmp>)
+
+
 
 ### Experience
 **Senior Director of Risk Data Science** | DigniFi, Inc. | Fort Lauderdale, FL | January 2022 – February 2026
 - Data Science\
-    ![Python Decision Tree](/assets/img/Decision Tree for Take Rate 1 Python.png)
-    ![Logistic Regression Analysis](/assets/img/Logistic Regression Model Validation p2 automation Tableau.jpg)
+        <div class="image-container">
+        <img src="assets/img/Decision%20Tree%20for%20Take%20Rate%201%20Python.png" alt="" class="image">
+        <div class="overlay"><div class="text">Hover Text</div></div>
+        </div>
+
+    <!-- ![Python Decision Tree](</assets/img/Decision Tree for Take Rate 1 Python.png>) -->
+    ![Logistic Regression Analysis](</assets/img/Logistic Regression Model Validation p2 automation Tableau.jpg>)
 - Visualizations\
-    ![Credit Strategy Analysis Analysis](/assets/img/Credit Strategy analysis automation Tableau.jpg)
+    ![Credit Strategy Analysis Analysis](</assets/img/Credit Strategy analysis automation Tableau.jpg>)
 - Reporting\
-    ![Tableau gallery](/assets/img/Tableau gallery.jpg)
-    ![WasIs](/assets/img/Deliquencies and Loss WasIs automated Tableau.jpg)
+    ![Tableau gallery](</assets/img/Tableau gallery.jpg>)
+    ![WasIs](</assets/img/Deliquencies and Loss WasIs automated Tableau.jpg>)
 - Automations\
-    ![Credit Policy Monitoring with Tableau Dashboard](/assets/img/Credit Policy Monitoring p1 automation Tableau.jpg)
-- Advanced SQL\
+    ![Credit Policy Monitoring with Tableau Dashboard](</assets/img/Credit Policy Monitoring p1 automation Tableau.jpg>)
+- Advanced SQL
+    <details>
+
+    <summary>coding snippets:</summary>
+
     1. Window Functions (Analytical Processing)
 
         These functions are extensively used to perform calculations across a set of table rows that are related to the current row, without reducing the number of rows returned.
@@ -112,12 +129,13 @@
             set CURDATE = to_date('2023-01-01');
         ```
 
+    </details>
 
 **Innovation Unit Supervisor** | Broward County Government | Fort Lauderdale, FL | March 2020 – January 2022
-- Visualizations
-![Covid PowerBI Dashboard](/assets/img/Broward Covid dashboard 1 PowerBI.png)
-![Animal Shelter ArcGIS Dashboard](/assets/img/Broward Animal Care Dashboard 2 ArcGIS.png)
-![Animal Shelter ArcGIS Newsletter](/assets/img/Broward Animal Care Newsletter 2 ArcGIS.png)
+- Visualizations\
+![Covid PowerBI Dashboard](</assets/img/Broward Covid dashboard 1 PowerBI.png>)
+![Animal Shelter ArcGIS Dashboard](</assets/img/Broward Animal Care Dashboard 2 ArcGIS.png>)
+![Animal Shelter ArcGIS Newsletter](</assets/img/Broward Animal Care Newsletter 2 ArcGIS.png>)
 
 **Senior Risk Analyst** | Southeast Toyota Finance | Fort Lauderdale, FL | January 2018 – March 2020
 
@@ -128,8 +146,8 @@
 **Senior Revenue Analyst** | The Walt Disney Company | Orlando, FL | November 2011 – December 2013
 
 **Senior Industrial Engineer** | The Walt Disney Company | Orlando, FL | November 2008 – November 2011
-![SAS Dashboard - Proc Ganno](/assets/img/Disney New York Times article training 1 SAS.jpg)
-![As seen in NY Times](/assets/img/Disney New York Times article SAS dashboard.png)
+![SAS Dashboard - Proc Ganno](</assets/img/Disney New York Times article training 1 SAS.jpg>)
+![As seen in NY Times](</assets/img/Disney New York Times article SAS dashboard.png>)
 
 **Marketing Reporting & Analytics Manager** | The Walt Disney Company | Orlando, FL | July 2007 – November 2008
 
@@ -141,7 +159,7 @@
 - **SAS Certified Base Programmer**| SAS | 2005
 - **IBM Certified Database Associate**| IBM | 2005
 - **Microsoft Excel Expert Certification**| Microsoft | 2004 \
-![SAS Badge](/assets/img/SAS badge.bmp) ![IBM badge](/assets/img/IBM badge.bmp)
+![SAS Badge](</assets/img/SAS badge.bmp>) ![IBM badge](</assets/img/IBM badge.bmp>)
 
 
 
@@ -157,9 +175,9 @@
 - Building and Solving Optimization Models | SAS | 2018
 - Survival Data Mining | SAS | 2018
 
-![ESRI Learning ArcGIS 9](/assets/img/ESRI Learning ArcGIS 9.jpg)
-![Web Authoring Fundamentals](/assets/img/Web Authoring Fundamentals.bmp)
-![Advanced Wiring and NEC Code](/assets/img/Advanced Wiring and NEC Code.bmp)
-![CPR](/assets/img/CPR_front.bmp)
-![Introduction to Urban and Regional Planning Concepts](/assets/img/Introduction to Urban and Regional Planning Concepts.bmp)
+![ESRI Learning ArcGIS 9](</assets/img/ESRI Learning ArcGIS 9.jpg>)
+![Web Authoring Fundamentals](</assets/img/Web Authoring Fundamentals.bmp>)
+![Advanced Wiring and NEC Code](</assets/img/Advanced Wiring and NEC Code.bmp>)
+![CPR](</assets/img/CPR_front.bmp>)
+![Introduction to Urban and Regional Planning Concepts](</assets/img/Introduction to Urban and Regional Planning Concepts.bmp>)
 
