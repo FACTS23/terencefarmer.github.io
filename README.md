@@ -5,15 +5,15 @@
 |   |   |   |   |
 |--|--|--|--|
 |**M.S.**|**Computer Science**|Florida Atlantic University|*2019-2020*
-|**M.S.**|**Industrial Engineering**|University of Missouri|*2000-2009* <sup>*</sup>
+|**M.S.**|**Industrial Engineering**|University of Missouri|*2000-2009*<sup>*</sup>
 |**M.S.**|**Applied Mathematics** |University of Missouri|*1997-2000*
 |**B.S.**|**Mathematics** |Alabama State University|*1993-1997*
 |   |   |   |   |
 
 \* Ph.D. Candidate from 2000-2008.
 
-![Bachelor of Science Degree](<assets/img/Bachelor of Science Degree.jpg>)
-![MS Applied Mathematics](<assets/img/MS Applied Mathematics 2000.bmp>)
+![Bachelor of Science Degree](<assets/img/Bachelor of Science Degree.jpg>){: .portfolio-image}
+![MS Applied Mathematics](<assets/img/MS Applied Mathematics 2000.bmp>){: .portfolio-image}
 
 ### Experience
 **Senior Director of Risk Data Science** | DigniFi, Inc. | Fort Lauderdale, FL | January 2022 – February 2026
