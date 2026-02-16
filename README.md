@@ -1,5 +1,10 @@
 # Portfolio
 
+<!--         <div class="image-container">
+    <img src="assets/img/Decision%20Tree%20for%20Take%20Rate%201%20Python.png" alt="" class="image">
+    <div class="overlay"><div class="text">Hover Text</div></div>
+    </div> -->
+
 ### Education
 
 |   |   |   |   |
@@ -15,17 +20,10 @@
 ![Bachelor of Science Degree](</assets/img/Bachelor of Science Degree.jpg>)
 ![MS Applied Mathematics](</assets/img/MS Applied Mathematics 2000.bmp>)
 
-
-
 ### Experience
 **Senior Director of Risk Data Science** | DigniFi, Inc. | Fort Lauderdale, FL | January 2022 – February 2026
 - Data Science\
-        <div class="image-container">
-        <img src="assets/img/Decision%20Tree%20for%20Take%20Rate%201%20Python.png" alt="" class="image">
-        <div class="overlay"><div class="text">Hover Text</div></div>
-        </div>
-
-    <!-- ![Python Decision Tree](</assets/img/Decision Tree for Take Rate 1 Python.png>) -->
+    ![Python Decision Tree](</assets/img/Decision Tree for Take Rate 1 Python.png>)
     ![Logistic Regression Analysis](</assets/img/Logistic Regression Model Validation p2 automation Tableau.jpg>)
 - Visualizations\
     ![Credit Strategy Analysis Analysis](</assets/img/Credit Strategy analysis automation Tableau.jpg>)
