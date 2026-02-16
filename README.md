@@ -12,10 +12,13 @@
 
 \* Ph.D. Candidate from 2000-2008
 
+![Bachelor of Science Degree](<assets/img/BachelorofScienceDegree.png>)
+![MS Applied Mathematics](</assets/img/MSAppliedMathematics2000.png>)
+
 <details>
 <summary>Show credentials:</summary>
-
-![Bachelor of Science Degree](<assets/img/BachelorofScienceDegree.png>)
+    
+![Bachelor of Science Degree](</assets/img/BachelorofScienceDegree.png>)
 ![MS Applied Mathematics](<assets/img/MSAppliedMathematics2000.png>)
 
 </details>
