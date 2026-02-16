@@ -11,9 +11,14 @@
 |   |   |   |   |
 
 \* Ph.D. Candidate from 2000-2008.
+<details>
+
+<summary>Show credentials:</summary>
 
 ![Bachelor of Science Degree](<assets/img/Bachelor of Science Degree.jpg>){: .portfolio-image}
 ![MS Applied Mathematics](<assets/img/MS Applied Mathematics 2000.bmp>){: .portfolio-image}
+
+</details>
 
 ### Experience
 **Senior Director of Risk Data Science** | DigniFi, Inc. | Fort Lauderdale, FL | January 2022 – February 2026
@@ -41,21 +46,21 @@
         Example from Spanish NLS Comments.sql:\
 
             ```sql
-                QUALIFY ROW_NUMBER() OVER (PARTITION BY LOAN_NUMBER ORDER BY CREATED_DATE DESC) = 1
+            QUALIFY ROW_NUMBER() OVER (PARTITION BY LOAN_NUMBER ORDER BY CREATED_DATE DESC) = 1
             ```
 
         - Lag/Lead and Value Retrieval: LAST_VALUE() OVER (...), FIRST_VALUE() OVER (...), and LAG() OVER (...) are used to look up values from previous or subsequent rows, often for calculating time-series metrics.
         Example from DPD Ever.sql:\
 
             ```sql
-                FIRST_VALUE(CAST(dtb31.TRIAL_BALANCE_DATE AS DATE)) OVER (PARTITION BY dtb31.ACCTREFNO ORDER BY dtb31.TRIAL_BALANCE_DATE) AS "first 31 delinquency date"
+            FIRST_VALUE(CAST(dtb31.TRIAL_BALANCE_DATE AS DATE)) OVER (PARTITION BY dtb31.ACCTREFNO ORDER BY dtb31.TRIAL_BALANCE_DATE) AS "first 31 delinquency date"
             ```
         
         - Ratios and Percentiles: RATIO_TO_REPORT() and NTILE(10) are used for comparative analysis and decile/bucket assignments.
         Example from PSI by Month.sql:\
 
             ```sql
-                ratio_to_report("Application") over (partition by s.SUBMIT_MONTH) as "% Application Validation"
+            ratio_to_report("Application") over (partition by s.SUBMIT_MONTH) as "% Application Validation"
             ```
 
     2. Common Table Expressions (CTEs)
@@ -65,16 +70,16 @@
         - Example structure from Application Funnel.sql:
 
             ```sql
-                WITH DATE AS (
-                -- logic for date dimension and flags
-                )
-                , CREDIT AS (
-                -- logic for credit population
-                )
-                -- ... other CTEs (DPA, RAM)
-                SELECT ... FROM DATE
-                INNER JOIN CREDIT ...
-                -- The main query combines the named steps
+            WITH DATE AS (
+            /* logic for date dimension and flags */
+            )
+            , CREDIT AS (
+            /* logic for credit population  */
+            )
+            -- ... other CTEs (DPA, RAM)
+            SELECT ... FROM DATE
+            INNER JOIN CREDIT ...
+            /* The main query combines the named steps  */
             ```
 
     3. Conditional Logic and Data Transformation
@@ -86,19 +91,19 @@
         -   Example from WasIs.sql (for DPD Status):
 
             ```sql
-                    case when c.days_past_due = 0 then '1.CURRENT'
-                    when c.days_past_due > 0 and c.days_past_due <= 30 then '2.1-30 DPD'
-                    ...
-                    end as Was_DPD_Status
+            case when c.days_past_due = 0 then '1.CURRENT'
+            when c.days_past_due > 0 and c.days_past_due <= 30 then '2.1-30 DPD'
+            ...
+            end as Was_DPD_Status
             ```
 
         -   Example from Compliance 07 2023 Bank Testing - BSA OFAC & CIP.sql (for Decoding):\
 
             ```sql
-                    DECODE (ofac_messageNumber,
-                    '1200', 'NAME MATCHES OFAC/PLC/FSE LIST',
-                    '1201', 'OFAC LIST TEMPORARILY UNAVAILABLE',
-                    '1202', 'OFAC NO RECORD FOUND ') AS ofac_messageText
+            DECODE (ofac_messageNumber,
+            '1200', 'NAME MATCHES OFAC/PLC/FSE LIST',
+            '1201', 'OFAC LIST TEMPORARILY UNAVAILABLE',
+            '1202', 'OFAC NO RECORD FOUND ') AS ofac_messageText
             ```
 
     4. Advanced String and JSON Parsing
@@ -107,28 +112,33 @@
         Extracting data from JSON strings: This is crucial for pulling specific attributes like credit scores or decline reasons from raw log data.
             
         - Example from Adverse_Action_Top_Factors.sql:\
-        ```sql
+
+            ```sql
             CAST(LTRIM(regexp_substr(EA_RAM.REQUEST,'\"bankruptcy_count_24_month\":\\\\W+(\\\\\w+)',1,1,'e',1)) AS FLOAT) AS bankruptcy_count_24_month
-        ```
+            ```
         
         - Example from Credit Policy Applications.sql:\
+
         ```sql
-            CAST(json_extract_path_text(REQUEST,'\"experian\".\"income_insight\"') AS NUMBER(38,0)) AS INCOME_INSIGHT_CODE
+        CAST(json_extract_path_text(REQUEST,'\"experian\".\"income_insight\"') AS NUMBER(38,0)) AS INCOME_INSIGHT_CODE
         ```
+
     5. Date/Time and Variable Management
 
         The queries demonstrate sophisticated handling of dynamic timeframes, which is common in financial and analytical reporting.
         Date Arithmetic and Configuration: Queries use variables ($START_DATE, $CURDATE, $AS_OF_DATE) and complex date functions (DATEADD, DATE_TRUNC, LAST_DAY) to define and calculate rolling analysis windows (e.g., last 2 months, year-over-year, last 13 months).
         
         - Example from Application Funnel.sql (for a 2-month flag):\
+
         ```sql
-            WHEN date >= DATEADD(MONTH, -1, DATE_TRUNC(MONTH, today + 1)) AND date <= DATE_TRUNC(MONTH, today + 1) - 1
-            THEN 1
+        WHEN date >= DATEADD(MONTH, -1, DATE_TRUNC(MONTH, today + 1)) AND date <= DATE_TRUNC(MONTH, today + 1) - 1
+        THEN 1
         ```
         
-        - Example from WasIs.sql (for setting a query variable):
+        - Example from WasIs.sql (for setting a query variable):\
+
         ```sql
-            set CURDATE = to_date('2023-01-01');
+        set CURDATE = to_date('2023-01-01');
         ```
 
     </details>
@@ -161,9 +171,18 @@
 - **SAS Certified Base Programmer**| SAS | 2005
 - **IBM Certified Database Associate**| IBM | 2005
 - **Microsoft Excel Expert Certification**| Microsoft | 2004 \
-![SAS Badge](<assets/img/SAS badge.bmp>) ![IBM badge](<assets/img/IBM badge.bmp>)
+![SAS Badge](<assets/img/SAS badge.bmp>){: .portfolio-badge} ![IBM badge](<assets/img/IBM badge.bmp>){: .portfolio-badge}
 
+<details>
 
+<summary>Show credentials:</summary>
+
+![SAS](<assets/img/SAS Certified Base Programmer.jpg>){: .portfolio-image}
+![Excel](<assets/img/Microsoft Excel 2000.jpg>){: .portfolio-image}
+![MS Office](<assets/img/Microsoft Office Specialist Master 2000.jpg>){: .portfolio-image}
+![IBM](<assets/img/CERTIFICATE_DB2_F1483398_19.bmp>){: .portfolio-image}
+
+</details>
 
 ### Continuing Education Units
 - Using ChatGPT and Generative AI in FinTech | NASBA | 2026
@@ -177,9 +196,22 @@
 - Building and Solving Optimization Models | SAS | 2018
 - Survival Data Mining | SAS | 2018
 
+<details>
+
+<summary>Show credentials:</summary>
+
 ![ESRI Learning ArcGIS 9](<assets/img/ESRI Learning ArcGIS 9.jpg>)
 ![Web Authoring Fundamentals](<assets/img/Web Authoring Fundamentals.bmp>)
 ![Advanced Wiring and NEC Code](<assets/img/Advanced Wiring and NEC Code.bmp>)
 ![CPR](<assets/img/CPR_front.bmp>)
 ![Introduction to Urban and Regional Planning Concepts](<assets/img/Introduction to Urban and Regional Planning Concepts.bmp>)
 
+</details>
+
+<details>
+
+<summary>Awards:</summary>
+
+![NSF](<assets/img/National Science Foundation.jpg>){: .portfolio-image}
+
+</details>
