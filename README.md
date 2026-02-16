@@ -1,10 +1,5 @@
 # Portfolio
 
-<!--         <div class="image-container">
-    <img src="assets/img/Decision%20Tree%20for%20Take%20Rate%201%20Python.png" alt="" class="image">
-    <div class="overlay"><div class="text">Hover Text</div></div>
-    </div> -->
-
 ### Education
 
 |   |   |   |   |
