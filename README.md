@@ -12,13 +12,13 @@
 
 \* Ph.D. Candidate from 2000-2008.
 
-![Bachelor of Science Degree](</assets/img/Bachelor of Science Degree.jpg>)
+![Bachelor of Science Degree](<assets/img/Bachelor of Science Degree.jpg>)
 
 <details>
 
 <summary>Show credentials:</summary>
 
-![Bachelor of Science Degree](</assets/img/Bachelor of Science Degree.jpg>)
+![Bachelor of Science Degree](<assets/img/Bachelor of Science Degree.jpg>)
 
 </details>
 
