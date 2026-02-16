@@ -28,6 +28,7 @@
 - Automations\
     ![Credit Policy Monitoring with Tableau Dashboard](<assets/img/Credit Policy Monitoring p1 automation Tableau.jpg>)
 - Advanced SQL
+
     <details>
 
     <summary>coding snippets:</summary>
@@ -38,59 +39,67 @@
         
         - Partitioning and Ordering: Functions like ROW_NUMBER() OVER (PARTITION BY ... ORDER BY ...) are used for ranking, deduplication, and selecting the most recent or first record for a group.
         Example from Spanish NLS Comments.sql:\
-        ```sql
-            QUALIFY ROW_NUMBER() OVER (PARTITION BY LOAN_NUMBER ORDER BY CREATED_DATE DESC) = 1
-        ```
+
+            ```sql
+                QUALIFY ROW_NUMBER() OVER (PARTITION BY LOAN_NUMBER ORDER BY CREATED_DATE DESC) = 1
+            ```
+
         - Lag/Lead and Value Retrieval: LAST_VALUE() OVER (...), FIRST_VALUE() OVER (...), and LAG() OVER (...) are used to look up values from previous or subsequent rows, often for calculating time-series metrics.
         Example from DPD Ever.sql:\
-        ```sql
-            FIRST_VALUE(CAST(dtb31.TRIAL_BALANCE_DATE AS DATE)) OVER (PARTITION BY dtb31.ACCTREFNO ORDER BY dtb31.TRIAL_BALANCE_DATE) AS "first 31 delinquency date"
-        ```
+
+            ```sql
+                FIRST_VALUE(CAST(dtb31.TRIAL_BALANCE_DATE AS DATE)) OVER (PARTITION BY dtb31.ACCTREFNO ORDER BY dtb31.TRIAL_BALANCE_DATE) AS "first 31 delinquency date"
+            ```
         
         - Ratios and Percentiles: RATIO_TO_REPORT() and NTILE(10) are used for comparative analysis and decile/bucket assignments.
         Example from PSI by Month.sql:\
-        ```sql
-            ratio_to_report("Application") over (partition by s.SUBMIT_MONTH) as "% Application Validation"
-        ```
+
+            ```sql
+                ratio_to_report("Application") over (partition by s.SUBMIT_MONTH) as "% Application Validation"
+            ```
 
     2. Common Table Expressions (CTEs)
 
         Nearly all complex queries utilize the WITH clause to define multiple, named sub-queries (CTEs). This dramatically improves query readability, modularity, and maintainability by breaking down logic into smaller, distinct steps.
             
-        - Example structure from Application Funnel.sql:\
-        ```sql
-            WITH DATE AS (
-            -- logic for date dimension and flags
-            )
-            , CREDIT AS (
-            -- logic for credit population
-            )
-            -- ... other CTEs (DPA, RAM)
-            SELECT ... FROM DATE
-            INNER JOIN CREDIT ...
-            -- The main query combines the named steps
-        ```
+        - Example structure from Application Funnel.sql:
+
+            ```sql
+                WITH DATE AS (
+                -- logic for date dimension and flags
+                )
+                , CREDIT AS (
+                -- logic for credit population
+                )
+                -- ... other CTEs (DPA, RAM)
+                SELECT ... FROM DATE
+                INNER JOIN CREDIT ...
+                -- The main query combines the named steps
+            ```
 
     3. Conditional Logic and Data Transformation
 
         The use of conditional expressions is key for classifying data, applying business rules, and managing data quality.
         
         - Complex CASE and IFF Statements: Used to categorize loans, flag time periods, and translate coded values into meaningful descriptions.
-            -   Example from WasIs.sql (for DPD Status):\
-        ```sql
-                case when c.days_past_due = 0 then '1.CURRENT'
-                when c.days_past_due > 0 and c.days_past_due <= 30 then '2.1-30 DPD'
-                ...
-                end as Was_DPD_Status
-        ```
-        
-            -  Example from Compliance 07 2023 Bank Testing - BSA OFAC & CIP.sql (for Decoding):\
-        ```sql
-                DECODE (ofac_messageNumber,
-                '1200', 'NAME MATCHES OFAC/PLC/FSE LIST',
-                '1201', 'OFAC LIST TEMPORARILY UNAVAILABLE',
-                '1202', 'OFAC NO RECORD FOUND ') AS ofac_messageText
-        ```
+
+        -   Example from WasIs.sql (for DPD Status):
+
+            ```sql
+                    case when c.days_past_due = 0 then '1.CURRENT'
+                    when c.days_past_due > 0 and c.days_past_due <= 30 then '2.1-30 DPD'
+                    ...
+                    end as Was_DPD_Status
+            ```
+
+        -   Example from Compliance 07 2023 Bank Testing - BSA OFAC & CIP.sql (for Decoding):\
+
+            ```sql
+                    DECODE (ofac_messageNumber,
+                    '1200', 'NAME MATCHES OFAC/PLC/FSE LIST',
+                    '1201', 'OFAC LIST TEMPORARILY UNAVAILABLE',
+                    '1202', 'OFAC NO RECORD FOUND ') AS ofac_messageText
+            ```
 
     4. Advanced String and JSON Parsing
 
@@ -117,7 +126,7 @@
             THEN 1
         ```
         
-        - Example from WasIs.sql (for setting a query variable):\
+        - Example from WasIs.sql (for setting a query variable):
         ```sql
             set CURDATE = to_date('2023-01-01');
         ```
