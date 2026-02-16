@@ -12,21 +12,21 @@
 
 \* Ph.D. Candidate from 2000-2008.
 
-![Bachelor of Science Degree](</assets/img/Bachelor of Science Degree.jpg>)
-![MS Applied Mathematics](</assets/img/MS Applied Mathematics 2000.bmp>)
+![Bachelor of Science Degree](<assets/img/Bachelor of Science Degree.jpg>)
+![MS Applied Mathematics](<assets/img/MS Applied Mathematics 2000.bmp>)
 
 ### Experience
 **Senior Director of Risk Data Science** | DigniFi, Inc. | Fort Lauderdale, FL | January 2022 – February 2026
 - Data Science\
-    ![Python Decision Tree](</assets/img/Decision Tree for Take Rate 1 Python.png>)
-    ![Logistic Regression Analysis](</assets/img/Logistic Regression Model Validation p2 automation Tableau.jpg>)
+    ![Python Decision Tree](<assets/img/Decision Tree for Take Rate 1 Python.png>)
+    ![Logistic Regression Analysis](<assets/img/Logistic Regression Model Validation p2 automation Tableau.jpg>)
 - Visualizations\
-    ![Credit Strategy Analysis Analysis](</assets/img/Credit Strategy analysis automation Tableau.jpg>)
+    ![Credit Strategy Analysis Analysis](<assets/img/Credit Strategy analysis automation Tableau.jpg>)
 - Reporting\
-    ![Tableau gallery](</assets/img/Tableau gallery.jpg>)
-    ![WasIs](</assets/img/Deliquencies and Loss WasIs automated Tableau.jpg>)
+    ![Tableau gallery](<assets/img/Tableau gallery.jpg>)
+    ![WasIs](<assets/img/Deliquencies and Loss WasIs automated Tableau.jpg>)
 - Automations\
-    ![Credit Policy Monitoring with Tableau Dashboard](</assets/img/Credit Policy Monitoring p1 automation Tableau.jpg>)
+    ![Credit Policy Monitoring with Tableau Dashboard](<assets/img/Credit Policy Monitoring p1 automation Tableau.jpg>)
 - Advanced SQL
     <details>
 
@@ -126,9 +126,9 @@
 
 **Innovation Unit Supervisor** | Broward County Government | Fort Lauderdale, FL | March 2020 – January 2022
 - Visualizations\
-![Covid PowerBI Dashboard](</assets/img/Broward Covid dashboard 1 PowerBI.png>)
-![Animal Shelter ArcGIS Dashboard](</assets/img/Broward Animal Care Dashboard 2 ArcGIS.png>)
-![Animal Shelter ArcGIS Newsletter](</assets/img/Broward Animal Care Newsletter 2 ArcGIS.png>)
+![Covid PowerBI Dashboard](<assets/img/Broward Covid dashboard 1 PowerBI.png>)
+![Animal Shelter ArcGIS Dashboard](<assets/img/Broward Animal Care Dashboard 2 ArcGIS.png>)
+![Animal Shelter ArcGIS Newsletter](<assets/img/Broward Animal Care Newsletter 2 ArcGIS.png>)
 
 **Senior Risk Analyst** | Southeast Toyota Finance | Fort Lauderdale, FL | January 2018 – March 2020
 
@@ -139,8 +139,8 @@
 **Senior Revenue Analyst** | The Walt Disney Company | Orlando, FL | November 2011 – December 2013
 
 **Senior Industrial Engineer** | The Walt Disney Company | Orlando, FL | November 2008 – November 2011
-![SAS Dashboard - Proc Ganno](</assets/img/Disney New York Times article training 1 SAS.jpg>)
-![As seen in NY Times](</assets/img/Disney New York Times article SAS dashboard.png>)
+![SAS Dashboard - Proc Ganno](<assets/img/Disney New York Times article training 1 SAS.jpg>)
+![As seen in NY Times](<assets/img/Disney New York Times article SAS dashboard.png>)
 
 **Marketing Reporting & Analytics Manager** | The Walt Disney Company | Orlando, FL | July 2007 – November 2008
 
@@ -152,7 +152,7 @@
 - **SAS Certified Base Programmer**| SAS | 2005
 - **IBM Certified Database Associate**| IBM | 2005
 - **Microsoft Excel Expert Certification**| Microsoft | 2004 \
-![SAS Badge](</assets/img/SAS badge.bmp>) ![IBM badge](</assets/img/IBM badge.bmp>)
+![SAS Badge](<assets/img/SAS badge.bmp>) ![IBM badge](<assets/img/IBM badge.bmp>)
 
 
 
@@ -168,9 +168,9 @@
 - Building and Solving Optimization Models | SAS | 2018
 - Survival Data Mining | SAS | 2018
 
-![ESRI Learning ArcGIS 9](</assets/img/ESRI Learning ArcGIS 9.jpg>)
-![Web Authoring Fundamentals](</assets/img/Web Authoring Fundamentals.bmp>)
-![Advanced Wiring and NEC Code](</assets/img/Advanced Wiring and NEC Code.bmp>)
-![CPR](</assets/img/CPR_front.bmp>)
-![Introduction to Urban and Regional Planning Concepts](</assets/img/Introduction to Urban and Regional Planning Concepts.bmp>)
+![ESRI Learning ArcGIS 9](<assets/img/ESRI Learning ArcGIS 9.jpg>)
+![Web Authoring Fundamentals](<assets/img/Web Authoring Fundamentals.bmp>)
+![Advanced Wiring and NEC Code](<assets/img/Advanced Wiring and NEC Code.bmp>)
+![CPR](<assets/img/CPR_front.bmp>)
+![Introduction to Urban and Regional Planning Concepts](<assets/img/Introduction to Urban and Regional Planning Concepts.bmp>)
 
