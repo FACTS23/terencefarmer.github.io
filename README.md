@@ -15,8 +15,8 @@
 <details>
 <summary>Show credentials:</summary>
 
-![Bachelor of Science Degree](<assets/img/Bachelor of Science Degree.png>)
-![MS Applied Mathematics](<assets/img/MS Applied Mathematics 2000.png>)
+![Bachelor of Science Degree](<assets/img/BachelorofScienceDegree.png>)
+![MS Applied Mathematics](<assets/img/MSAppliedMathematics2000.png>)
 
 </details>
 
