@@ -34,21 +34,43 @@
 ![MS Applied Mathematics](<assets/img/MS Applied Mathematics 2000.bmp>){: .portfolio-image}
 -->
 
-<!-- 
-### Experience
-<!-- **Senior Director of Risk Data Science** | DigniFi, Inc. | Fort Lauderdale, FL | January 2022 – February 2026
-- Data Science\
-    ![Python Decision Tree](<assets/img/Decision Tree for Take Rate 1 Python.png>)
-    ![Logistic Regression Analysis](<assets/img/Logistic Regression Model Validation p2 automation Tableau.jpg>)
-- Visualizations\
-    ![Credit Strategy Analysis Analysis](<assets/img/Credit Strategy analysis automation Tableau.jpg>)
-- Reporting\
-    ![Tableau gallery](<assets/img/Tableau gallery.jpg>)
-    ![WasIs](<assets/img/Deliquencies and Loss WasIs automated Tableau.jpg>)
-- Automations\
-    ![Credit Policy Monitoring with Tableau Dashboard](<assets/img/Credit Policy Monitoring p1 automation Tableau.jpg>)
 
--->
+### Experience
+ **Senior Director of Risk Data Science** | DigniFi, Inc. | Fort Lauderdale, FL | January 2022 – February 2026
+ 
+#### Data Science
+<details>
+<summary>see examples:</summary>
+    
+![Python Decision Tree](<assets/img/Decision Tree for Take Rate 1 Python.png>)
+![Logistic Regression Analysis](<assets/img/Logistic Regression Model Validation p2 automation Tableau.jpg>)
+
+</details>
+    
+#### Visualizations
+<details>
+<summary>see examples:</summary>
+    
+![Credit Strategy Analysis Analysis](<assets/img/Credit Strategy analysis automation Tableau.jpg>)
+
+</details>
+
+#### Reporting
+<details>
+<summary>see examples:</summary>
+    
+![Tableau gallery](<assets/img/Tableau gallery.jpg>)
+![WasIs](<assets/img/Deliquencies and Loss WasIs automated Tableau.jpg>)
+
+</details>
+
+#### Automations
+<details>
+<summary>see examples:</summary>
+    
+![Credit Policy Monitoring with Tableau Dashboard](<assets/img/Credit Policy Monitoring p1 automation Tableau.jpg>)
+
+</details>
 
 #### Advanced SQL Skills
 
@@ -57,10 +79,12 @@
 -->
 
 
-1. Window Functions (Analytical Processing)
+1. <ins>Window Functions (Analytical Processing)</ins>
 
-Used extensively to perform calculations across a set of table rows that are related to the current row, without reducing the number of rows returned.
-
+   Used extensively to perform calculations across a set of table rows that are related to the current row.
+<details>
+<summary>see examples:</summary>
+    
 - Partitioning and Ordering: Functions like ROW_NUMBER() OVER (PARTITION BY ... ORDER BY ...) are used for ranking, deduplication, and selecting the most recent or first record for a group. Example from Spanish NLS Comments.sql:
 
 ```sql
@@ -73,90 +97,89 @@ QUALIFY ROW_NUMBER() OVER (PARTITION BY LOAN_NUMBER ORDER BY CREATED_DATE DESC) 
 FIRST_VALUE(CAST(dtb31.TRIAL_BALANCE_DATE AS DATE)) OVER (PARTITION BY dtb31.ACCTREFNO ORDER BY dtb31.TRIAL_BALANCE_DATE) AS "first 31 delinquency date"
 ```
 
-- Ratios and Percentiles: RATIO_TO_REPORT() and NTILE(10) are used for comparative analysis and decile/bucket assignments. Example from PSI by Month.sql:\
+- Ratios and Percentiles: RATIO_TO_REPORT() and NTILE(10) are used for comparative analysis and decile/bucket assignments. Example from PSI by Month.sql:
 
 ```sql
 ratio_to_report("Application") over (partition by s.SUBMIT_MONTH) as "% Application Validation"
 ```
-<!-- 
-    2. Common Table Expressions (CTEs)
+</details>
 
-        Nearly all complex queries utilize the WITH clause to define multiple, named sub-queries (CTEs). This dramatically improves query readability, modularity, and maintainability by breaking down logic into smaller, distinct steps.
-            
-        - Example structure from Application Funnel.sql:
+2. <ins>Common Table Expressions (CTEs)</ins>
 
-            ```sql
-            WITH DATE AS (
-            /* logic for date dimension and flags */
-            )
-            , CREDIT AS (
-            /* logic for credit population  */
-            )
-            -- ... other CTEs (DPA, RAM)
-            SELECT ... FROM DATE
-            INNER JOIN CREDIT ...
-            /* The main query combines the named steps  */
-            ```
+   For complex queries, I utilize multiple, named sub-queries (CTEs) which significantly improves query readability, modularity, and maintainability by breaking down logic into manageable steps.
+    
+- Example structure from Application Funnel.sql:
 
-    3. Conditional Logic and Data Transformation
+```sql
+WITH DATE AS (
+/* logic for date dimension and flags */
+)
+, CREDIT AS (
+/* logic for credit population  */
+)
+-- ... other CTEs (DPA, RAM)
+SELECT ... FROM DATE
+INNER JOIN CREDIT ...
+/* The main query combines the named steps  */
+```
 
-        The use of conditional expressions is key for classifying data, applying business rules, and managing data quality.
-        
-        - Complex CASE and IFF Statements: Used to categorize loans, flag time periods, and translate coded values into meaningful descriptions.
 
-        -   Example from WasIs.sql (for DPD Status):
+3. <ins>Conditional Logic and Data Transformation</ins>
 
-            ```sql
-            case when c.days_past_due = 0 then '1.CURRENT'
-            when c.days_past_due > 0 and c.days_past_due <= 30 then '2.1-30 DPD'
-            ...
-            end as Was_DPD_Status
-            ```
+Conditional expressions utilized for classifying data, applying business rules, and managing data quality. Specifically, complex CASE and IFF Statements are used to categorize loans, flag time periods, and translate coded values into meaningful descriptions.
 
-        -   Example from Compliance 07 2023 Bank Testing - BSA OFAC & CIP.sql (for Decoding):\
+-   Example from WasIs.sql (for DPD Status):
 
-            ```sql
-            DECODE (ofac_messageNumber,
-            '1200', 'NAME MATCHES OFAC/PLC/FSE LIST',
-            '1201', 'OFAC LIST TEMPORARILY UNAVAILABLE',
-            '1202', 'OFAC NO RECORD FOUND ') AS ofac_messageText
-            ```
+```sql
+case when c.days_past_due = 0 then '1.CURRENT'
+when c.days_past_due > 0 and c.days_past_due <= 30 then '2.1-30 DPD'
+...
+end as Was_DPD_Status
+```
 
-    4. Advanced String and JSON Parsing
+-   Example from Compliance 07 2023 Bank Testing - BSA OFAC & CIP.sql (for Decoding):\
 
-        Several files use regular expressions (regexp_substr) and JSON path functions (json_extract_path_text) to extract specific data elements embedded within complex text or JSON/Variant columns, such as from audit logs or API responses.
-        Extracting data from JSON strings: This is crucial for pulling specific attributes like credit scores or decline reasons from raw log data.
-            
-        - Example from Adverse_Action_Top_Factors.sql:\
+```sql
+DECODE (ofac_messageNumber,
+'1200', 'NAME MATCHES OFAC/PLC/FSE LIST',
+'1201', 'OFAC LIST TEMPORARILY UNAVAILABLE',
+'1202', 'OFAC NO RECORD FOUND ') AS ofac_messageText
+```
 
-            ```sql
-            CAST(LTRIM(regexp_substr(EA_RAM.REQUEST,'\"bankruptcy_count_24_month\":\\\\W+(\\\\\w+)',1,1,'e',1)) AS FLOAT) AS bankruptcy_count_24_month
-            ```
-        
-        - Example from Credit Policy Applications.sql:\
+4. <ins>Advanced String and JSON Parsing</ins>
 
-        ```sql
-        CAST(json_extract_path_text(REQUEST,'\"experian\".\"income_insight\"') AS NUMBER(38,0)) AS INCOME_INSIGHT_CODE
-        ```
+Extensive use of regular expressions (regexp_substr) and JSON path functions (json_extract_path_text) to extract specific data elements embedded within complex text or JSON/Variant columns, such as from audit logs or credit bureau API requests and responses. This is crucial for pulling specific attributes like credit scores or decline reasons from raw log data.
 
-    5. Date/Time and Variable Management
+- Example from Adverse_Action_Top_Factors.sql:
 
-        The queries demonstrate sophisticated handling of dynamic timeframes, which is common in financial and analytical reporting.
-        Date Arithmetic and Configuration: Queries use variables ($START_DATE, $CURDATE, $AS_OF_DATE) and complex date functions (DATEADD, DATE_TRUNC, LAST_DAY) to define and calculate rolling analysis windows (e.g., last 2 months, year-over-year, last 13 months).
-        
-        - Example from Application Funnel.sql (for a 2-month flag):\
+```sql
+CAST(LTRIM(regexp_substr(EA_RAM.REQUEST,'\"bankruptcy_count_24_month\":\\\\W+(\\\\\w+)',1,1,'e',1)) AS FLOAT) AS bankruptcy_count_24_month
+```
 
-        ```sql
-        WHEN date >= DATEADD(MONTH, -1, DATE_TRUNC(MONTH, today + 1)) AND date <= DATE_TRUNC(MONTH, today + 1) - 1
-        THEN 1
-        ```
-        
-        - Example from WasIs.sql (for setting a query variable):\
+- Example from Credit Policy Applications.sql:
 
-        ```sql
-        set CURDATE = to_date('2023-01-01');
-        ```
+```sql
+CAST(json_extract_path_text(REQUEST,'\"experian\".\"income_insight\"') AS NUMBER(38,0)) AS INCOME_INSIGHT_CODE
+```
 
+5. <ins>Date/Time and Variable Management</ins>
+
+The queries demonstrate sophisticated handling of dynamic timeframes, which is common in financial and analytical reporting.
+Date Arithmetic and Configuration: Queries use variables ($START_DATE, $CURDATE, $AS_OF_DATE) and complex date functions (DATEADD, DATE_TRUNC, LAST_DAY) to define and calculate rolling analysis windows (e.g., last 2 months, year-over-year, last 13 months).
+
+- Example from Application Funnel.sql (for a 2-month flag):
+
+```sql
+WHEN date >= DATEADD(MONTH, -1, DATE_TRUNC(MONTH, today + 1)) AND date <= DATE_TRUNC(MONTH, today + 1) - 1
+THEN 1
+```
+
+- Example from WasIs.sql (for setting a query variable):
+
+```sql
+set CURDATE = to_date('2023-01-01');
+```
+<!--
     </details>
 -->
 <!-- 
