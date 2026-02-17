@@ -36,13 +36,10 @@
 
 
 <details>
+    
 <summary>see examples</summary>
 
-![Python Decision Tree](<https://github.com/FACTS23/terencefarmer.github.io/blob/main/assets/img/Decision%20Tree%20for%20Take%20Rate%201%20Python.png>)
-
-![Logistic Regression Analysis](<./assets/img/Logistic%20Regression%20Model%20Validation%20p2%20automation%20Tableau.jpg>)
-
-![Logistic Regression Analysis](<./assets/img/Logistic%20Regression%20Model%20Validation%20p3%20automation%20Tableau.jpg>)
+- ![Python Decision Tree](<https://github.com/FACTS23/terencefarmer.github.io/blob/main/assets/img/Decision%20Tree%20for%20Take%20Rate%201%20Python.png>)
 
 </details>
 
