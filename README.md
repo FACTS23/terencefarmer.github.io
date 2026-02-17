@@ -4,10 +4,10 @@
 
 |   |   |   |   |   |
 |--|--|--|--|--|
-|**M.S.**|**Computer Science**|Florida Atlantic University|*2019-2020*|![MS Applied Mathematics](</assets/img/MS_Computer_Science.png>)
-|**M.S.**|**Industrial Engineering**|University of Missouri|*2000-2009*<sup>*</sup>|
+|**M.S.**|**Computer Science**|Florida Atlantic University|*2019-2020*|![MS Computer Science](</assets/img/MS_Computer_Science.png>)
+|**M.S.**|**Industrial Engineering**|University of Missouri|*2000-2009*<sup>*</sup>|![MS Industrial Engineering](</assets/img/MSAppliedMathematics2000.png>)
 |**M.S.**|**Applied Mathematics** |University of Missouri|*1997-2000*|![MS Applied Mathematics](</assets/img/MSAppliedMathematics2000.png>)
-|**B.S.**|**Mathematics** |Alabama State University|*1993-1997*|![Bachelor of Science Degree](<assets/img/BachelorofScienceDegree.png>)
+|**B.S.**|**Mathematics** |Alabama State University|*1993-1997*|![BS Mathematics](<assets/img/BachelorofScienceDegree.png>)
 |   |   |   |   |
 
 \* Ph.D. Candidate from 2000-2008
@@ -47,8 +47,7 @@
     ![Credit Policy Monitoring with Tableau Dashboard](<assets/img/Credit Policy Monitoring p1 automation Tableau.jpg>)-->
 - Advanced SQL
 
-    <details>
-
+<!--    <details>
     <summary>coding snippets:</summary>
 
     1. Window Functions (Analytical Processing)
@@ -57,11 +56,11 @@
         
         - Partitioning and Ordering: Functions like ROW_NUMBER() OVER (PARTITION BY ... ORDER BY ...) are used for ranking, deduplication, and selecting the most recent or first record for a group.
         Example from Spanish NLS Comments.sql:\
-
+-->
             ```sql
             QUALIFY ROW_NUMBER() OVER (PARTITION BY LOAN_NUMBER ORDER BY CREATED_DATE DESC) = 1
             ```
-
+<!-- 
         - Lag/Lead and Value Retrieval: LAST_VALUE() OVER (...), FIRST_VALUE() OVER (...), and LAG() OVER (...) are used to look up values from previous or subsequent rows, often for calculating time-series metrics.
         Example from DPD Ever.sql:\
 
@@ -155,6 +154,7 @@
         ```
 
     </details>
+-->
 <!-- 
 **Innovation Unit Supervisor** | Broward County Government | Fort Lauderdale, FL | March 2020 – January 2022
 - Visualizations\
