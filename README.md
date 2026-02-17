@@ -224,7 +224,7 @@
 |**IBM Certified Database Associate**| IBM | *2005* |![IBM](<assets/img/IBM.png>)
 |**Microsoft Excel Expert Certification**| Microsoft | *2004* |![Excel](<assets/img/Microsoft%20Excel%202000.jpg>)
 |**Microsoft Office Master Certification**| Microsoft | *2004* |![Excel](<assets/img/Microsoft%20Office%20Specialist%20Master%202000.jpg>)
-|   |   |   |
+|   |   |   |   |
 
 <!--
 <details  open>
@@ -256,7 +256,7 @@
 |**Using SAS Programs to Execute Pig and HiveQL in Hadoop**| SAS | *2018* | ![SAS Hadoop](<assets/img/SASHadoop.png>)
 |**Advanced SAS Programming Library**| SAS | *2008* | ![Advanced SAS Programming Library](<assets/img/AdvancedSASProgrammingLibrary.png>)
 |**Performing Advanced Queries Using PROC SQL**| SAS | *2008* | ![Performing Advanced Queries Using PROC SQL](<assets/img/PerformingAdvancedQueriesUsingPROCSQL.png>)
-|   |   |   |
+|   |   |   |   |
 <!--
 - Using ChatGPT and Generative AI in FinTech | NASBA | 2026
 - Generative Al Fundamentals | Databricks Academy | 2026
