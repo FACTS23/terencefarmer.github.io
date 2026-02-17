@@ -3,9 +3,9 @@
 <details  open>
 <summary>Show credentials:</summary>
  
-![MS Computer Science](<assets/img/MS_Computer_Science.png>)
-![MS Industrial Engineering](<assets/img/MSIE.png>)
-![MS Applied Mathematics](<./assets/img/MSAppliedMathematics2000.png>)
+<img src="./assets/img/MS_Computer_Science.png" alt="A photo">
+<img src="./assets/img/MSIE.png" alt="A photo">
+<img src="./assets/img/MSAppliedMathematics2000.png" alt="A photo">
 <img src="./assets/img/BachelorofScienceDegree.png" alt="A photo">
 
 </details>
