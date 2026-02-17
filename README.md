@@ -43,18 +43,19 @@
 <details>
 <summary>see examples:</summary>
 
-![Python Decision Tree](</assets/img/Decision Tree for Take Rate 1 Python.png>)
+  ![Python Decision Tree](<assets/img/Decision Tree for Take Rate 1 Python.png>)
 
-![Logistic Regression Analysis](</assets/img/Logistic Regression Model Validation p2 automation Tableau.jpg>)
+  ![Logistic Regression Analysis](<assets/img/Logistic Regression Model Validation p2 automation Tableau.jpg>)
 
 </details>
 
 #### Visualizations
 
 <details>
+
 <summary>see examples:</summary>
 
-![Credit Strategy Analysis Analysis](</assets/img/Credit Strategy analysis automation Tableau.jpg>)
+  ![Credit Strategy Analysis Analysis](<assets/img/Credit Strategy analysis automation Tableau.jpg>)
 
 </details>
 
