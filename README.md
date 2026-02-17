@@ -3,7 +3,7 @@
 <details>
 <summary>Show credentials:</summary>
     
-![BS Mathematics](<assets/img/BachelorofScienceDegree.png>)
+![BS Mathematics](<./assets/img/BachelorofScienceDegree.png>)
 
 </details>
 
