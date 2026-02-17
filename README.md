@@ -39,27 +39,32 @@
  **Senior Director of Risk Data Science** | DigniFi, Inc. | Fort Lauderdale, FL | January 2022 – February 2026
  
 #### Data Science
+
 <details>
 <summary>see examples:</summary>
-    
-![Python Decision Tree](<assets/img/Decision Tree for Take Rate 1 Python.png>)
-![Logistic Regression Analysis](<assets/img/Logistic Regression Model Validation p2 automation Tableau.jpg>)
+
+![Python Decision Tree](</assets/img/Decision Tree for Take Rate 1 Python.png>)
+
+![Logistic Regression Analysis](</assets/img/Logistic Regression Model Validation p2 automation Tableau.jpg>)
 
 </details>
-    
+
 #### Visualizations
+
 <details>
 <summary>see examples:</summary>
-    
-![Credit Strategy Analysis Analysis](<assets/img/Credit Strategy analysis automation Tableau.jpg>)
+
+![Credit Strategy Analysis Analysis](</assets/img/Credit Strategy analysis automation Tableau.jpg>)
 
 </details>
 
 #### Reporting
+
 <details>
 <summary>see examples:</summary>
-    
+
 ![Tableau gallery](<assets/img/Tableau gallery.jpg>)
+
 ![WasIs](<assets/img/Deliquencies and Loss WasIs automated Tableau.jpg>)
 
 </details>
@@ -67,7 +72,7 @@
 #### Automations
 <details>
 <summary>see examples:</summary>
-    
+
 ![Credit Policy Monitoring with Tableau Dashboard](<assets/img/Credit Policy Monitoring p1 automation Tableau.jpg>)
 
 </details>
@@ -81,7 +86,8 @@
 
 1. <ins>Window Functions (Analytical Processing)</ins>
 
-   Used extensively to perform calculations across a set of table rows that are related to the current row.
+Used extensively to perform calculations across a set of table rows that are related to the current row.
+   
 <details>
 <summary>see examples:</summary>
     
@@ -102,6 +108,7 @@ FIRST_VALUE(CAST(dtb31.TRIAL_BALANCE_DATE AS DATE)) OVER (PARTITION BY dtb31.ACC
 ```sql
 ratio_to_report("Application") over (partition by s.SUBMIT_MONTH) as "% Application Validation"
 ```
+
 </details>
 
 2. <ins>Common Table Expressions (CTEs)</ins>
