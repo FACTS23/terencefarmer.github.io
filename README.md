@@ -1,15 +1,15 @@
 # Portfolio
 
-<img src="./assets/img/BachelorofScienceDegree.png" alt="A photo">
-
 <details  open>
 <summary>Show credentials:</summary>
-
+ 
+![MS Computer Science](<assets/img/MS_Computer_Science.png>)
+![MS Industrial Engineering](<assets/img/MSIE.png>)
+![MS Applied Mathematics](<./assets/img/MSAppliedMathematics2000.png>)
 <img src="./assets/img/BachelorofScienceDegree.png" alt="A photo">
 
 </details>
 
-<img src="assets/img/BachelorofScienceDegree.png" alt="A photo">
 
 <!--
 ![BS Mathematics](<./assets/img/BachelorofScienceDegree.png>)
