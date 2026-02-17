@@ -15,169 +15,169 @@
 ## Experience
 ### **Senior Director of Risk Data Science** | DigniFi, Inc. | Fort Lauderdale, FL | January 2022 – February 2026
  
-#### Data Science
+- #### Data Science
 
-<details  closed>
-<summary>see examples</summary>
-
-<img src="./assets/img/Decision%20Tree%20for%20Take%20Rate%201%20Python.png" alt="Python Decision Tree">
-<img src="./assets/img/Logistic%20Regression%20Model%20Validation%20p2%20automation%20Tableau.jpg" alt="Logistic Regression Analysis">
-<img src="./assets/img/Logistic%20Regression%20Model%20Validation%20p3%20automation%20Tableau.jpg" alt="Logistic Regression Analysis">
-
-</details>
-
-
-#### Visualizations
-
-<details>
-<summary>see examples</summary>
-
-<img src="./assets/img/Credit%20Strategy%20analysis%20automation%20Tableau.jpg" alt="Credit Strategy Analysis Analysis">
-
-</details>
-
-
-#### Reporting
-
-<details  closed>
-<summary>see examples:</summary>
-
-<img src="./assets/img/Tableau%20gallery.jpg" alt="Tableau gallery">
-
-<img src="./assets/img/Deliquencies%20and%20Loss%20WasIs%20automated%20Tableau.jpg" alt="WasIs">
-
-</details>
-
-
-#### Automations
-
-<details  closed>
-<summary>see examples:</summary>
-
-<img src="./assets/img/Credit%20Policy%20Monitoring%20p1%20automation%20Tableau.jpg" alt="Credit Policy Monitoring with Tableau Dashboard">
-
-<img src="./assets/img/./assets/img/Credit%20Policy%20Monitoring%20p2%20automation%20Tableau.jpg" alt="Credit Policy Monitoring with Tableau Dashboard">
-
-</details>
-
-
-#### Advanced SQL Skills
-
-<details  closed>
-<summary>see examples:</summary>
+  <details  closed>
+  <summary>see examples</summary>
  
-1. <ins>Window Functions (Analytical Processing)</ins>
+  <img src="./assets/img/Decision%20Tree%20for%20Take%20Rate%201%20Python.png" alt="Python Decision Tree">
+  <img src="./assets/img/Logistic%20Regression%20Model%20Validation%20p2%20automation%20Tableau.jpg" alt="Logistic Regression Analysis">
+  <img src="./assets/img/Logistic%20Regression%20Model%20Validation%20p3%20automation%20Tableau.jpg" alt="Logistic Regression Analysis">
+ 
+  </details>
 
-Used extensively to perform calculations across a set of table rows that are related to the current row.
 
-Partitioning and Ordering: Functions like ROW_NUMBER() OVER (PARTITION BY ... ORDER BY ...) are used for ranking, deduplication, and selecting the most recent or first record for a group. Example from Spanish NLS Comments.sql  
+- #### Visualizations
 
-<pre><code class="language-sql">
-QUALIFY ROW_NUMBER() OVER (PARTITION BY LOAN_NUMBER ORDER BY CREATED_DATE DESC) = 1
-</code></pre>
+  <details>
+  <summary>see examples</summary>
+  
+  <img src="./assets/img/Credit%20Strategy%20analysis%20automation%20Tableau.jpg" alt="Credit Strategy Analysis Analysis">
+  
+  </details>
 
-Lag/Lead and Value Retrieval: LAST_VALUE() OVER (...), FIRST_VALUE() OVER (...), and LAG() OVER (...) are used to look up values from previous or subsequent rows, often for calculating time-series metrics. Example from DPD Ever.sql  
 
-<pre><code class="language-sql">
-FIRST_VALUE(CAST(dtb31.TRIAL_BALANCE_DATE AS DATE)) OVER (PARTITION BY dtb31.ACCTREFNO ORDER BY dtb31.TRIAL_BALANCE_DATE) AS "first 31 delinquency date"
-</code></pre>
+- #### Reporting
 
-Ratios and Percentiles: RATIO_TO_REPORT() and NTILE(10) are used for comparative analysis and decile/bucket assignments. Example from PSI by Month.sql  
+  <details  closed>
+  <summary>see examples:</summary>
+  
+  <img src="./assets/img/Tableau%20gallery.jpg" alt="Tableau gallery">
+  
+  <img src="./assets/img/Deliquencies%20and%20Loss%20WasIs%20automated%20Tableau.jpg" alt="WasIs">
+  
+  </details>
 
-<pre><code class="language-sql">
-ratio_to_report("Application") over (partition by s.SUBMIT_MONTH) as "% Application Validation"
-</code></pre>
 
-2. <ins>Common Table Expressions (CTEs)</ins>
+- #### Automations
 
-   For complex queries, I utilize multiple, named sub-queries (CTEs) which significantly improves query readability, modularity, and maintainability by breaking down logic into manageable steps.
-    
-- Example structure from Application Funnel.sql:
+  <details  closed>
+  <summary>see examples:</summary>
+  
+  <img src="./assets/img/Credit%20Policy%20Monitoring%20p1%20automation%20Tableau.jpg" alt="Credit Policy Monitoring with Tableau Dashboard">
+  
+  <img src="./assets/img/./assets/img/Credit%20Policy%20Monitoring%20p2%20automation%20Tableau.jpg" alt="Credit Policy Monitoring with Tableau Dashboard">
+  
+  </details>
 
-<pre><code class="language-sql">
-WITH DATE AS (
-/* logic for date dimension and flags */
-)
-, CREDIT AS (
-/* logic for credit population  */
-)
--- ... other CTEs (DPA, RAM)
-SELECT ... FROM DATE
-INNER JOIN CREDIT ...
-/* The main query combines the named steps  */
-</code></pre>
 
-3. <ins>Conditional Logic and Data Transformation</ins>
+- #### Advanced SQL Skills
 
-Conditional expressions utilized for classifying data, applying business rules, and managing data quality. Specifically, complex CASE and IFF Statements are used to categorize loans, flag time periods, and translate coded values into meaningful descriptions.
-
--   Example from WasIs.sql (for DPD Status):
-
-<pre><code class="language-sql">
-case when c.days_past_due = 0 then '1.CURRENT'
-when c.days_past_due > 0 and c.days_past_due <= 30 then '2.1-30 DPD'
-...
-end as Was_DPD_Status
-</code></pre>
-
--   Example from Compliance 07 2023 Bank Testing - BSA OFAC & CIP.sql (for Decoding):\
-
-<pre><code class="language-sql">
-DECODE (ofac_messageNumber,
-'1200', 'NAME MATCHES OFAC/PLC/FSE LIST',
-'1201', 'OFAC LIST TEMPORARILY UNAVAILABLE',
-'1202', 'OFAC NO RECORD FOUND ') AS ofac_messageText
-</code></pre>
-
-4. <ins>Advanced String and JSON Parsing</ins>
-
-Extensive use of regular expressions (regexp_substr) and JSON path functions (json_extract_path_text) to extract specific data elements embedded within complex text or JSON/Variant columns, such as from audit logs or credit bureau API requests and responses. This is crucial for pulling specific attributes like credit scores or decline reasons from raw log data.
-
-- Example from Adverse_Action_Top_Factors.sql:
-
-<pre><code class="language-sql">
-CAST(LTRIM(regexp_substr(EA_RAM.REQUEST,'\"bankruptcy_count_24_month\":\\\\W+(\\\\\w+)',1,1,'e',1)) AS FLOAT) AS bankruptcy_count_24_month
-</code></pre>
-
-- Example from Credit Policy Applications.sql:
-
-<pre><code class="language-sql">
-CAST(json_extract_path_text(REQUEST,'\"experian\".\"income_insight\"') AS NUMBER(38,0)) AS INCOME_INSIGHT_CODE
-</code></pre>
-
-5. <ins>Date/Time and Variable Management</ins>
-
-The queries demonstrate sophisticated handling of dynamic timeframes, which is common in financial and analytical reporting.
-Date Arithmetic and Configuration: Queries use variables ($START_DATE, $CURDATE, $AS_OF_DATE) and complex date functions (DATEADD, DATE_TRUNC, LAST_DAY) to define and calculate rolling analysis windows (e.g., last 2 months, year-over-year, last 13 months).
-
-- Example from Application Funnel.sql (for a 2-month flag):
-
-<pre><code class="language-sql">
-WHEN date >= DATEADD(MONTH, -1, DATE_TRUNC(MONTH, today + 1)) AND date <= DATE_TRUNC(MONTH, today + 1) - 1
-THEN 1
-</code></pre>
-
-- Example from WasIs.sql (for setting a query variable):
-
-<pre><code class="language-sql">
-set CURDATE = to_date('2023-01-01');
-</code></pre>
-
-</details>
+  <details  closed>
+  <summary>see examples:</summary>
+   
+  1. <ins>Window Functions (Analytical Processing)</ins>
+  
+  Used extensively to perform calculations across a set of table rows that are related to the current row.
+  
+  Partitioning and Ordering: Functions like ROW_NUMBER() OVER (PARTITION BY ... ORDER BY ...) are used for ranking, deduplication, and selecting the most recent or first record for a group. Example from Spanish NLS Comments.sql  
+  
+  <pre><code class="language-sql">
+  QUALIFY ROW_NUMBER() OVER (PARTITION BY LOAN_NUMBER ORDER BY CREATED_DATE DESC) = 1
+  </code></pre>
+  
+  Lag/Lead and Value Retrieval: LAST_VALUE() OVER (...), FIRST_VALUE() OVER (...), and LAG() OVER (...) are used to look up values from previous or subsequent rows, often for calculating time-series metrics. Example from DPD Ever.sql  
+  
+  <pre><code class="language-sql">
+  FIRST_VALUE(CAST(dtb31.TRIAL_BALANCE_DATE AS DATE)) OVER (PARTITION BY dtb31.ACCTREFNO ORDER BY dtb31.TRIAL_BALANCE_DATE) AS "first 31 delinquency date"
+  </code></pre>
+  
+  Ratios and Percentiles: RATIO_TO_REPORT() and NTILE(10) are used for comparative analysis and decile/bucket assignments. Example from PSI by Month.sql  
+  
+  <pre><code class="language-sql">
+  ratio_to_report("Application") over (partition by s.SUBMIT_MONTH) as "% Application Validation"
+  </code></pre>
+  
+  2. <ins>Common Table Expressions (CTEs)</ins>
+  
+     For complex queries, I utilize multiple, named sub-queries (CTEs) which significantly improves query readability, modularity, and maintainability by breaking down logic into manageable steps.
+      
+  - Example structure from Application Funnel.sql:
+  
+  <pre><code class="language-sql">
+  WITH DATE AS (
+  /* logic for date dimension and flags */
+  )
+  , CREDIT AS (
+  /* logic for credit population  */
+  )
+  -- ... other CTEs (DPA, RAM)
+  SELECT ... FROM DATE
+  INNER JOIN CREDIT ...
+  /* The main query combines the named steps  */
+  </code></pre>
+  
+  3. <ins>Conditional Logic and Data Transformation</ins>
+  
+  Conditional expressions utilized for classifying data, applying business rules, and managing data quality. Specifically, complex CASE and IFF Statements are used to categorize loans, flag time periods, and translate coded values into meaningful descriptions.
+  
+  -   Example from WasIs.sql (for DPD Status):
+  
+  <pre><code class="language-sql">
+  case when c.days_past_due = 0 then '1.CURRENT'
+  when c.days_past_due > 0 and c.days_past_due <= 30 then '2.1-30 DPD'
+  ...
+  end as Was_DPD_Status
+  </code></pre>
+  
+  -   Example from Compliance 07 2023 Bank Testing - BSA OFAC & CIP.sql (for Decoding):\
+  
+  <pre><code class="language-sql">
+  DECODE (ofac_messageNumber,
+  '1200', 'NAME MATCHES OFAC/PLC/FSE LIST',
+  '1201', 'OFAC LIST TEMPORARILY UNAVAILABLE',
+  '1202', 'OFAC NO RECORD FOUND ') AS ofac_messageText
+  </code></pre>
+  
+  4. <ins>Advanced String and JSON Parsing</ins>
+  
+  Extensive use of regular expressions (regexp_substr) and JSON path functions (json_extract_path_text) to extract specific data elements embedded within complex text or JSON/Variant columns, such as from audit logs or credit bureau API requests and responses. This is crucial for pulling specific attributes like credit scores or decline reasons from raw log data.
+  
+  - Example from Adverse_Action_Top_Factors.sql:
+  
+  <pre><code class="language-sql">
+  CAST(LTRIM(regexp_substr(EA_RAM.REQUEST,'\"bankruptcy_count_24_month\":\\\\W+(\\\\\w+)',1,1,'e',1)) AS FLOAT) AS bankruptcy_count_24_month
+  </code></pre>
+  
+  - Example from Credit Policy Applications.sql:
+  
+  <pre><code class="language-sql">
+  CAST(json_extract_path_text(REQUEST,'\"experian\".\"income_insight\"') AS NUMBER(38,0)) AS INCOME_INSIGHT_CODE
+  </code></pre>
+  
+  5. <ins>Date/Time and Variable Management</ins>
+  
+  The queries demonstrate sophisticated handling of dynamic timeframes, which is common in financial and analytical reporting.
+  Date Arithmetic and Configuration: Queries use variables ($START_DATE, $CURDATE, $AS_OF_DATE) and complex date functions (DATEADD, DATE_TRUNC, LAST_DAY) to define and calculate rolling analysis windows (e.g., last 2 months, year-over-year, last 13 months).
+  
+  - Example from Application Funnel.sql (for a 2-month flag):
+  
+  <pre><code class="language-sql">
+  WHEN date >= DATEADD(MONTH, -1, DATE_TRUNC(MONTH, today + 1)) AND date <= DATE_TRUNC(MONTH, today + 1) - 1
+  THEN 1
+  </code></pre>
+  
+  - Example from WasIs.sql (for setting a query variable):
+  
+  <pre><code class="language-sql">
+  set CURDATE = to_date('2023-01-01');
+  </code></pre>
+  
+  </details>
 
  
 ### **Innovation Unit Supervisor** | Broward County Government | Fort Lauderdale, FL | March 2020 – January 2022
-#### Visualizations
+- #### Visualizations
 
-<details  closed>
-<summary>see examples:</summary>
- 
-<img src="./assets/img/Broward%20Covid%20dashboard%201%20PowerBI.png" alt="Covid PowerBI Dashboard">
-<img src="./assets/img/Broward%20Animal%20Care%20Dashboard%20ArcGIS.png" alt="Animal Shelter ArcGIS Dashboard">
-<img src="./assets/img/Broward%20Animal%20Care%20Dashboard%202%20ArcGIS.png" alt="Animal Shelter ArcGIS Dashboard">
-<img src="./assets/img/Broward%20Animal%20Care%20Newsletter%20ArcGIS.png" alt="Animal Shelter ArcGIS Newslette">
-
-</details>
+  <details  closed>
+  <summary>see examples:</summary>
+   
+  <img src="./assets/img/Broward%20Covid%20dashboard%201%20PowerBI.png" alt="Covid PowerBI Dashboard">
+  <img src="./assets/img/Broward%20Animal%20Care%20Dashboard%20ArcGIS.png" alt="Animal Shelter ArcGIS Dashboard">
+  <img src="./assets/img/Broward%20Animal%20Care%20Dashboard%202%20ArcGIS.png" alt="Animal Shelter ArcGIS Dashboard">
+  <img src="./assets/img/Broward%20Animal%20Care%20Newsletter%20ArcGIS.png" alt="Animal Shelter ArcGIS Newslette">
+  
+  </details>
 
 
 ### **Senior Risk Analyst** | Southeast Toyota Finance | Fort Lauderdale, FL | January 2018 – March 2020
@@ -189,31 +189,44 @@ set CURDATE = to_date('2023-01-01');
 ### **Senior Revenue Analyst** | The Walt Disney Company | Orlando, FL | November 2011 – December 2013
 
 ### **Senior Industrial Engineer** | The Walt Disney Company | Orlando, FL | November 2008 – November 2011
+- #### Visualizations
+  <details  closed>
+  <summary>see examples:</summary>
+  
+  <img src="./assets/img/Disney%20New%20York%20Times%20article%20training%201%20SAS.jpg" alt="SAS Dashboard - Proc Ganno">
+  <img src="./assets/img/Disney%20New%20York%20Times%20article%20SAS%20dashboard.png" alt="As seen in NY Times">
+  <img src="./assets/img/Disney%20New%20York%20Times%20article%20SAS%202%20dashboard.png" alt="As seen in NY Times">
+  <img src="./assets/img/Disney%20New%20York%20Times%20article%20SAS%203%20dashboard.png" alt="As seen in NY Times">
+  
+  </details>
 
-<details  closed>
-<summary>see examples:</summary>
+- #### Personalizations
+  <details  closed>
+  <summary>see examples:</summary>
+  
+  <img src="./assets/img/Disney%20itinerary%20recommendation%20Tableau.png" alt="Disney Custom Itinerary">
+  <img src="./assets/img/Disney%20itinerary%20recommendation%20Guide%20Setup.png" alt="Disney Custom Itinerary design">
+  <img src="./assets/img/Disney%20personalization%20strategy%20training%20PPT.jpg" alt="Disney Training Session">
+  
+  </details>
 
-<img src="./assets/img/Disney%20New%20York%20Times%20article%20training%201%20SAS.jpg" alt="SAS Dashboard - Proc Ganno">
-<img src="./assets/img/Disney%20New%20York%20Times%20article%20SAS%20dashboard.png" alt="As seen in NY Times">
-<img src="./assets/img/Disney%20New%20York%20Times%20article%20SAS%202%20dashboard.png" alt="As seen in NY Times">
-<img src="./assets/img/Disney%20New%20York%20Times%20article%20SAS%203%20dashboard.png" alt="As seen in NY Times">
+### **Marketing Reporting & Analytics Manager** | The Walt Disney Company | Orlando, FL | July 2007 – November 2008
 
-</details>
-
-
-**Marketing Reporting & Analytics Manager** | The Walt Disney Company | Orlando, FL | July 2007 – November 2008
-
-**Senior Credit Policy Data Manager** | CitiMortgage (Citigroup) | St. Louis, MO | August 2005 – June 2007
+### **Senior Credit Policy Data Manager** | CitiMortgage (Citigroup) | St. Louis, MO | August 2005 – June 2007
 
 ## Certifications
-- **Revenue Management Certificate** | Cornell University | 2012
-- **Tableau Desktop Qualified Associate**| Tableau | 2017
-- **SAS Certified Base Programmer**| SAS | 2005
-- **IBM Certified Database Associate**| IBM | 2005
-- **Microsoft Excel Expert Certification**| Microsoft | 2004
-
 ![SAS Badge](<assets/img/SAS badge.bmp>) ![IBM badge](<assets/img/IBM badge.bmp>)
+|   |   |   |   |
+|--|--|--|--|
+|**Revenue Management Certificate** | Cornell University | *2012* |![Cornell](<assets/img/Cornell_Revenue_Management_certificate.png>)
+|**Tableau Desktop Qualified Associate**| Tableau | *2017* |![Tableau](<assets/img/Tableau_certification.png>)
+|**SAS Certified Base Programmer**| SAS | *2005* |![SAS](<assets/img/SAS%20Certified%20Base%20Programmer.jpg>)
+|**IBM Certified Database Associate**| IBM | *2005* |![IBM](<assets/img/IBM.png>)
+|**Microsoft Excel Expert Certification**| Microsoft | *2004* |![Excel](<assets/img/Microsoft%20Excel%202000.jpg>)
+|**Microsoft Office Master Certification**| Microsoft | *2004* |![Excel](<assets/img/Microsoft%20Office%20Specialist%20Master%202000.jpg>)
+|   |   |   |
 
+<!--
 <details  open>
 <summary>Show credentials:</summary>
 
@@ -224,8 +237,27 @@ set CURDATE = to_date('2023-01-01');
 <img src="./assets/img/IBM.png" alt="IBM">
 
 </details>
+-->
 
 ## Continuing Education Units
+|   |   |   |   |
+|--|--|--|--|
+|**Using ChatGPT and Generative AI in FinTech** | NASBA | *2026* | ![Using ChatGPT and Generative AI in FinTech](<assets/img/UsingChatGPTand GenerativeAIinFinTech.png>)
+|**Generative Al Fundamentals**| Databricks Academy | *2026* | ![Generative Al Fundamentals](<assets/img/GenerativeAIFundamentals.png>)
+|**Project Management Foundations**| PMI Institute | *2026* | ![Project Management Foundations](<assets/img/ProjectMagementFoundations.png>)
+|**Python Data Analysis**| LinkedIn Learning | *2026* | ![Python Data Analysis](<assets/img/PythonDataAnalysis.png>)
+|**The Data Science of Economics, Banking, and Finance**| LinkedIn Learning | *2026* |![The Data Science of Economics Banking and Finance](<assets/img/DataScienceofEconomicsBankingFinance.png>)
+|**Databricks Fundamentals**| Databricks Academy | *2026* | ![Databricks Fundamentals](<assets/img/DatabricksFundamentals.png>)
+|**Microsoft Azure Fundamentals**| Microsoft | *2020* |
+|**Power BI Dashboarding**| Microsoft | *2020* |
+|**Credit Scorecard Development and Implementation**| SAS | *2020* |
+|**Building and Solving Optimization Models**| SAS | *2018* | ![SAS Optimization Models](<assets/img/SASOptimizationModels.png>)
+|**Survival Data Mining**| SAS | *2018* | ![SAS Data Mining](<assets/img/SASDataMining.png>)
+|**Using SAS Programs to Execute Pig and HiveQL in Hadoop**| SAS | *2018* | ![SAS Hadoop](<assets/img/SASHadoop.png>)
+|**Advanced SAS Programming Library**| SAS | *2008* | ![Advanced SAS Programming Library](<assets/img/AdvancedSASProgrammingLibrary.png>)
+|**Performing Advanced Queries Using PROC SQL**| SAS | *2008* | ![Performing Advanced Queries Using PROC SQL](<assets/img/PerformingAdvancedQueriesUsingPROCSQL.png>)
+|   |   |   |
+<!--
 - Using ChatGPT and Generative AI in FinTech | NASBA | 2026
 - Generative Al Fundamentals | Databricks Academy | 2026
 - Project Management Foundations | PMI Institute | 2026
@@ -236,7 +268,7 @@ set CURDATE = to_date('2023-01-01');
 - Credit Scorecard Development and Implementation | SAS | 2020
 - Building and Solving Optimization Models | SAS | 2018
 - Survival Data Mining | SAS | 2018
-
+-->
 <details  closed>
 <summary>Show credentials:</summary>
 
