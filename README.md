@@ -2,12 +2,13 @@
 
 <details>
 <summary>Show credentials:</summary>
-    
-![BS Mathematics](<./assets/img/BachelorofScienceDegree.png>)
+
+<img src="/assets/img/BachelorofScienceDegree.png" alt="A photo">
 
 </details>
 
 <!--
+![BS Mathematics](<./assets/img/BachelorofScienceDegree.png>)
 
 ### Education
 
