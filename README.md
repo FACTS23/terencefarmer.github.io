@@ -1,6 +1,6 @@
 # Portfolio
 
-<img src="/assets/img/BachelorofScienceDegree.png" alt="A photo">
+<img src="./assets/img/BachelorofScienceDegree.png" alt="A photo">
 
 <details  open>
 <summary>Show credentials:</summary>
@@ -9,7 +9,7 @@
 
 </details>
 
-<img src="/assets/img/BachelorofScienceDegree.png" alt="A photo">
+<img src="assets/img/BachelorofScienceDegree.png" alt="A photo">
 
 <!--
 ![BS Mathematics](<./assets/img/BachelorofScienceDegree.png>)
