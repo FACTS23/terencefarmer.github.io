@@ -1,5 +1,15 @@
 # Portfolio
 
+<details>
+<summary>Show credentials:</summary>
+
+    
+![Bachelor of Science Degree](</assets/img/BachelorofScienceDegree.png>)
+
+</details>
+
+<!--
+
 ### Education
 
 |   |   |   |   |   |
@@ -11,37 +21,8 @@
 |   |   |   |   |
 |\*Ph.D. Candidate|Industrial Engineering|University of Missouri|*2000-2008*|*No Degree, All But Dissertation (ABD)*
 
-<!--
-\* Ph.D. Candidate from 2000-2008
 
 
-![Bachelor of Science Degree](<assets/img/BachelorofScienceDegree.png>)
-![MS Applied Mathematics](</assets/img/MSAppliedMathematics2000.png>)
-
-<details>
-<summary>Show credentials:</summary>
-    
-![Bachelor of Science Degree](</assets/img/BachelorofScienceDegree.png>)
-![MS Applied Mathematics](<assets/img/MSAppliedMathematics2000.png>)
-
-</details>
-
-
-![MS Applied Mathematics](<assets/img/MS Applied Mathematics 2000.bmp>)
-
-![Bachelor of Science Degree](<assets/img/Bachelor of Science Degree.jpg>){: .portfolio-image}
-
-![MS Applied Mathematics](<assets/img/MS Applied Mathematics 2000.bmp>){: .portfolio-image}
--->
-
-
-<details>
-    
-<summary>see examples</summary>
-
-- ![Python Decision Tree](<https://github.com/FACTS23/terencefarmer.github.io/blob/main/assets/img/Decision%20Tree%20for%20Take%20Rate%201%20Python.png>)
-
-</details>
 
 
 ### Experience
@@ -95,20 +76,9 @@ Automations
 
 Advanced SQL Skills
 
-<!--    
-<details>
-<summary>coding snippets:</summary>
--->
-
-
 1. <ins>Window Functions (Analytical Processing)</ins>
 
 Used extensively to perform calculations across a set of table rows that are related to the current row.
-
-<!--
-<details>
-<summary>see examples:</summary>
--->
 
 Partitioning and Ordering: Functions like ROW_NUMBER() OVER (PARTITION BY ... ORDER BY ...) are used for ranking, deduplication, and selecting the most recent or first record for a group. Example from Spanish NLS Comments.sql  
 
@@ -128,10 +98,6 @@ Ratios and Percentiles: RATIO_TO_REPORT() and NTILE(10) are used for comparative
 ratio_to_report("Application") over (partition by s.SUBMIT_MONTH) as "% Application Validation"
 ```
 
-<!--
-</details>
--->
-
 2. <ins>Common Table Expressions (CTEs)</ins>
 
    For complex queries, I utilize multiple, named sub-queries (CTEs) which significantly improves query readability, modularity, and maintainability by breaking down logic into manageable steps.
@@ -150,7 +116,6 @@ SELECT ... FROM DATE
 INNER JOIN CREDIT ...
 /* The main query combines the named steps  */
 ```
-
 
 3. <ins>Conditional Logic and Data Transformation</ins>
 
@@ -207,9 +172,8 @@ THEN 1
 ```sql
 set CURDATE = to_date('2023-01-01');
 ```
-<!--
-    </details>
 -->
+
 <!-- 
 **Innovation Unit Supervisor** | Broward County Government | Fort Lauderdale, FL | March 2020 – January 2022
 - Visualizations\
@@ -282,4 +246,6 @@ set CURDATE = to_date('2023-01-01');
 
 ![NSF](<assets/img/National Science Foundation.jpg>){: .portfolio-image}
 
-</details> -->
+</details>
+
+-->
