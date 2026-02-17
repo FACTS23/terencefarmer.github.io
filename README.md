@@ -43,9 +43,11 @@
 <details>
 <summary>see examples:</summary>
 
-  ![Python Decision Tree](<assets/img/Decision Tree for Take Rate 1 Python.png>)
+![Python Decision Tree](<assets/img/Decision%20Tree%20for%20Take%20Rate%201%20Python.png>)
 
-  ![Logistic Regression Analysis](<assets/img/Logistic Regression Model Validation p2 automation Tableau.jpg>)
+![Logistic Regression Analysis](<assets/img/Logistic%20Regression%20Model%20Validation%20p2%20automation%20Tableau.jpg>)
+
+![Logistic Regression Analysis](<assets/img/Logistic%20Regression%20Model%20Validation%20p3%20automation%20Tableau.jpg>)
 
 </details>
 
@@ -55,7 +57,7 @@
 
 <summary>see examples:</summary>
 
-  ![Credit Strategy Analysis Analysis](<assets/img/Credit Strategy analysis automation Tableau.jpg>)
+![Credit Strategy Analysis Analysis](<assets/img/Credit%20Strategy%20analysis%20automation%20Tableau.jpg>)
 
 </details>
 
@@ -64,9 +66,9 @@
 <details>
 <summary>see examples:</summary>
 
-![Tableau gallery](<assets/img/Tableau gallery.jpg>)
+![Tableau gallery](<assets/img/Tableau%20gallery.jpg>)
 
-![WasIs](<assets/img/Deliquencies and Loss WasIs automated Tableau.jpg>)
+![WasIs](<assets/img/Deliquencies%20and%20Loss%20WasIs%20automated%20Tableau.jpg>)
 
 </details>
 
@@ -74,8 +76,9 @@
 <details>
 <summary>see examples:</summary>
 
-![Credit Policy Monitoring with Tableau Dashboard](<assets/img/Credit Policy Monitoring p1 automation Tableau.jpg>)
+![Credit Policy Monitoring with Tableau Dashboard](<assets/img/Credit%20Policy%20Monitoring%20p1%20automation%20Tableau.jpg>)
 
+![Credit Policy Monitoring with Tableau Dashboard](<assets/img/Credit%20Policy%20Monitoring%20p2%20automation%20Tableau.jpg>)
 </details>
 
 #### Advanced SQL Skills
@@ -92,19 +95,19 @@ Used extensively to perform calculations across a set of table rows that are rel
 <details>
 <summary>see examples:</summary>
     
-- Partitioning and Ordering: Functions like ROW_NUMBER() OVER (PARTITION BY ... ORDER BY ...) are used for ranking, deduplication, and selecting the most recent or first record for a group. Example from Spanish NLS Comments.sql:
+Partitioning and Ordering: Functions like ROW_NUMBER() OVER (PARTITION BY ... ORDER BY ...) are used for ranking, deduplication, and selecting the most recent or first record for a group. Example from Spanish NLS Comments.sql:
 
 ```sql
 QUALIFY ROW_NUMBER() OVER (PARTITION BY LOAN_NUMBER ORDER BY CREATED_DATE DESC) = 1
 ```
 
-- Lag/Lead and Value Retrieval: LAST_VALUE() OVER (...), FIRST_VALUE() OVER (...), and LAG() OVER (...) are used to look up values from previous or subsequent rows, often for calculating time-series metrics. Example from DPD Ever.sql:\
+Lag/Lead and Value Retrieval: LAST_VALUE() OVER (...), FIRST_VALUE() OVER (...), and LAG() OVER (...) are used to look up values from previous or subsequent rows, often for calculating time-series metrics. Example from DPD Ever.sql:\
 
 ```sql
 FIRST_VALUE(CAST(dtb31.TRIAL_BALANCE_DATE AS DATE)) OVER (PARTITION BY dtb31.ACCTREFNO ORDER BY dtb31.TRIAL_BALANCE_DATE) AS "first 31 delinquency date"
 ```
 
-- Ratios and Percentiles: RATIO_TO_REPORT() and NTILE(10) are used for comparative analysis and decile/bucket assignments. Example from PSI by Month.sql:
+Ratios and Percentiles: RATIO_TO_REPORT() and NTILE(10) are used for comparative analysis and decile/bucket assignments. Example from PSI by Month.sql:
 
 ```sql
 ratio_to_report("Application") over (partition by s.SUBMIT_MONTH) as "% Application Validation"
