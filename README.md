@@ -44,9 +44,9 @@
     ![Tableau gallery](<assets/img/Tableau gallery.jpg>)
     ![WasIs](<assets/img/Deliquencies and Loss WasIs automated Tableau.jpg>)
 - Automations\
-    ![Credit Policy Monitoring with Tableau Dashboard](<assets/img/Credit Policy Monitoring p1 automation Tableau.jpg>)-->
+    ![Credit Policy Monitoring with Tableau Dashboard](<assets/img/Credit Policy Monitoring p1 automation Tableau.jpg>)
 - Advanced SQL
-
+-->
 <!--    <details>
     <summary>coding snippets:</summary>
 
@@ -57,9 +57,9 @@
         - Partitioning and Ordering: Functions like ROW_NUMBER() OVER (PARTITION BY ... ORDER BY ...) are used for ranking, deduplication, and selecting the most recent or first record for a group.
         Example from Spanish NLS Comments.sql:\
 -->
-            ```sql
-            QUALIFY ROW_NUMBER() OVER (PARTITION BY LOAN_NUMBER ORDER BY CREATED_DATE DESC) = 1
-            ```
+```sql
+QUALIFY ROW_NUMBER() OVER (PARTITION BY LOAN_NUMBER ORDER BY CREATED_DATE DESC) = 1
+```
 <!-- 
         - Lag/Lead and Value Retrieval: LAST_VALUE() OVER (...), FIRST_VALUE() OVER (...), and LAG() OVER (...) are used to look up values from previous or subsequent rows, often for calculating time-series metrics.
         Example from DPD Ever.sql:\
