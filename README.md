@@ -4,15 +4,17 @@
 
 |   |   |   |   |   |
 |--|--|--|--|--|
-|**M.S.**|**Computer Science**|Florida Atlantic University|*2019-2020*|![MS Computer Science](</assets/img/MS_Computer_Science.png>)
-|**M.S.**|**Industrial Engineering**|University of Missouri|*2000-2009*<sup>*</sup>|![MS Industrial Engineering](</assets/img/MSAppliedMathematics2000.png>)
-|**M.S.**|**Applied Mathematics** |University of Missouri|*1997-2000*|![MS Applied Mathematics](</assets/img/MSAppliedMathematics2000.png>)
+|**M.S.**|**Computer Science**|Florida Atlantic University|*2019-2020*|![MS Computer Science](<assets/img/MS_Computer_Science.png>)
+|**M.S.**|**Industrial Engineering**|University of Missouri|*2009-2009*<sup>*</sup>|![MS Industrial Engineering](<assets/img/MSIE.png>)
+|**M.S.**|**Applied Mathematics** |University of Missouri|*1997-2000*|![MS Applied Mathematics](<assets/img/MSAppliedMathematics2000.png>)
 |**B.S.**|**Mathematics** |Alabama State University|*1993-1997*|![BS Mathematics](<assets/img/BachelorofScienceDegree.png>)
 |   |   |   |   |
-
-\* Ph.D. Candidate from 2000-2008
+|\*Ph.D. Candidate|Industrial Engineering|University of Missouri|*2000-2008*|*No Degree, All But Dissertation (ABD)*
 
 <!--
+\* Ph.D. Candidate from 2000-2008
+
+
 ![Bachelor of Science Degree](<assets/img/BachelorofScienceDegree.png>)
 ![MS Applied Mathematics](</assets/img/MSAppliedMathematics2000.png>)
 
@@ -45,36 +47,38 @@
     ![WasIs](<assets/img/Deliquencies and Loss WasIs automated Tableau.jpg>)
 - Automations\
     ![Credit Policy Monitoring with Tableau Dashboard](<assets/img/Credit Policy Monitoring p1 automation Tableau.jpg>)
-- Advanced SQL
+
 -->
+
+#### Advanced SQL Skills
+
 <!--    <details>
     <summary>coding snippets:</summary>
-
-    1. Window Functions (Analytical Processing)
-
-        These functions are extensively used to perform calculations across a set of table rows that are related to the current row, without reducing the number of rows returned.
-        
-        - Partitioning and Ordering: Functions like ROW_NUMBER() OVER (PARTITION BY ... ORDER BY ...) are used for ranking, deduplication, and selecting the most recent or first record for a group.
-        Example from Spanish NLS Comments.sql:\
 -->
+
+
+1. Window Functions (Analytical Processing)
+
+Used extensively to perform calculations across a set of table rows that are related to the current row, without reducing the number of rows returned.
+
+- Partitioning and Ordering: Functions like ROW_NUMBER() OVER (PARTITION BY ... ORDER BY ...) are used for ranking, deduplication, and selecting the most recent or first record for a group. Example from Spanish NLS Comments.sql:
+
 ```sql
 QUALIFY ROW_NUMBER() OVER (PARTITION BY LOAN_NUMBER ORDER BY CREATED_DATE DESC) = 1
 ```
+
+- Lag/Lead and Value Retrieval: LAST_VALUE() OVER (...), FIRST_VALUE() OVER (...), and LAG() OVER (...) are used to look up values from previous or subsequent rows, often for calculating time-series metrics. Example from DPD Ever.sql:\
+
+```sql
+FIRST_VALUE(CAST(dtb31.TRIAL_BALANCE_DATE AS DATE)) OVER (PARTITION BY dtb31.ACCTREFNO ORDER BY dtb31.TRIAL_BALANCE_DATE) AS "first 31 delinquency date"
+```
+
+- Ratios and Percentiles: RATIO_TO_REPORT() and NTILE(10) are used for comparative analysis and decile/bucket assignments. Example from PSI by Month.sql:\
+
+```sql
+ratio_to_report("Application") over (partition by s.SUBMIT_MONTH) as "% Application Validation"
+```
 <!-- 
-        - Lag/Lead and Value Retrieval: LAST_VALUE() OVER (...), FIRST_VALUE() OVER (...), and LAG() OVER (...) are used to look up values from previous or subsequent rows, often for calculating time-series metrics.
-        Example from DPD Ever.sql:\
-
-            ```sql
-            FIRST_VALUE(CAST(dtb31.TRIAL_BALANCE_DATE AS DATE)) OVER (PARTITION BY dtb31.ACCTREFNO ORDER BY dtb31.TRIAL_BALANCE_DATE) AS "first 31 delinquency date"
-            ```
-        
-        - Ratios and Percentiles: RATIO_TO_REPORT() and NTILE(10) are used for comparative analysis and decile/bucket assignments.
-        Example from PSI by Month.sql:\
-
-            ```sql
-            ratio_to_report("Application") over (partition by s.SUBMIT_MONTH) as "% Application Validation"
-            ```
-
     2. Common Table Expressions (CTEs)
 
         Nearly all complex queries utilize the WITH clause to define multiple, named sub-queries (CTEs). This dramatically improves query readability, modularity, and maintainability by breaking down logic into smaller, distinct steps.
