@@ -1,20 +1,6 @@
 # Portfolio
 
-<details  closed>
-<summary>Show credentials:</summary>
- 
-<img src="./assets/img/MS_Computer_Science.png" alt="A photo">
-<img src="./assets/img/MSIE.png" alt="A photo">
-<img src="./assets/img/MSAppliedMathematics2000.png" alt="A photo">
-<img src="./assets/img/BachelorofScienceDegree.png" alt="A photo">
-
-</details>
-
-
-<!--
-![BS Mathematics](<./assets/img/BachelorofScienceDegree.png>)
-
-### Education
+## Education
 
 |   |   |   |   |   |
 |--|--|--|--|--|
@@ -26,22 +12,17 @@
 |\*Ph.D. Candidate|Industrial Engineering|University of Missouri|*2000-2008*|*No Degree, All But Dissertation (ABD)*
 
 
-
-
-
-### Experience
+## Experience
  **Senior Director of Risk Data Science** | DigniFi, Inc. | Fort Lauderdale, FL | January 2022 – February 2026
  
 Data Science
 
-<details>
+<details  closed>
 <summary>see examples</summary>
 
-![Python Decision Tree](<https://github.com/FACTS23/terencefarmer.github.io/blob/main/assets/img/Decision%20Tree%20for%20Take%20Rate%201%20Python.png>)
-
-![Logistic Regression Analysis](<./assets/img/Logistic%20Regression%20Model%20Validation%20p2%20automation%20Tableau.jpg>)
-
-![Logistic Regression Analysis](<./assets/img/Logistic%20Regression%20Model%20Validation%20p3%20automation%20Tableau.jpg>)
+<img src="./assets/img/Decision%20Tree%20for%20Take%20Rate%201%20Python.png" alt="Python Decision Tree">
+<img src="./assets/img/Logistic%20Regression%20Model%20Validation%20p2%20automation%20Tableau.jpg" alt="Logistic Regression Analysis">
+<img src="./assets/img/Logistic%20Regression%20Model%20Validation%20p3%20automation%20Tableau.jpg" alt="Logistic Regression Analysis">
 
 </details>
 
@@ -51,35 +32,38 @@ Visualizations
 <details>
 <summary>see examples</summary>
 
-![Credit Strategy Analysis Analysis](<./assets/img/Credit%20Strategy%20analysis%20automation%20Tableau.jpg>)
+<img src="./assets/img/Credit%20Strategy%20analysis%20automation%20Tableau.jpg" alt="Credit Strategy Analysis Analysis">
 
 </details>
 
 
 Reporting
 
-<details>
+<details  closed>
 <summary>see examples:</summary>
 
-![Tableau gallery](<./assets/img/Tableau%20gallery.jpg>)
+<img src="./assets/img/Tableau%20gallery.jpg" alt="Tableau gallery">
 
-![WasIs](<./assets/img/Deliquencies%20and%20Loss%20WasIs%20automated%20Tableau.jpg>)
+<img src="./assets/img/Deliquencies%20and%20Loss%20WasIs%20automated%20Tableau.jpg" alt="WasIs">
 
 </details>
 
 
 Automations
-<details>
+<details  closed>
 <summary>see examples:</summary>
 
-![Credit Policy Monitoring with Tableau Dashboard](<./assets/img/Credit%20Policy%20Monitoring%20p1%20automation%20Tableau.jpg>)
+<img src="./assets/img/Credit%20Policy%20Monitoring%20p1%20automation%20Tableau.jpg" alt="Credit Policy Monitoring with Tableau Dashboard">
 
-![Credit Policy Monitoring with Tableau Dashboard](<./assets/img/Credit%20Policy%20Monitoring%20p2%20automation%20Tableau.jpg>)
+<img src="./assets/img/./assets/img/Credit%20Policy%20Monitoring%20p2%20automation%20Tableau.jpg" alt="Credit Policy Monitoring with Tableau Dashboard">
+
 </details>
 
 
 Advanced SQL Skills
-
+<details  closed>
+<summary>see examples:</summary>
+ 
 1. <ins>Window Functions (Analytical Processing)</ins>
 
 Used extensively to perform calculations across a set of table rows that are related to the current row.
@@ -173,10 +157,15 @@ THEN 1
 
 - Example from WasIs.sql (for setting a query variable):
 
+<pre><code class="language-sql">
+set CURDATE = to_date('2023-01-01');
+</code></pre>
+
 ```sql
 set CURDATE = to_date('2023-01-01');
 ```
--->
+
+</details>
 
 <!-- 
 **Innovation Unit Supervisor** | Broward County Government | Fort Lauderdale, FL | March 2020 – January 2022
@@ -201,7 +190,7 @@ set CURDATE = to_date('2023-01-01');
 
 **Senior Credit Policy Data Manager** | CitiMortgage (Citigroup) | St. Louis, MO | August 2005 – June 2007
 
-### Certifications
+## Certifications
 - **Revenue Management Certificate** | Cornell University | 2012
 - **Tableau Desktop Qualified Associate**| Tableau | 2017
 - **SAS Certified Base Programmer**| SAS | 2005
@@ -220,7 +209,7 @@ set CURDATE = to_date('2023-01-01');
 
 </details>
 
-### Continuing Education Units
+## Continuing Education Units
 - Using ChatGPT and Generative AI in FinTech | NASBA | 2026
 - Generative Al Fundamentals | Databricks Academy | 2026
 - Project Management Foundations | PMI Institute | 2026
