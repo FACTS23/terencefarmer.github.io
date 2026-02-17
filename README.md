@@ -1,6 +1,6 @@
 # Portfolio
 
-<details  open>
+<details  closed>
 <summary>Show credentials:</summary>
  
 <img src="./assets/img/MS_Computer_Science.png" alt="A photo">
