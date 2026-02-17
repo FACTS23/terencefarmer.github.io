@@ -38,54 +38,53 @@
 ### Experience
  **Senior Director of Risk Data Science** | DigniFi, Inc. | Fort Lauderdale, FL | January 2022 – February 2026
  
-#### Data Science
-
-
-<details>
-<summary>see examples</summary>
-
-![Python Decision Tree](</assets/img/Decision%20Tree%20for%20Take%20Rate%201%20Python.png>)
-
-![Logistic Regression Analysis](</assets/img/Logistic%20Regression%20Model%20Validation%20p2%20automation%20Tableau.jpg>)
-
-![Logistic Regression Analysis](</assets/img/Logistic%20Regression%20Model%20Validation%20p3%20automation%20Tableau.jpg>)
-
-</details>
-
-
-#### Visualizations
+Data Science
 
 <details>
 <summary>see examples</summary>
 
-![Credit Strategy Analysis Analysis](</assets/img/Credit%20Strategy%20analysis%20automation%20Tableau.jpg>)
+![Python Decision Tree](<https://github.com/FACTS23/terencefarmer.github.io/blob/main/assets/img/Decision%20Tree%20for%20Take%20Rate%201%20Python.png>)
+
+![Logistic Regression Analysis](<./assets/img/Logistic%20Regression%20Model%20Validation%20p2%20automation%20Tableau.jpg>)
+
+![Logistic Regression Analysis](<./assets/img/Logistic%20Regression%20Model%20Validation%20p3%20automation%20Tableau.jpg>)
 
 </details>
 
 
-#### Reporting
+Visualizations
+
+<details>
+<summary>see examples</summary>
+
+![Credit Strategy Analysis Analysis](<./assets/img/Credit%20Strategy%20analysis%20automation%20Tableau.jpg>)
+
+</details>
+
+
+Reporting
 
 <details>
 <summary>see examples:</summary>
 
-![Tableau gallery](</assets/img/Tableau%20gallery.jpg>)
+![Tableau gallery](<./assets/img/Tableau%20gallery.jpg>)
 
-![WasIs](</assets/img/Deliquencies%20and%20Loss%20WasIs%20automated%20Tableau.jpg>)
+![WasIs](<./assets/img/Deliquencies%20and%20Loss%20WasIs%20automated%20Tableau.jpg>)
 
 </details>
 
 
-#### Automations
+Automations
 <details>
 <summary>see examples:</summary>
 
-![Credit Policy Monitoring with Tableau Dashboard](</assets/img/Credit%20Policy%20Monitoring%20p1%20automation%20Tableau.jpg>)
+![Credit Policy Monitoring with Tableau Dashboard](<./assets/img/Credit%20Policy%20Monitoring%20p1%20automation%20Tableau.jpg>)
 
-![Credit Policy Monitoring with Tableau Dashboard](</assets/img/Credit%20Policy%20Monitoring%20p2%20automation%20Tableau.jpg>)
+![Credit Policy Monitoring with Tableau Dashboard](<./assets/img/Credit%20Policy%20Monitoring%20p2%20automation%20Tableau.jpg>)
 </details>
 
 
-#### Advanced SQL Skills
+Advanced SQL Skills
 
 <!--    
 <details>
