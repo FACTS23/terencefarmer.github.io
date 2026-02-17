@@ -2,9 +2,8 @@
 
 <details>
 <summary>Show credentials:</summary>
-
     
-![Bachelor of Science Degree](</assets/img/BachelorofScienceDegree.png>)
+![BS Mathematics](<assets/img/BachelorofScienceDegree.png>)
 
 </details>
 
