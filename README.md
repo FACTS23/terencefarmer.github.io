@@ -11,6 +11,7 @@
 |   |   |   |   |
 
 \* Ph.D. Candidate from 2000-2008
+
 <!--
 ![Bachelor of Science Degree](<assets/img/BachelorofScienceDegree.png>)
 ![MS Applied Mathematics](</assets/img/MSAppliedMathematics2000.png>)
@@ -28,11 +29,12 @@
 
 ![Bachelor of Science Degree](<assets/img/Bachelor of Science Degree.jpg>){: .portfolio-image}
 
-![MS Applied Mathematics](<assets/img/MS Applied Mathematics 2000.bmp>){: .portfolio-image} -->
+![MS Applied Mathematics](<assets/img/MS Applied Mathematics 2000.bmp>){: .portfolio-image}
+-->
 
 <!-- 
 ### Experience
-**Senior Director of Risk Data Science** | DigniFi, Inc. | Fort Lauderdale, FL | January 2022 – February 2026
+<!-- **Senior Director of Risk Data Science** | DigniFi, Inc. | Fort Lauderdale, FL | January 2022 – February 2026
 - Data Science\
     ![Python Decision Tree](<assets/img/Decision Tree for Take Rate 1 Python.png>)
     ![Logistic Regression Analysis](<assets/img/Logistic Regression Model Validation p2 automation Tableau.jpg>)
@@ -42,7 +44,7 @@
     ![Tableau gallery](<assets/img/Tableau gallery.jpg>)
     ![WasIs](<assets/img/Deliquencies and Loss WasIs automated Tableau.jpg>)
 - Automations\
-    ![Credit Policy Monitoring with Tableau Dashboard](<assets/img/Credit Policy Monitoring p1 automation Tableau.jpg>)
+    ![Credit Policy Monitoring with Tableau Dashboard](<assets/img/Credit Policy Monitoring p1 automation Tableau.jpg>)-->
 - Advanced SQL
 
     <details>
@@ -153,7 +155,7 @@
         ```
 
     </details>
-
+<!-- 
 **Innovation Unit Supervisor** | Broward County Government | Fort Lauderdale, FL | March 2020 – January 2022
 - Visualizations\
 ![Covid PowerBI Dashboard](<assets/img/Broward Covid dashboard 1 PowerBI.png>)
