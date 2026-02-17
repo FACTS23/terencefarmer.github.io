@@ -3,3 +3,4 @@ logo: /assets/img/THS-3.jpg
 description: Portfolio
 show_downloads: false
 theme: jekyll-theme-minimal
+baseurl: "/terencefarmer.github.io"
