@@ -6,10 +6,10 @@
 |--|--|--|--|--|
 |**M.S.**|**Computer Science**|Florida Atlantic University|*2019-2020*|![MS Computer Science](<assets/img/MS_Computer_Science.png>)
 |**M.S.**|**Industrial Engineering**|University of Missouri|*2009-2009*<sup>*</sup>|![MS Industrial Engineering](<assets/img/MSIE.png>)
+|\*Ph.D. Candidate|Industrial Engineering|University of Missouri|*2000-2008*|*All But Dissertation (ABD)*<br/>*No Degree*
 |**M.S.**|**Applied Mathematics** |University of Missouri|*1997-2000*|![MS Applied Mathematics](<assets/img/MSAppliedMathematics2000.png>)
 |**B.S.**|**Mathematics** |Alabama State University|*1993-1997*|![BS Mathematics](<assets/img/BachelorofScienceDegree.png>)
-|   |   |   |   |
-|\*Ph.D. Candidate|Industrial Engineering|University of Missouri|*2000-2008*|*No Degree, All But Dissertation (ABD)*
+
 
 <hr>
 
@@ -235,13 +235,12 @@
 ![SAS Badge](<assets/img/SAS badge.bmp>) ![IBM badge](<assets/img/IBM badge.bmp>)
 |   |   |   |   |
 |--|--|--|--|
-|**Revenue Management Certificate** |Cornell University|*2012*|![Cornell](<assets/img/Cornell_Revenue_Management_certificate.png>)
+|**Revenue Management Certificate**|Cornell University|*2012*|![Cornell](<assets/img/Cornell_Revenue_Management_certificate.png>)
 |**Tableau Desktop Qualified Associate**|Tableau|*2017*|![Tableau](<assets/img/Tableau_certification.png>)
 |**SAS Certified Base Programmer**|SAS|*2005*|![SAS](<assets/img/SAS%20Certified%20Base%20Programmer.jpg>)
 |**IBM Certified Database Associate**|IBM|*2005*|![IBM](<assets/img/IBM.png>)
 |**Microsoft Excel Expert Certification**|Microsoft|*2004*|![Excel](<assets/img/Microsoft%20Excel%202000.jpg>)
 |**Microsoft Office Master Certification**|Microsoft|*2004*|![Excel](<assets/img/Microsoft%20Office%20Specialist%20Master%202000.jpg>)
-|   |   |   |   |
 
 <!--
 <details  open>
@@ -261,7 +260,7 @@
 ## Continuing Education Units
 |   |   |   |   |
 |--|--|--|--|
-|**Using ChatGPT and Generative AI in FinTech** |NASBA|*2026*|![Using ChatGPT and Generative AI in FinTech](<assets/img/UsingChatGPTand GenerativeAIinFinTech.png>)
+|**Using ChatGPT and Generative AI in FinTech**|NASBA|*2026*|![Using ChatGPT and Generative AI in FinTech](<assets/img/UsingChatGPTand GenerativeAIinFinTech.png>)
 |**Generative Al Fundamentals**| Databricks Academy |*2026*|![Generative Al Fundamentals](<assets/img/GenerativeAIFundamentals.png>)
 |**Project Management Foundations**| PMI Institute |*2026*|![Project Management Foundations](<assets/img/ProjectMagementFoundations.png>)
 |**Python Data Analysis**| LinkedIn Learning |*2026*| ![Python Data Analysis](<assets/img/PythonDataAnalysis.png>)
@@ -275,7 +274,8 @@
 |**Using SAS Programs to Execute Pig and HiveQL in Hadoop**|SAS|*2018*|![SAS Hadoop](<assets/img/SASHadoop.png>)
 |**Advanced SAS Programming Library**|SAS|*2008*|![Advanced SAS Programming Library](<assets/img/AdvancedSASProgrammingLibrary.png>)
 |**Performing Advanced Queries Using PROC SQL**|SAS|*2008*|![Performing Advanced Queries Using PROC SQL](<assets/img/PerformingAdvancedQueriesUsingPROCSQL.png>)
-|   |   |   |   |
+
+
 <!--
 - Using ChatGPT and Generative AI in FinTech | NASBA | 2026
 - Generative Al Fundamentals | Databricks Academy | 2026
@@ -288,6 +288,7 @@
 - Building and Solving Optimization Models | SAS | 2018
 - Survival Data Mining | SAS | 2018
 -->
+
 <details  closed>
 <summary>Show credentials:</summary>
 
