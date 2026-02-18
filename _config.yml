@@ -4,3 +4,4 @@ description: Portfolio
 show_downloads: false
 theme: jekyll-theme-minimal
 baseurl: "/terencefarmer.github.io"
+alt_logo: "/assets/img/TableauBadge.png"
