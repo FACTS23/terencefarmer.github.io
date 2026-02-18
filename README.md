@@ -47,8 +47,7 @@
   <summary>see examples:</summary>
   
   <img src="./assets/img/Credit%20Policy%20Monitoring%20p1%20automation%20Tableau.jpg" alt="Credit Policy Monitoring with Tableau Dashboard">
-  
-  <img src="./assets/img/./assets/img/Credit%20Policy%20Monitoring%20p2%20automation%20Tableau.jpg" alt="Credit Policy Monitoring with Tableau Dashboard">
+  <img src="./assets/img/Credit%20Policy%20Monitoring%20p2%20automation%20Tableau.jpg" alt="Credit Policy Monitoring with Tableau Dashboard">
   </details>
 
 - #### Advanced SQL Skills
