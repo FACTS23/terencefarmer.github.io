@@ -232,7 +232,9 @@
 <hr>
 
 ## Certifications
-![SAS Badge](<assets/img/SAS badge.bmp>) ![IBM badge](<assets/img/IBM badge.bmp>)
+
+![Tableau Badge](/assets/img/TableauBadge.png>) ![SAS Badge](<assets/img/SAS badge.bmp>) ![IBM badge](<assets/img/IBM badge.bmp>)
+
 |   |   |   |   |
 |--|--|--|--|
 |**Revenue Management Certificate**|Cornell University|*2012*|![Cornell](<assets/img/Cornell_Revenue_Management_certificate.png>)
