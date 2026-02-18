@@ -31,7 +31,7 @@
   <details>
   <summary>see examples</summary>
 
-  <blockquote> using Snowflake advanced SQL, Tableau and geo mapping, I created and published a Dashboard to analyze strategy</blockquote>
+  <blockquote> using Snowflake advanced SQL, Tableau and geo mapping, I created and published a Dashboard to analyze a new strategy implementation</blockquote>
   <img src="./assets/img/Credit%20Strategy%20analysis%20automation%20Tableau.jpg" alt="Credit Strategy Analysis Analysis">
   </details>
 
@@ -39,10 +39,10 @@
   <details  closed>
   <summary>see examples:</summary>
 
-  <blockquote> I managed more than 30 reports using efficient coding and dashboarding</blockquote>
+  <blockquote>I managed more than 30 reports using efficient coding and dashboarding</blockquote>
   <img src="./assets/img/Tableau%20gallery.jpg" alt="Tableau gallery">
   
-   > This automated and interactive report provided executives, peers, and auditors with real-time information
+   <blockquote>This automated and interactive report provided executives, peers, and auditors with real-time information</blockquote>
   <img src="./assets/img/Deliquencies%20and%20Loss%20WasIs%20automated%20Tableau.jpg" alt="WasIs">
   </details>
 
@@ -50,7 +50,7 @@
   <details  closed>
   <summary>see examples:</summary>
 
-  <blockquote> using Snowflake advanced SQL, Tableau and Adobe, I created a live PDF process that automatically identifies issues and areas of investigation</blockquote>
+  <blockquote>Using Snowflake advanced SQL, Tableau and Adobe, I created a live PDF process that automatically identifies issues and areas of investigation</blockquote>
   <img src="./assets/img/Credit%20Policy%20Monitoring%20p1%20automation%20Tableau.jpg" alt="Credit Policy Monitoring with Tableau Dashboard">
   <img src="./assets/img/Credit%20Policy%20Monitoring%20p2%20automation%20Tableau.jpg" alt="Credit Policy Monitoring with Tableau Dashboard">
   </details>
