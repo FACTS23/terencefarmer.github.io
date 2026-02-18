@@ -6,7 +6,7 @@
 |--|--|--|--|--|
 |**M.S.**|**Computer Science**|Florida Atlantic University|*2019-2020*|![MS Computer Science](<assets/img/MS_Computer_Science.png>)
 |**M.S.**|**Industrial Engineering**|University of Missouri|*2009-2009*<sup>*</sup>|![MS Industrial Engineering](<assets/img/MSIE.png>)
-|\*Ph.D. Candidate|Industrial Engineering|University of Missouri|*2000-2008*|*All But Dissertation (ABD)*<br/>*No Degree*
+|\*Ph.D. Candidate<br/>*All But Dissertation (ABD)*<br/>*No Degree*|Industrial Engineering|University of Missouri|*2000-2008*|![IMSE dissertation](<assets/img/IMSE_dissertation.png>)
 |**M.S.**|**Applied Mathematics** |University of Missouri|*1997-2000*|![MS Applied Mathematics](<assets/img/MSAppliedMathematics2000.png>)
 |**B.S.**|**Mathematics** |Alabama State University|*1993-1997*|![BS Mathematics](<assets/img/BachelorofScienceDegree.png>)
 
@@ -233,7 +233,7 @@
 
 ## Certifications
 
-![Tableau Badge](/assets/img/TableauBadge.png>) ![SAS Badge](<assets/img/SAS badge.bmp>) ![IBM badge](<assets/img/IBM badge.bmp>)
+![Tableau Badge](<assets/img/TableauBadge.png>) ![SAS Badge](<assets/img/SAS badge.bmp>) ![IBM badge](<assets/img/IBM badge.bmp>)
 
 |   |   |   |   |
 |--|--|--|--|
@@ -260,6 +260,7 @@
 <hr>
 
 ## Continuing Education Units
+
 |   |   |   |   |
 |--|--|--|--|
 |**Using ChatGPT and Generative AI in FinTech**|NASBA|*2026*|![Using ChatGPT and Generative AI in FinTech](<assets/img/UsingChatGPTand GenerativeAIinFinTech.png>)
@@ -292,7 +293,7 @@
 -->
 
 <details  closed>
-<summary>Show credentials:</summary>
+<summary>more credentials:</summary>
 
 <img src="./assets/img/ESRI%20Learning%20ArcGIS%209.jpg" alt="ESRI Learning ArcGIS 9">
 <img src="./assets/img/Web%20Authoring%20Fundamentals.png" alt="Web Authoring Fundamentals">
@@ -304,12 +305,21 @@
 
 <hr>
 
-## Awards
+## Awards & Recognitions
 
 <details  closed>
-<summary>Show awards:</summary>
+<summary></summary>
 
 <img src="./assets/img/National%20Science%20Foundation.jpg" alt="NSF">
+
+</details>
+
+## Public Speaking
+
+<details  closed>
+<summary></summary>
+
+<img src="./assets/img/BEYA_talk.png" alt="BEYA">
 
 </details>
 
