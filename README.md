@@ -3,7 +3,7 @@
 ## Education
 
 |   |   |   |   |   |
-|--|--|--|--|--|
+|--|--|--|--|-----|
 |**M.S.**|**Computer Science**|Florida Atlantic University|*2019-2020*|![MS Computer Science](<assets/img/MS_Computer_Science.png>)
 |**M.S.**|**Industrial Engineering**|University of Missouri|*2009-2009*<sup>*</sup>|![MS Industrial Engineering](<assets/img/MSIE.png>)
 |\*Ph.D. Candidate<br/>*All But Dissertation (ABD)*<br/>*No Degree*|Industrial Engineering|University of Missouri|*2000-2008*|![IMSE dissertation](<assets/img/IMSE_dissertation.png>)
@@ -18,7 +18,11 @@
 - #### Data Science
   <details  closed>
   <summary>see examples</summary>
+
+  > using Python, I created Decision Trees to identify strength of model predictor varaibles
   <img src="./assets/img/Decision%20Tree%20for%20Take%20Rate%201%20Python.png" alt="Python Decision Tree">
+  
+  > using Snowflake advanced SQL and Tableau, I created a fully automated report of key model statistics (KS, AUC, PSI)
   <img src="./assets/img/Logistic%20Regression%20Model%20Validation%20p2%20automation%20Tableau.jpg" alt="Logistic Regression Analysis">
   <img src="./assets/img/Logistic%20Regression%20Model%20Validation%20p3%20automation%20Tableau.jpg" alt="Logistic Regression Analysis">
   </details>
@@ -26,52 +30,57 @@
 - #### Visualizations
   <details>
   <summary>see examples</summary>
+
+  > using Snowflake advanced SQL, Tableau and geo mapping, I created and published a Dashboard to analyze strategy.
   <img src="./assets/img/Credit%20Strategy%20analysis%20automation%20Tableau.jpg" alt="Credit Strategy Analysis Analysis">
   </details>
 
 - #### Reporting
-
   <details  closed>
-  <summary>see examples:</summary
+  <summary>see examples:</summary>
+
+  > I managed more than 30 reports using efficient coding and dashboarding
   <img src="./assets/img/Tableau%20gallery.jpg" alt="Tableau gallery">
+  
+   > This automated and interactive report provided executives, peers, and auditors with real-time information
   <img src="./assets/img/Deliquencies%20and%20Loss%20WasIs%20automated%20Tableau.jpg" alt="WasIs">
   </details>
 
 - #### Automations
-
   <details  closed>
   <summary>see examples:</summary>
+
+  > using Snowflake advanced SQL, Tableau and Adobe, I created a live PDF process that automatically identifies issues and areas of investigation
   <img src="./assets/img/Credit%20Policy%20Monitoring%20p1%20automation%20Tableau.jpg" alt="Credit Policy Monitoring with Tableau Dashboard">
   <img src="./assets/img/Credit%20Policy%20Monitoring%20p2%20automation%20Tableau.jpg" alt="Credit Policy Monitoring with Tableau Dashboard">
   </details>
 
 - #### Advanced SQL Skills
-
   <details  closed>
   <summary>see examples:</summary>
-  1. <ins>Window Functions (Analytical Processing)</ins>
-  Used extensively to perform calculations across a set of table rows that are related to the current row.
-  Partitioning and Ordering: Functions like ROW_NUMBER() OVER (PARTITION BY ... ORDER BY ...) are used for ranking, deduplication, and selecting the most recent or first record for a group. Example from Spanish NLS Comments.sql  
   
+  1. <ins>Window Functions (Analytical Processing)</ins>
+  > Used extensively to perform calculations across a set of table rows that are related to the current row.
+  Partitioning and Ordering: Functions like ROW_NUMBER() OVER (PARTITION BY ... ORDER BY ...) are used for ranking, deduplication, and selecting the most recent or first record for a group. Example from Spanish NLS Comments.sql  
+
   <pre><code class="language-sql">
   QUALIFY ROW_NUMBER() OVER (PARTITION BY LOAN_NUMBER ORDER BY CREATED_DATE DESC) = 1
   </code></pre>
-  
+
   Lag/Lead and Value Retrieval: LAST_VALUE() OVER (...), FIRST_VALUE() OVER (...), and LAG() OVER (...) are used to look up values from previous or subsequent rows, often for calculating time-series metrics. Example from DPD Ever.sql  
-  
+
   <pre><code class="language-sql">
   FIRST_VALUE(CAST(dtb31.TRIAL_BALANCE_DATE AS DATE)) OVER (PARTITION BY dtb31.ACCTREFNO ORDER BY dtb31.TRIAL_BALANCE_DATE) AS "first 31 delinquency date"
   </code></pre>
-  
+
   Ratios and Percentiles: RATIO_TO_REPORT() and NTILE(10) are used for comparative analysis and decile/bucket assignments. Example from PSI by Month.sql  
-  
+
   <pre><code class="language-sql">
   ratio_to_report("Application") over (partition by s.SUBMIT_MONTH) as "% Application Validation"
   </code></pre>
-  
+
   2. <ins>Common Table Expressions (CTEs)</ins>
-  
-     For complex queries, I utilize multiple, named sub-queries (CTEs) which significantly improves query readability, modularity, and maintainability by breaking down logic into manageable steps.
+  > For complex queries, I utilize multiple, named sub-queries (CTEs) which significantly improves query readability, modularity, and maintainability by breaking down logic into manageable steps.
       
   - Example structure from Application Funnel.sql:
   
@@ -89,8 +98,7 @@
   </code></pre>
   
   3. <ins>Conditional Logic and Data Transformation</ins>
-  
-  Conditional expressions utilized for classifying data, applying business rules, and managing data quality. Specifically, complex CASE and IFF Statements are used to categorize loans, flag time periods, and translate coded values into meaningful descriptions.
+  > Conditional expressions utilized for classifying data, applying business rules, and managing data quality. Specifically, complex CASE and IFF Statements are used to categorize loans, flag time periods, and translate coded values into meaningful descriptions.
   
   -   Example from WasIs.sql (for DPD Status):
   
@@ -111,8 +119,7 @@
   </code></pre>
   
   4. <ins>Advanced String and JSON Parsing</ins>
-  
-  Extensive use of regular expressions (regexp_substr) and JSON path functions (json_extract_path_text) to extract specific data elements embedded within complex text or JSON/Variant columns, such as from audit logs or credit bureau API requests and responses. This is crucial for pulling specific attributes like credit scores or decline reasons from raw log data.
+  > Extensive use of regular expressions (regexp_substr) and JSON path functions (json_extract_path_text) to extract specific data elements embedded within complex text or JSON/Variant columns, such as from audit logs or credit bureau API requests and responses. This is crucial for pulling specific attributes like credit scores or decline reasons from raw log data.
   
   - Example from Adverse_Action_Top_Factors.sql:
   
@@ -127,8 +134,7 @@
   </code></pre>
   
   5. <ins>Date/Time and Variable Management</ins>
-  
-  The queries demonstrate sophisticated handling of dynamic timeframes, which is common in financial and analytical reporting.
+  > The queries demonstrate sophisticated handling of dynamic timeframes, which is common in financial and analytical reporting.
   Date Arithmetic and Configuration: Queries use variables ($START_DATE, $CURDATE, $AS_OF_DATE) and complex date functions (DATEADD, DATE_TRUNC, LAST_DAY) to define and calculate rolling analysis windows (e.g., last 2 months, year-over-year, last 13 months).
   
   - Example from Application Funnel.sql (for a 2-month flag):
@@ -147,10 +153,10 @@
 
 ### **Principal Consultant** | Farmer Analytical Consulting Technology Services LLC  | Fort Lauderdale, FL | August 2023 – Present
 - #### Projects
-
   <details  closed>
   <summary>see examples:</summary>
-   
+
+  > I supported a private equity fund with idenfying acquisition opportunities by creating custom models, heat maps, and market reports utilizing ESRI ArcGIS, Python, Excel, and Tableau.
   <img src="./assets/img/FACTS_Heat_Map_1.png" alt="FACTS Heat Map">
   <img src="./assets/img/FACTS_Heat_Map_2.png" alt="FACTS Heat Map">
   <img src="./assets/img/FACTS_SiteRankings1.png" alt="FACTS Site Rankings">
@@ -161,10 +167,10 @@
  
 ### **Innovation Unit Supervisor** | Broward County Government | Fort Lauderdale, FL | March 2020 – January 2022
 - #### Visualizations
-
   <details  closed>
   <summary>see examples:</summary>
-   
+
+  > I used PowerBI and ArcGIS to create public-facing dashbaords and newsletters. I received recognition for supporting the community during the COVID pandemic. 
   <img src="./assets/img/Broward%20Covid%20dashboard%201%20PowerBI.png" alt="Covid PowerBI Dashboard">
   <img src="./assets/img/Broward%20Animal%20Care%20Dashboard%20ArcGIS.png" alt="Animal Shelter ArcGIS Dashboard">
   <img src="./assets/img/Broward%20Animal%20Care%20Dashboard%202%20ArcGIS.png" alt="Animal Shelter ArcGIS Dashboard">
@@ -184,7 +190,8 @@
 - #### Visualizations
   <details  closed>
   <summary>see examples:</summary>
-  
+
+  > I used SAS and several databases to create real-time operations monitoring. These efforts were spotlighted in the New York Times. 
   <img src="./assets/img/Disney%20New%20York%20Times%20article%20training%201%20SAS.jpg" alt="SAS Dashboard - Proc Ganno">
   <img src="./assets/img/Disney%20New%20York%20Times%20article%20SAS%20dashboard.png" alt="As seen in NY Times">
   <img src="./assets/img/Disney%20New%20York%20Times%20article%20SAS%202%20dashboard.png" alt="As seen in NY Times">
@@ -194,7 +201,8 @@
 - #### Personalizations
   <details  closed>
   <summary>see examples:</summary>
-  
+
+  > I used SAS to create personalized itineraries. I shared these methods across the company and was recognized by Disney with a technology grant. 
   <img src="./assets/img/Disney%20itinerary%20recommendation%20Tableau.png" alt="Disney Custom Itinerary">
   <img src="./assets/img/Disney%20itinerary%20recommendation%20Guide%20Setup.png" alt="Disney Custom Itinerary design">
   <img src="./assets/img/Disney%20personalization%20strategy%20training%20PPT.jpg" alt="Disney Training Session">
@@ -291,5 +299,9 @@
 <details  closed>
 <summary></summary>
 
+> Panelist discussing the importance of Diversity within Data & Analytics
+<img src="./assets/img/TableauTalk.jpg" alt="Tableau Talk">
+
+> Panelist sharing my career journey at the intersection of Data Science, AI and Smart Cities
 <img src="./assets/img/BEYA_talk.png" alt="BEYA">
 </details>
