@@ -18,7 +18,6 @@
 - #### Data Science
   <details  closed>
   <summary>see examples</summary>
- 
   <img src="./assets/img/Decision%20Tree%20for%20Take%20Rate%201%20Python.png" alt="Python Decision Tree">
   <img src="./assets/img/Logistic%20Regression%20Model%20Validation%20p2%20automation%20Tableau.jpg" alt="Logistic Regression Analysis">
   <img src="./assets/img/Logistic%20Regression%20Model%20Validation%20p3%20automation%20Tableau.jpg" alt="Logistic Regression Analysis">
@@ -27,17 +26,14 @@
 - #### Visualizations
   <details>
   <summary>see examples</summary>
-  
   <img src="./assets/img/Credit%20Strategy%20analysis%20automation%20Tableau.jpg" alt="Credit Strategy Analysis Analysis">
   </details>
 
 - #### Reporting
 
   <details  closed>
-  <summary>see examples:</summary>
-  
+  <summary>see examples:</summary
   <img src="./assets/img/Tableau%20gallery.jpg" alt="Tableau gallery">
-  
   <img src="./assets/img/Deliquencies%20and%20Loss%20WasIs%20automated%20Tableau.jpg" alt="WasIs">
   </details>
 
@@ -45,7 +41,6 @@
 
   <details  closed>
   <summary>see examples:</summary>
-  
   <img src="./assets/img/Credit%20Policy%20Monitoring%20p1%20automation%20Tableau.jpg" alt="Credit Policy Monitoring with Tableau Dashboard">
   <img src="./assets/img/Credit%20Policy%20Monitoring%20p2%20automation%20Tableau.jpg" alt="Credit Policy Monitoring with Tableau Dashboard">
   </details>
@@ -54,11 +49,8 @@
 
   <details  closed>
   <summary>see examples:</summary>
-   
   1. <ins>Window Functions (Analytical Processing)</ins>
-  
   Used extensively to perform calculations across a set of table rows that are related to the current row.
-  
   Partitioning and Ordering: Functions like ROW_NUMBER() OVER (PARTITION BY ... ORDER BY ...) are used for ranking, deduplication, and selecting the most recent or first record for a group. Example from Spanish NLS Comments.sql  
   
   <pre><code class="language-sql">
