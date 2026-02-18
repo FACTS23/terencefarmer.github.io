@@ -10,33 +10,26 @@
 |**M.S.**|**Applied Mathematics** |University of Missouri|*1997-2000*|![MS Applied Mathematics](<assets/img/MSAppliedMathematics2000.png>)
 |**B.S.**|**Mathematics** |Alabama State University|*1993-1997*|![BS Mathematics](<assets/img/BachelorofScienceDegree.png>)
 
-
 <hr>
 
 ## Experience
 ### **Senior Director of Risk Data Science** | DigniFi, Inc. | Fort Lauderdale, FL | January 2022 – February 2026
  
 - #### Data Science
-
   <details  closed>
   <summary>see examples</summary>
  
   <img src="./assets/img/Decision%20Tree%20for%20Take%20Rate%201%20Python.png" alt="Python Decision Tree">
   <img src="./assets/img/Logistic%20Regression%20Model%20Validation%20p2%20automation%20Tableau.jpg" alt="Logistic Regression Analysis">
   <img src="./assets/img/Logistic%20Regression%20Model%20Validation%20p3%20automation%20Tableau.jpg" alt="Logistic Regression Analysis">
- 
   </details>
 
-
 - #### Visualizations
-
   <details>
   <summary>see examples</summary>
   
   <img src="./assets/img/Credit%20Strategy%20analysis%20automation%20Tableau.jpg" alt="Credit Strategy Analysis Analysis">
-  
   </details>
-
 
 - #### Reporting
 
@@ -46,9 +39,7 @@
   <img src="./assets/img/Tableau%20gallery.jpg" alt="Tableau gallery">
   
   <img src="./assets/img/Deliquencies%20and%20Loss%20WasIs%20automated%20Tableau.jpg" alt="WasIs">
-  
   </details>
-
 
 - #### Automations
 
@@ -58,9 +49,7 @@
   <img src="./assets/img/Credit%20Policy%20Monitoring%20p1%20automation%20Tableau.jpg" alt="Credit Policy Monitoring with Tableau Dashboard">
   
   <img src="./assets/img/./assets/img/Credit%20Policy%20Monitoring%20p2%20automation%20Tableau.jpg" alt="Credit Policy Monitoring with Tableau Dashboard">
-  
   </details>
-
 
 - #### Advanced SQL Skills
 
@@ -163,7 +152,6 @@
   <pre><code class="language-sql">
   set CURDATE = to_date('2023-01-01');
   </code></pre>
-  
   </details>
 
 ### **Principal Consultant** | Farmer Analytical Consulting Technology Services LLC  | Fort Lauderdale, FL | August 2023 – Present
@@ -178,7 +166,6 @@
   <img src="./assets/img/FACTS_WhatsInMyCommunity.png" alt="FACTS Whats In My Community">
   <img src="./assets/img/FACTS_TapestryReport.png" alt="FACTS Tapestry Report">
   <img src="./assets/img/FACTS_ModelVariables.png" alt="FACTS Model Variables">
-  
   </details>
  
 ### **Innovation Unit Supervisor** | Broward County Government | Fort Lauderdale, FL | March 2020 – January 2022
@@ -191,7 +178,6 @@
   <img src="./assets/img/Broward%20Animal%20Care%20Dashboard%20ArcGIS.png" alt="Animal Shelter ArcGIS Dashboard">
   <img src="./assets/img/Broward%20Animal%20Care%20Dashboard%202%20ArcGIS.png" alt="Animal Shelter ArcGIS Dashboard">
   <img src="./assets/img/Broward%20Animal%20Care%20Newsletter%20ArcGIS.png" alt="Animal Shelter ArcGIS Newsletter">
-  
   </details>
 
 
@@ -212,7 +198,6 @@
   <img src="./assets/img/Disney%20New%20York%20Times%20article%20SAS%20dashboard.png" alt="As seen in NY Times">
   <img src="./assets/img/Disney%20New%20York%20Times%20article%20SAS%202%20dashboard.png" alt="As seen in NY Times">
   <img src="./assets/img/Disney%20New%20York%20Times%20article%20SAS%203%20dashboard.png" alt="As seen in NY Times">
-  
   </details>
 
 - #### Personalizations
@@ -222,7 +207,6 @@
   <img src="./assets/img/Disney%20itinerary%20recommendation%20Tableau.png" alt="Disney Custom Itinerary">
   <img src="./assets/img/Disney%20itinerary%20recommendation%20Guide%20Setup.png" alt="Disney Custom Itinerary design">
   <img src="./assets/img/Disney%20personalization%20strategy%20training%20PPT.jpg" alt="Disney Training Session">
-  
   </details>
 
 ### **Marketing Reporting & Analytics Manager** | The Walt Disney Company | Orlando, FL | July 2007 – November 2008
@@ -233,7 +217,7 @@
 
 ## Certifications
 
-![Tableau Badge](<assets/img/TableauBadge.png>) ![SAS Badge](<assets/img/SAS badge.bmp>) ![IBM badge](<assets/img/IBM badge.bmp>)
+![Tableau Badge](<assets/img/TableauBadge.png>)  ![SAS Badge](<assets/img/SAS badge.bmp>)  ![IBM badge](<assets/img/IBM badge.bmp>)
 
 |   |   |   |   |
 |--|--|--|--|
@@ -253,7 +237,6 @@
 <img src="./assets/img/Microsoft%20Excel%202000.jpg" alt="Excel">
 <img src="./assets/img/Microsoft%20Office%20Specialist%20Master%202000.jpg" alt="MS Office">
 <img src="./assets/img/IBM.png" alt="IBM">
-
 </details>
 -->
 
@@ -300,7 +283,6 @@
 <img src="./assets/img/Advanced%20Wiring%20and%20NEC%20Code.png" alt="Advanced Wiring and NEC Code">
 <img src="./assets/img/Introduction%20to%20Urban%20and%20Regional%20Planning%20Concepts.png" alt="Introduction to Urban and Regional Planning Concepts">
 <img src="./assets/img/CPR_front.bmp" alt="CPR">
-
 </details>
 
 <hr>
@@ -311,7 +293,6 @@
 <summary></summary>
 
 <img src="./assets/img/National%20Science%20Foundation.jpg" alt="NSF">
-
 </details>
 
 ## Public Speaking
@@ -320,7 +301,4 @@
 <summary></summary>
 
 <img src="./assets/img/BEYA_talk.png" alt="BEYA">
-
 </details>
-
-
