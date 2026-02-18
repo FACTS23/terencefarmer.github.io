@@ -11,6 +11,7 @@
 |   |   |   |   |
 |\*Ph.D. Candidate|Industrial Engineering|University of Missouri|*2000-2008*|*No Degree, All But Dissertation (ABD)*
 
+<hr>
 
 ## Experience
 ### **Senior Director of Risk Data Science** | DigniFi, Inc. | Fort Lauderdale, FL | January 2022 – February 2026
@@ -165,6 +166,20 @@
   
   </details>
 
+### **Principal Consultant** | Farmer Analytical Consulting Technology Services LLC  | Fort Lauderdale, FL | August 2023 – Present
+- #### Projects
+
+  <details  closed>
+  <summary>see examples:</summary>
+   
+  <img src="./assets/img/FACTS_Heat_Map_1.png" alt="FACTS Heat Map">
+  <img src="./assets/img/FACTS_Heat_Map_2.png" alt="FACTS Heat Map">
+  <img src="./assets/img/FACTS_SiteRankings1.png" alt="FACTS Site Rankings">
+  <img src="./assets/img/FACTS_WhatsInMyCommunity.png" alt="FACTS Whats In My Community">
+  <img src="./assets/img/FACTS_TapestryReport.png" alt="FACTS Tapestry Report">
+  <img src="./assets/img/FACTS_ModelVariables.png" alt="FACTS Model Variables">
+  
+  </details>
  
 ### **Innovation Unit Supervisor** | Broward County Government | Fort Lauderdale, FL | March 2020 – January 2022
 - #### Visualizations
@@ -175,7 +190,7 @@
   <img src="./assets/img/Broward%20Covid%20dashboard%201%20PowerBI.png" alt="Covid PowerBI Dashboard">
   <img src="./assets/img/Broward%20Animal%20Care%20Dashboard%20ArcGIS.png" alt="Animal Shelter ArcGIS Dashboard">
   <img src="./assets/img/Broward%20Animal%20Care%20Dashboard%202%20ArcGIS.png" alt="Animal Shelter ArcGIS Dashboard">
-  <img src="./assets/img/Broward%20Animal%20Care%20Newsletter%20ArcGIS.png" alt="Animal Shelter ArcGIS Newslette">
+  <img src="./assets/img/Broward%20Animal%20Care%20Newsletter%20ArcGIS.png" alt="Animal Shelter ArcGIS Newsletter">
   
   </details>
 
@@ -214,16 +229,18 @@
 
 ### **Senior Credit Policy Data Manager** | CitiMortgage (Citigroup) | St. Louis, MO | August 2005 – June 2007
 
+<hr>
+
 ## Certifications
 ![SAS Badge](<assets/img/SAS badge.bmp>) ![IBM badge](<assets/img/IBM badge.bmp>)
 |   |   |   |   |
 |--|--|--|--|
-|**Revenue Management Certificate** | Cornell University | *2012* |![Cornell](<assets/img/Cornell_Revenue_Management_certificate.png>)
-|**Tableau Desktop Qualified Associate**| Tableau | *2017* |![Tableau](<assets/img/Tableau_certification.png>)
-|**SAS Certified Base Programmer**| SAS | *2005* |![SAS](<assets/img/SAS%20Certified%20Base%20Programmer.jpg>)
-|**IBM Certified Database Associate**| IBM | *2005* |![IBM](<assets/img/IBM.png>)
-|**Microsoft Excel Expert Certification**| Microsoft | *2004* |![Excel](<assets/img/Microsoft%20Excel%202000.jpg>)
-|**Microsoft Office Master Certification**| Microsoft | *2004* |![Excel](<assets/img/Microsoft%20Office%20Specialist%20Master%202000.jpg>)
+|**Revenue Management Certificate** |Cornell University|*2012*|![Cornell](<assets/img/Cornell_Revenue_Management_certificate.png>)
+|**Tableau Desktop Qualified Associate**|Tableau|*2017*|![Tableau](<assets/img/Tableau_certification.png>)
+|**SAS Certified Base Programmer**|SAS|*2005*|![SAS](<assets/img/SAS%20Certified%20Base%20Programmer.jpg>)
+|**IBM Certified Database Associate**|IBM|*2005*|![IBM](<assets/img/IBM.png>)
+|**Microsoft Excel Expert Certification**|Microsoft|*2004*|![Excel](<assets/img/Microsoft%20Excel%202000.jpg>)
+|**Microsoft Office Master Certification**|Microsoft|*2004*|![Excel](<assets/img/Microsoft%20Office%20Specialist%20Master%202000.jpg>)
 |   |   |   |   |
 
 <!--
@@ -239,23 +256,25 @@
 </details>
 -->
 
+<hr>
+
 ## Continuing Education Units
 |   |   |   |   |
 |--|--|--|--|
-|**Using ChatGPT and Generative AI in FinTech** | NASBA | *2026* | ![Using ChatGPT and Generative AI in FinTech](<assets/img/UsingChatGPTand GenerativeAIinFinTech.png>)
-|**Generative Al Fundamentals**| Databricks Academy | *2026* | ![Generative Al Fundamentals](<assets/img/GenerativeAIFundamentals.png>)
-|**Project Management Foundations**| PMI Institute | *2026* | ![Project Management Foundations](<assets/img/ProjectMagementFoundations.png>)
-|**Python Data Analysis**| LinkedIn Learning | *2026* | ![Python Data Analysis](<assets/img/PythonDataAnalysis.png>)
-|**The Data Science of Economics, Banking, and Finance**| LinkedIn Learning | *2026* |![The Data Science of Economics Banking and Finance](<assets/img/DataScienceofEconomicsBankingFinance.png>)
-|**Databricks Fundamentals**| Databricks Academy | *2026* | ![Databricks Fundamentals](<assets/img/DatabricksFundamentals.png>)
-|**Microsoft Azure Fundamentals**| Microsoft | *2020* |
-|**Power BI Dashboarding**| Microsoft | *2020* |
-|**Credit Scorecard Development and Implementation**| SAS | *2020* |
-|**Building and Solving Optimization Models**| SAS | *2018* | ![SAS Optimization Models](<assets/img/SASOptimizationModels.png>)
-|**Survival Data Mining**| SAS | *2018* | ![SAS Data Mining](<assets/img/SASDataMining.png>)
-|**Using SAS Programs to Execute Pig and HiveQL in Hadoop**| SAS | *2018* | ![SAS Hadoop](<assets/img/SASHadoop.png>)
-|**Advanced SAS Programming Library**| SAS | *2008* | ![Advanced SAS Programming Library](<assets/img/AdvancedSASProgrammingLibrary.png>)
-|**Performing Advanced Queries Using PROC SQL**| SAS | *2008* | ![Performing Advanced Queries Using PROC SQL](<assets/img/PerformingAdvancedQueriesUsingPROCSQL.png>)
+|**Using ChatGPT and Generative AI in FinTech** |NASBA|*2026*|![Using ChatGPT and Generative AI in FinTech](<assets/img/UsingChatGPTand GenerativeAIinFinTech.png>)
+|**Generative Al Fundamentals**| Databricks Academy |*2026*|![Generative Al Fundamentals](<assets/img/GenerativeAIFundamentals.png>)
+|**Project Management Foundations**| PMI Institute |*2026*|![Project Management Foundations](<assets/img/ProjectMagementFoundations.png>)
+|**Python Data Analysis**| LinkedIn Learning |*2026*| ![Python Data Analysis](<assets/img/PythonDataAnalysis.png>)
+|**The Data Science of Economics, Banking, and Finance**|LinkedIn Learning|*2026*|![The Data Science of Economics Banking and Finance](<assets/img/DataScienceofEconomicsBankingFinance.png>)
+|**Databricks Fundamentals**|Databricks Academy|*2026*|![Databricks Fundamentals](<assets/img/DatabricksFundamentals.png>)
+|**Microsoft Azure Fundamentals**|Microsoft|*2020*|
+|**Power BI Dashboarding**|Microsoft|*2020*|
+|**Credit Scorecard Development and Implementation**|SAS|*2020*|
+|**Building and Solving Optimization Models**|SAS|*2018*| ![SAS Optimization Models](<assets/img/SASOptimizationModels.png>)
+|**Survival Data Mining**|SAS| *2018*|![SAS Data Mining](<assets/img/SASDataMining.png>)
+|**Using SAS Programs to Execute Pig and HiveQL in Hadoop**|SAS|*2018*|![SAS Hadoop](<assets/img/SASHadoop.png>)
+|**Advanced SAS Programming Library**|SAS|*2008*|![Advanced SAS Programming Library](<assets/img/AdvancedSASProgrammingLibrary.png>)
+|**Performing Advanced Queries Using PROC SQL**|SAS|*2008*|![Performing Advanced Queries Using PROC SQL](<assets/img/PerformingAdvancedQueriesUsingPROCSQL.png>)
 |   |   |   |   |
 <!--
 - Using ChatGPT and Generative AI in FinTech | NASBA | 2026
@@ -279,6 +298,8 @@
 <img src="./assets/img/CPR_front.bmp" alt="CPR">
 
 </details>
+
+<hr>
 
 ## Awards
 
