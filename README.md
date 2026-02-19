@@ -103,13 +103,15 @@
   Lag/Lead and Value Retrieval: LAST_VALUE() OVER (...), FIRST_VALUE() OVER (...), and LAG() OVER (...) are used to look up values from previous or subsequent rows, often for calculating time-series metrics. Example from DPD Ever.sql  
 
   <pre><code class="language-sql">
-  FIRST_VALUE(CAST(dtb31.TRIAL_BALANCE_DATE AS DATE)) OVER (PARTITION BY dtb31.ACCTREFNO ORDER BY dtb31.TRIAL_BALANCE_DATE) AS "first 31 delinquency date"
+  FIRST_VALUE(CAST(dtb31.TRIAL_BALANCE_DATE AS DATE)) 
+   OVER (PARTITION BY dtb31.ACCTREFNO ORDER BY dtb31.TRIAL_BALANCE_DATE) AS "first 31 delinquency date"
   </code></pre>
 
   Ratios and Percentiles: RATIO_TO_REPORT() and NTILE(10) are used for comparative analysis and decile/bucket assignments. Example from PSI by Month.sql  
 
   <pre><code class="language-sql">
-  ratio_to_report("Application") over (partition by s.SUBMIT_MONTH) as "% Application Validation"
+  ratio_to_report("Application") 
+   over (partition by s.SUBMIT_MONTH) as "% Application Validation"
   </code></pre>
 
   2. <ins>Common Table Expressions (CTEs)</ins>
@@ -157,13 +159,15 @@
   - Example from Adverse_Action_Top_Factors.sql:
   
   <pre><code class="language-sql">
-  CAST(LTRIM(regexp_substr(EA_RAM.REQUEST,'\"bankruptcy_count_24_month\":\\\\W+(\\\\\w+)',1,1,'e',1)) AS FLOAT) AS bankruptcy_count_24_month
+  CAST(LTRIM(regexp_substr(EA_RAM.REQUEST,'\"bankruptcy_count_24_month\":\\\\W+(\\\\\w+)',1,1,'e',1)) AS FLOAT) 
+   AS bankruptcy_count_24_month
   </code></pre>
   
   - Example from Credit Policy Applications.sql:
   
   <pre><code class="language-sql">
-  CAST(json_extract_path_text(REQUEST,'\"experian\".\"income_insight\"') AS NUMBER(38,0)) AS INCOME_INSIGHT_CODE
+  CAST(json_extract_path_text(REQUEST,'\"experian\".\"income_insight\"') AS NUMBER(38,0)) 
+   AS INCOME_INSIGHT_CODE
   </code></pre>
   
   5. <ins>Date/Time and Variable Management</ins>
@@ -174,7 +178,8 @@
   - Example from Application Funnel.sql (for a 2-month flag):
   
   <pre><code class="language-sql">
-  WHEN date >= DATEADD(MONTH, -1, DATE_TRUNC(MONTH, today + 1)) AND date <= DATE_TRUNC(MONTH, today + 1) - 1
+  WHEN date >= DATEADD(MONTH, -1, DATE_TRUNC(MONTH, today + 1)) 
+   AND date <= DATE_TRUNC(MONTH, today + 1) - 1
   THEN 1
   </code></pre>
   
