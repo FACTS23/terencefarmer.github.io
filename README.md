@@ -19,7 +19,7 @@
   <details  closed>
   <summary>see examples</summary>
 
-  <blockquote>Using Python with PyCharm, I created Decision Trees and Logistic Models to identify the strength of model predictor varaibles</blockquote>
+  <blockquote>Using Python with PyCharm, I created Decision Trees and Logistic Models to identify the strength of model predictor variables</blockquote>
   <img src="./assets/img/Decision%20Tree%20for%20Take%20Rate%201%20Python.png" alt="Python Decision Tree">
   <pre><code class="language-python">
   import pandas as pd
@@ -190,7 +190,7 @@
   <details  closed>
   <summary>see examples:</summary>
 
-  <blockquote>I support a private equity fund with idenfying acquisition opportunities by creating custom models, heat maps, and market reports utilizing ESRI ArcGIS, Python, Excel, and Tableau.</blockquote>
+  <blockquote>I support a private equity fund with identifying  acquisition opportunities by creating custom models, heat maps, and market reports utilizing ESRI ArcGIS, Python, Excel, and Tableau.</blockquote>
   <img src="./assets/img/FACTS_Heat_Map_1.png" alt="FACTS Heat Map">
   <img src="./assets/img/FACTS_Heat_Map_2.png" alt="FACTS Heat Map">
   <img src="./assets/img/FACTS_SiteRankings1.png" alt="FACTS Site Rankings">
@@ -204,7 +204,7 @@
   <details  closed>
   <summary>see examples:</summary>
 
-  <blockquote> I used PowerBI and ArcGIS to create public-facing dashbaords and newsletters. I received recognition for supporting the community during the COVID pandemic.</blockquote>
+  <blockquote> I used PowerBI and ArcGIS to create public-facing dashboards and newsletters. I received recognition for supporting the community during the COVID pandemic.</blockquote>
   <img src="./assets/img/Broward%20Covid%20dashboard%201%20PowerBI.png" alt="Covid PowerBI Dashboard">
   <img src="./assets/img/Broward%20Animal%20Care%20Dashboard%20ArcGIS.png" alt="Animal Shelter ArcGIS Dashboard">
   <img src="./assets/img/Broward%20Animal%20Care%20Dashboard%202%20ArcGIS.png" alt="Animal Shelter ArcGIS Dashboard">
@@ -227,7 +227,7 @@
  </details>
 
 ### **Experience Insights Analytics Manager** | The Walt Disney Company | Orlando, FL | January 2014 – January 2017
-- #### Personalizations
+- #### Personalization
   <details  closed>
   <summary>see examples:</summary>
 
@@ -242,7 +242,7 @@
   <details  closed>
   <summary>see examples:</summary>
 
-  <blockquote> I used Advanced SAS Programming to publish a booking and rate calendars for ease of accessibility for front-line workers.</blockquote>
+  <blockquote> I used Advanced SAS Programming to publish booking and rate calendars for ease of accessibility for front-line workers.</blockquote>
   <img src="./assets/img/Disney_RM_BookingCalendar.png" alt="Disney Booking Calendar"><br>
   <img src="./assets/img/Disney_RM_SeasonCalendar.png" alt="Disney Seasons Calendar"><br>
   </details>
@@ -389,6 +389,6 @@
 <details  closed>
 <summary></summary>
 
-<blockquote>I have visted more than 40 countries!</blockquote>
+<blockquote>I have visited more than 40 countries!</blockquote>
 <img src="./assets/img/TravelMap.png" alt="Travels">
 </details>
