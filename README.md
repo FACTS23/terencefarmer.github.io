@@ -6,7 +6,7 @@
 |--|--|--|--|-----|
 |**M.S.**|**Computer Science**|Florida Atlantic University|*2019-2020*|![MS Computer Science](<assets/img/MS_Computer_Science.png>)
 |**M.S.**|**Industrial Engineering**|University of Missouri|*2009-2009*<sup>*</sup>|![MS Industrial Engineering](<assets/img/MSIE.png>)
-|\*Ph.D. Candidate|Industrial Engineering|University of Missouri|*2000-2008*|*No Degree*, *All But Dissertation (ABD)* ![IMSE dissertation](<assets/img/IMSE_dissertation.png>)
+|\*Ph.D. Candidate|Industrial Engineering|University of Missouri|*2000-2008*|![IMSE dissertation](<assets/img/IMSE_dissertation.png>)<sub>*No Degree*, *All But Dissertation (ABD)*</sub>
 |**M.S.**|**Applied Mathematics** |University of Missouri|*1997-2000*|![MS Applied Mathematics](<assets/img/MSAppliedMathematics2000.png>)
 |**B.S.**|**Mathematics** |Alabama State University|*1993-1997*|![BS Mathematics](<assets/img/BachelorofScienceDegree.png>)
 
@@ -19,9 +19,41 @@
   <details  closed>
   <summary>see examples</summary>
 
-  <blockquote>Using Python, I created Decision Trees to identify the strength of model predictor varaibles</blockquote>
+  <blockquote>Using Python with PyCharm, I created Decision Trees and Logistic Models to identify the strength of model predictor varaibles</blockquote>
   <img src="./assets/img/Decision%20Tree%20for%20Take%20Rate%201%20Python.png" alt="Python Decision Tree">
-  
+  <pre><code class="language-python">
+  import pandas as pd
+  import numpy as np
+  import statsmodels.api as sm
+  from matplotlib import pyplot as plt
+  import sklearn.linear_model as lm
+  from sklearn.linear_model import LogisticRegression
+  from sklearn.tree import DecisionTreeClassifier, plot_tree
+  from sklearn.metrics import classification_report, confusion_matrix, accuracy_score, mean_squared_error,r2_score
+  from sklearn.model_selection import train_test_split
+  from sklearn.datasets import make_classification
+  from sklearn.preprocessing import StandardScaler
+  from sklearn.preprocessing import LabelEncoder
+  from sklearn.preprocessing import OneHotEncoder
+  ... 
+   VARS = ['APPROVED_AMOUNT', 'APR','VANTAGE', 'OFFER_TIER_DELTA','TIER_2'  ,'TIER_3'  ,'TIER_4'  ,'TIER_5'  ,'TIER_6'  ,'TIER_7']
+  ...
+  X = data[dti_model]
+  y = data['FUNDED_FLAG']
+  ...
+  model = DecisionTreeClassifier(max_depth=5)
+  model.fit(X_train, y_train)
+  ...
+  plot_tree(model,
+              feature_names=dti_model,
+              filled=True,
+              rounded=True,
+              fontsize=6
+              )
+    plt.title(f"Take Rate Decision Tree: {dti_model}\nAccuracy: {accuracy:.2%}; RMSE: {rmse:.2f}; R²: {r_squared:.2f}")
+    plt.show()
+  </code></pre>
+
   <blockquote>Using Snowflake advanced SQL and Tableau, I created a fully automated report of key model statistics (KS, AUC, PSI)</blockquote>
   <img src="./assets/img/Logistic%20Regression%20Model%20Validation%20p2%20automation%20Tableau.jpg" alt="Logistic Regression Analysis">
   <img src="./assets/img/Logistic%20Regression%20Model%20Validation%20p3%20automation%20Tableau.jpg" alt="Logistic Regression Analysis">
@@ -158,7 +190,7 @@
   <details  closed>
   <summary>see examples:</summary>
 
-  <blockquote>I supported a private equity fund with idenfying acquisition opportunities by creating custom models, heat maps, and market reports utilizing ESRI ArcGIS, Python, Excel, and Tableau.</blockquote>
+  <blockquote>I support a private equity fund with idenfying acquisition opportunities by creating custom models, heat maps, and market reports utilizing ESRI ArcGIS, Python, Excel, and Tableau.</blockquote>
   <img src="./assets/img/FACTS_Heat_Map_1.png" alt="FACTS Heat Map">
   <img src="./assets/img/FACTS_Heat_Map_2.png" alt="FACTS Heat Map">
   <img src="./assets/img/FACTS_SiteRankings1.png" alt="FACTS Site Rankings">
@@ -179,14 +211,41 @@
   <img src="./assets/img/Broward%20Animal%20Care%20Newsletter%20ArcGIS.png" alt="Animal Shelter ArcGIS Newsletter">
   </details>
 
-
 ### **Senior Risk Analyst** | Southeast Toyota Finance | Fort Lauderdale, FL | January 2018 – March 2020
-
+  <details  closed>
+  <summary>highlights:</summary>
+   
+  <blockquote>Supported the Risk Management Department with credit modeling, policy changes, fraud analytics, portfolio trends, and data visualization for Toyota’s regional consumer lending division serving over 177 dealers. Managed the Loan Origination data warehousing environment to enable the timely presentation of insights to senior executives, with an emphasis on explanatory analysis. Leveraged high-level SAS SQL programming techniques such as macro coding, background processing, and parallel execution of scripts to reduce data extraction time and efficiently disseminate information via Tableau dashboards.
+  </blockquote>
+  </details>
+     
 ### **Manager, Tool & Analytics** | Citrix Systems | Fort Lauderdale, FL | January 2017 – October 2017
+  <details  closed>
+  <summary>highlights:</summary>
+   
+ <blockquote>Designed and maintained Tableau dashboards for corporate insights, operational analysis and ad-hoc reporting. Owned the project to introduce Customer Effort Scoring as a leading indicator of satisfaction and retention, which entailed designing and automating survey processes to more than 30K customers and analyzing website traffic.</blockquote>
+ </details>
 
 ### **Experience Insights Analytics Manager** | The Walt Disney Company | Orlando, FL | January 2014 – January 2017
+- #### Personalizations
+  <details  closed>
+  <summary>see examples:</summary>
+
+  <blockquote> I used SAS and Tableau to create personalized itineraries. I shared these methods across the company and was recognized by Disney with a technology grant.</blockquote>
+  <img src="./assets/img/Disney%20itinerary%20recommendation%20Tableau.png" alt="Disney Custom Itinerary">
+  <img src="./assets/img/Disney%20itinerary%20recommendation%20Guide%20Setup.png" alt="Disney Custom Itinerary design">
+  <img src="./assets/img/Disney%20personalization%20strategy%20training%20PPT.jpg" alt="Disney Training Session">
+  </details>
 
 ### **Senior Revenue Analyst** | The Walt Disney Company | Orlando, FL | November 2011 – December 2013
+- #### Visualizations
+  <details  closed>
+  <summary>see examples:</summary>
+
+  <blockquote> I used Advanced SAS Programming to publish a booking and rate calendars for ease of accessibility for front-line workers.</blockquote>
+  <img src="./assets/img/Disney_RM_BookingCalendar.png" alt="Disney Booking Calendar"><br>
+  <img src="./assets/img/Disney_RM_SeasonCalendar.png" alt="Disney Seasons Calendar"><br>
+  </details>
 
 ### **Senior Industrial Engineer** | The Walt Disney Company | Orlando, FL | November 2008 – November 2011
 - #### Visualizations
@@ -201,25 +260,31 @@
   <img src="./assets/img/Disney%20New%20York%20Times%20article%20SAS%203%20dashboard.png" alt="As seen in NY Times">
   </details>
 
-- #### Personalizations
+### **Marketing Reporting & Analytics Manager** | The Walt Disney Company | Orlando, FL | July 2007 – November 2008
+- #### Analysis
   <details  closed>
   <summary>see examples:</summary>
 
-  <blockquote> I used SAS and Tableau to create personalized itineraries. I shared these methods across the company and was recognized by Disney with a technology grant.</blockquote>
-  <img src="./assets/img/Disney%20itinerary%20recommendation%20Tableau.png" alt="Disney Custom Itinerary">
-  <img src="./assets/img/Disney%20itinerary%20recommendation%20Guide%20Setup.png" alt="Disney Custom Itinerary design">
-  <img src="./assets/img/Disney%20personalization%20strategy%20training%20PPT.jpg" alt="Disney Training Session">
+  <blockquote> I used SAS to perform analysis and modeling of Marketing efforts.</blockquote>
+  <img src="./assets/img/Disney_CMR_MarketingLift.png" alt="CMR Marketing Lift">
+  <img src="./assets/img/Disney_CMR_DecisionTree.png" alt="CMR Decision Tree">
+  <img src="./assets/img/Disney_CMR_DecisionTreeVariables.png" alt="CMR Decision Tree">
   </details>
 
-### **Marketing Reporting & Analytics Manager** | The Walt Disney Company | Orlando, FL | July 2007 – November 2008
-
 ### **Senior Credit Policy Data Manager** | CitiMortgage (Citigroup) | St. Louis, MO | August 2005 – June 2007
+- #### Visualizations
+  <details  closed>
+  <summary>see examples:</summary>
+
+  <blockquote> I used Microsoft Access to create a Credit Policy Glossary.</blockquote>
+  <img src="./assets/img/Citi_Credit_Policy_Glossary.png" alt="Credit Policy Glossary">
+  </details>
 
 <hr>
 
 ## Certifications
 
-![Tableau Badge](<assets/img/TableauBadge.png>)  ![SAS Badge](<assets/img/SAS badge.bmp>)  ![IBM badge](<assets/img/IBM badge.bmp>)
+   ![Tableau Badge](<assets/img/TableauBadge.png>)  ![SAS Badge](<assets/img/SAS badge.png>)  ![IBM badge](<assets/img/IBM badge.png>)   ![Microsoft Specialist](<assets/img/MicrosoftSpecialist.png>)
 
 |   |   |   |   |
 |--|--|--|--|
@@ -284,7 +349,6 @@
 <img src="./assets/img/Web%20Authoring%20Fundamentals.png" alt="Web Authoring Fundamentals">
 <img src="./assets/img/Advanced%20Wiring%20and%20NEC%20Code.png" alt="Advanced Wiring and NEC Code">
 <img src="./assets/img/Introduction%20to%20Urban%20and%20Regional%20Planning%20Concepts.png" alt="Introduction to Urban and Regional Planning Concepts">
-<img src="./assets/img/CPR_front.bmp" alt="CPR">
 </details>
 
 <hr>
@@ -307,4 +371,24 @@
 
 <blockquote>Panelist sharing my career journey at the intersection of Data Science, AI and Smart Cities</blockquote>
 <img src="./assets/img/BEYA_talk.png" alt="BEYA">
+</details>
+
+
+## Volunteerism
+
+<details  closed>
+<summary></summary>
+
+<blockquote>Passionate about education and community quality of life issues</blockquote>
+<img src="./assets/img/CPR_front.bmp" alt="CPR">
+<img src="./assets/img/AdultLiteracyLeague.png" alt="Adult Literacy League">
+</details>
+
+## Hobbies
+
+<details  closed>
+<summary></summary>
+
+<blockquote>I have visted more than 40 countries!</blockquote>
+<img src="./assets/img/TravelMap.png" alt="Travels">
 </details>
