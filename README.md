@@ -1,4 +1,9 @@
-# Portfolio
+# Terence Farmer Portfolio
+<details  open>
+<summary></summary>
+
+<img src="./assets/img/THS-3.jpg" alt="Profile Picture">
+</details>
 
 ## Education
 
