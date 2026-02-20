@@ -294,7 +294,7 @@
 
 ## Certifications
 
-   ![Tableau Badge](<assets/img/TableauBadge.png>)  ![SAS Badge](<assets/img/SAS badge.png>)  ![IBM badge](<assets/img/IBM badge.png>)   ![Microsoft Specialist](<assets/img/MicrosoftSpecialist.png>)
+<img src="./assets/img/Certifications.png" alt="Certifications">
 
 |   |   |   |   |
 |--|--|--|--|
@@ -314,6 +314,11 @@
 <img src="./assets/img/Microsoft%20Excel%202000.jpg" alt="Excel">
 <img src="./assets/img/Microsoft%20Office%20Specialist%20Master%202000.jpg" alt="MS Office">
 <img src="./assets/img/IBM.png" alt="IBM">
+
+![Tableau Badge](<assets/img/TableauBadge.png>)  
+![SAS Badge](<assets/img/SAS badge.png>)  
+![IBM badge](<assets/img/IBM badge.png>)   
+![Microsoft Specialist](<assets/img/MicrosoftSpecialist.png>)
 </details>
 -->
 
@@ -369,6 +374,9 @@
 <summary></summary>
 
 <img src="./assets/img/National%20Science%20Foundation.jpg" alt="NSF">
+<img src="./assets/img/DisneyGrant.png" alt="DisneyGrant">
+<img src="./assets/img/SETF_pinnacle.png" alt="SETF pinnacle">
+<img src="./assets/img/BrowardCovid_NACo_Award.png" alt="Broward Covid">
 </details>
 
 ## Public Speaking
@@ -377,10 +385,14 @@
 <summary></summary>
 
 <blockquote>Panelist discussing the importance of Diversity within Data & Analytics</blockquote>
+<a href="https://youtu.be/nHhta_17Ryc?t=134">
 <img src="./assets/img/TableauTalk.jpg" alt="Tableau Talk">
+</a>
 
 <blockquote>Panelist sharing my career journey at the intersection of Data Science, AI and Smart Cities</blockquote>
+<a href="https://youtu.be/kzWSFDw_11M?t=678">
 <img src="./assets/img/BEYA_talk.png" alt="BEYA">
+ </a>
 </details>
 
 
