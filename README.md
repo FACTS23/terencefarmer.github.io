@@ -290,6 +290,13 @@
   <img src="./assets/img/Citi_Credit_Policy_Glossary.png" alt="Credit Policy Glossary">
   </details>
 
+### **Assistant Traffic Engineer** | City of Columbia, Missouri Government | Columbia, MO | September 2003 – August 2005
+  <details  closed>
+  <summary>highlights:</summary>
+   
+  <blockquote>Managed transportation and traffic-calming projects using engineering and cost/benefit analysis. Collected and assembled traffic data used in transportation studies and reports. Performed topographic and engineering surveys. Drafts resolutions, ordinances, and memos for City Council consideration. Prepared engineering designs, plans, specifications, and cost estimates for traffic control devices and signals. Participated in the review of construction and development plans and subdivision plats to ensure compliance with regulation and standards. Analyzed traffic impacts from new development or redevelopment projects. Prepared transportation improvement program and traffic impact studies. Performed traffic engineering analyses.</blockquote>
+  </details>
+
 <hr>
 
 ## Certifications
