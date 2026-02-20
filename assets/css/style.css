@@ -1,5 +1,15 @@
 ---
 ---
+
+@import "{{ site.theme }}";
+header {
+  display: none !important;
+}
+.btn {
+  display: none !important;
+}
+
+
 .image-container {
   position: relative;
   width: 50%;
