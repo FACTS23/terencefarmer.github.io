@@ -385,12 +385,12 @@
 <summary></summary>
 
 <blockquote>Panelist discussing the importance of Diversity within Data & Analytics</blockquote>
-<a href="https://youtu.be/nHhta_17Ryc?t=134">
+<a href="https://youtu.be/nHhta_17Ryc?t=134" target="_blank" rel="noopener noreferrer">
 <img src="./assets/img/TableauTalk.jpg" alt="Tableau Talk">
 </a>
 
 <blockquote>Panelist sharing my career journey at the intersection of Data Science, AI and Smart Cities</blockquote>
-<a href="https://youtu.be/kzWSFDw_11M?t=678">
+<a href="https://youtu.be/kzWSFDw_11M?t=678" target="_blank" rel="noopener noreferrer">
 <img src="./assets/img/BEYA_talk.png" alt="BEYA">
  </a>
 </details>
