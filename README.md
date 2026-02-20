@@ -373,9 +373,14 @@
 <details  closed>
 <summary></summary>
 
+<blockquote>Early in my journey, I was honored to be selected as National Science Foundataion intern</blockquote>
 <img src="./assets/img/National%20Science%20Foundation.jpg" alt="NSF">
+<blockquote>Recognized with a monetary technology grant by Disney for innovation in Big Data, Modeling, and Analytics </blockquote>
 <img src="./assets/img/DisneyGrant.png" alt="DisneyGrant">
+<blockquote>Honored to be nominated by Southeast Toyota Finance for promoting positivity and advanced analytics</blockquote>
 <img src="./assets/img/SETF_pinnacle.png" alt="SETF pinnacle">
+<blockquote>Working during the Covid pandemic was one of the most impactful moments in my career</blockquote>
+<img src="./assets/img/Broward_Covid_letter.png" alt="Broward Covid">
 <img src="./assets/img/BrowardCovid_NACo_Award.png" alt="Broward Covid">
 </details>
 
