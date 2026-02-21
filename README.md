@@ -12,7 +12,8 @@
 |**M.S.**|**Computer Science**|Florida Atlantic University|*2019-2020*|![MS Computer Science](<assets/img/MS_Computer_Science.png>)
 |**M.S.**|**Industrial Engineering**|University of Missouri|*2009-2009*<sup>*</sup>|![MS Industrial Engineering](<assets/img/MSIE.png>)
 |\*Ph.D. Candidate|Industrial Engineering|University of Missouri|*2000-2008*|![IMSE dissertation](<assets/img/IMSE_dissertation.png>)<sub>*No Degree*, *All But Dissertation (ABD)*</sub>
-|**M.S.**|**Applied Mathematics** |University of Missouri|*1997-2000*|![MS Applied Mathematics](<assets/img/MSAppliedMathematics2000.png>)
+|**M.S.**|**Applied Mathematics** |University of Missouri|*1999-2000*|![MS Applied Mathematics](<assets/img/MSAppliedMathematics2000.png>)
+|\*Ph.D. Student|Applied Mathematics|University of Missouri|*1997-1999*|<sub>*No Degree*, *passed doctoral Comprehensive exam*</sub>
 |**B.S.**|**Mathematics** |Alabama State University|*1993-1997*|![BS Mathematics](<assets/img/BachelorofScienceDegree.png>)
 
 <hr>
@@ -294,7 +295,7 @@
   <details  closed>
   <summary>highlights:</summary>
    
-  <blockquote>Managed transportation and traffic-calming projects using engineering and cost/benefit analysis. Collected and assembled traffic data used in transportation studies and reports. Performed topographic and engineering surveys. Drafts resolutions, ordinances, and memos for City Council consideration. Prepared engineering designs, plans, specifications, and cost estimates for traffic control devices and signals. Participated in the review of construction and development plans and subdivision plats to ensure compliance with regulation and standards. Analyzed traffic impacts from new development or redevelopment projects. Prepared transportation improvement program and traffic impact studies. Performed traffic engineering analyses.</blockquote>
+  <blockquote>Managed transportation and traffic-calming projects using engineering and cost/benefit analysis. Collected and assembled traffic data used in transportation studies and reports. Performed topographic and engineering surveys. Drafts resolutions, ordinances, and memos for City Council consideration. Prepared engineering designs, plans, specifications, and cost estimates for traffic control devices and signals. Participated in the review of construction and development plans and subdivision plats to ensure compliance with regulation and standards. Analyzed traffic impacts from new development or redevelopment projects. Prepared transportation improvement program and traffic impact studies. Performed traffic engineering analyses. Attended Public Hearings and City Council Meetings.</blockquote>
   </details>
 
 <hr>
