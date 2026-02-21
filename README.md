@@ -13,7 +13,7 @@
 |**M.S.**|**Industrial Engineering**|University of Missouri|*2009-2009*<sup>*</sup>|![MS Industrial Engineering](<assets/img/MSIE.png>)
 |\*Ph.D. Candidate|Industrial Engineering|University of Missouri|*2000-2008*|![IMSE dissertation](<assets/img/IMSE_dissertation.png>)<sub>*No Degree*, *All But Dissertation (ABD)*</sub>
 |**M.S.**|**Applied Mathematics** |University of Missouri|*1999-2000*|![MS Applied Mathematics](<assets/img/MSAppliedMathematics2000.png>)
-|\*Ph.D. Student|Applied Mathematics|University of Missouri|*1997-1999*|<sub>*No Degree*, *passed doctoral Comprehensive exam*</sub>
+|\*Ph.D. Student|Applied Mathematics|University of Missouri|*1997-1999*|<sub>*No Degree*, *passed Ph.D. Qualifying Exam*</sub>
 |**B.S.**|**Mathematics** |Alabama State University|*1993-1997*|![BS Mathematics](<assets/img/BachelorofScienceDegree.png>)
 
 <hr>
@@ -237,6 +237,14 @@
  <blockquote>Designed and maintained Tableau dashboards for corporate insights, operational analysis and ad-hoc reporting. Owned the project to introduce Customer Effort Scoring as a leading indicator of satisfaction and retention, which entailed designing and automating survey processes to more than 30K customers and analyzing website traffic.</blockquote>
  </details>
 
+- #### Project Tracking
+  <details  closed>
+  <summary>see examples:</summary>
+
+  <blockquote>Used Tableau to track Software implementation.</blockquote>
+    <img src="./assets/img/Citrix_projectracking.png" alt="Citrix projec tracking"><br>
+  </details>
+
 ### **Experience Insights Analytics Manager** | The Walt Disney Company | Orlando, FL | January 2014 – January 2017
 - #### Personalization
   <details  closed>
@@ -296,6 +304,9 @@
   <summary>highlights:</summary>
    
   <blockquote>Managed transportation and traffic-calming projects using engineering and cost/benefit analysis. Collected and assembled traffic data used in transportation studies and reports. Performed topographic and engineering surveys. Drafts resolutions, ordinances, and memos for City Council consideration. Prepared engineering designs, plans, specifications, and cost estimates for traffic control devices and signals. Participated in the review of construction and development plans and subdivision plats to ensure compliance with regulation and standards. Analyzed traffic impacts from new development or redevelopment projects. Prepared transportation improvement program and traffic impact studies. Performed traffic engineering analyses. Attended Public Hearings and City Council Meetings.</blockquote>
+  <img src="./assets/img/TrafficEngineering_memo.png" alt="Traffic Engineering memo">
+
+  
   </details>
 
 <hr>
