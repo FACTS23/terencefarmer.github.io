@@ -2,7 +2,7 @@
 <details  open>
 <summary></summary>
 
-<img src="./assets/img/THS-3.jpg" alt="Profile Picture">
+<img src="./assets/img/Headshot2024_1a.png" alt="Profile Picture">
 </details>
 
 ## Education
