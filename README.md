@@ -13,7 +13,7 @@
 |**M.S.**|**Industrial Engineering**|University of Missouri|*2009-2009*<sup>*</sup>|![MS Industrial Engineering](<assets/img/MSIE.png>)
 |\*Ph.D. Candidate|Industrial Engineering|University of Missouri|*2000-2008*|![IMSE dissertation](<assets/img/IMSE_dissertation.png>)<sub>*No Degree*, *All But Dissertation (ABD)*</sub>
 |**M.S.**|**Applied Mathematics** |University of Missouri|*1999-2000*|![MS Applied Mathematics](<assets/img/MSAppliedMathematics2000.png>)
-|\*Ph.D. Student|Applied Mathematics|University of Missouri|*1997-1999*|<sub>*No Degree*, *passed Ph.D. Qualifying Exam*</sub>
+|\*Ph.D. Student|Applied Mathematics|University of Missouri|*1997-1999*|<sub>*No Degree*, *passed Ph.D. Qualifying Exam*<br>Concentration: Applied Analysis<br>Research: “The Laplacian in Ellipsoidal Coordinates”</sub>
 |**B.S.**|**Mathematics** |Alabama State University|*1993-1997*|![BS Mathematics](<assets/img/BachelorofScienceDegree.png>)
 
 <hr>
