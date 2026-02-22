@@ -392,13 +392,13 @@
 <img src="./assets/img/Advanced%20Wiring%20and%20NEC%20Code.png" alt="Advanced Wiring and NEC Code">
 <img src="./assets/img/Introduction%20to%20Urban%20and%20Regional%20Planning%20Concepts.png" alt="Introduction to Urban and Regional Planning Concepts">
 </details>
+<br>
 
 <hr>
 
 ## Awards & Recognitions
 <details  closed>
 <summary></summary>
-
 <blockquote>Early in my journey, I was honored to be selected as National Science Foundataion intern</blockquote>
 <img src="./assets/img/National%20Science%20Foundation.jpg" alt="NSF">
 <blockquote>Recognized with a monetary technology grant by Disney for innovation in Big Data, Modeling, and Analytics </blockquote>
