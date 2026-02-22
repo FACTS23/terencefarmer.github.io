@@ -195,7 +195,6 @@
   set CURDATE = to_date('2023-01-01');
   </code></pre>
   </details>
-
 <br>
 
 ### **Principal Consultant** | Farmer Analytical Consulting Technology Services LLC  | Fort Lauderdale, FL | August 2023 – Present
@@ -211,7 +210,6 @@
   <img src="./assets/img/FACTS_TapestryReport.png" alt="FACTS Tapestry Report">
   <img src="./assets/img/FACTS_ModelVariables.png" alt="FACTS Model Variables">
   </details>
-  
  <br>
  
 ### **Innovation Unit Supervisor** | Broward County Government | Fort Lauderdale, FL | March 2020 – January 2022
@@ -225,7 +223,6 @@
   <img src="./assets/img/Broward%20Animal%20Care%20Dashboard%202%20ArcGIS.png" alt="Animal Shelter ArcGIS Dashboard">
   <img src="./assets/img/Broward%20Animal%20Care%20Newsletter%20ArcGIS.png" alt="Animal Shelter ArcGIS Newsletter">
   </details>
-  
 <br>
 
 ### **Senior Risk Analyst** | Southeast Toyota Finance | Fort Lauderdale, FL | January 2018 – March 2020
@@ -235,7 +232,6 @@
   <blockquote>Supported the Risk Management Department with credit modeling, policy changes, fraud analytics, portfolio trends, and data visualization for Toyota’s regional consumer lending division serving over 177 dealers. Managed the Loan Origination data warehousing environment to enable the timely presentation of insights to senior executives, with an emphasis on explanatory analysis. Leveraged high-level SAS SQL programming techniques such as macro coding, background processing, and parallel execution of scripts to reduce data extraction time and efficiently disseminate information via Tableau dashboards.
   </blockquote>
   </details>
-  
 <br>
 
 ### **Manager, Tool & Analytics** | Citrix Systems | Fort Lauderdale, FL | January 2017 – October 2017
@@ -252,7 +248,6 @@
   <blockquote>Used Tableau to track Software implementation.</blockquote>
     <img src="./assets/img/Citrix_projectracking.png" alt="Citrix projec tracking">
   </details>
-  
 <br>
 
 ### **Experience Insights Analytics Manager** | The Walt Disney Company | Orlando, FL | January 2014 – January 2017
@@ -265,7 +260,6 @@
   <img src="./assets/img/Disney%20itinerary%20recommendation%20Guide%20Setup.png" alt="Disney Custom Itinerary design">
   <img src="./assets/img/Disney%20personalization%20strategy%20training%20PPT.jpg" alt="Disney Training Session">
   </details>
-  
 <br>
 
 ### **Senior Revenue Analyst** | The Walt Disney Company | Orlando, FL | November 2011 – December 2013
@@ -277,7 +271,6 @@
   <img src="./assets/img/Disney_RM_BookingCalendar.png" alt="Disney Booking Calendar"><br>
   <img src="./assets/img/Disney_RM_SeasonCalendar.png" alt="Disney Seasons Calendar"><br>
   </details>
-  
 <br>
 
 ### **Senior Industrial Engineer** | The Walt Disney Company | Orlando, FL | November 2008 – November 2011
@@ -292,7 +285,6 @@
   <img src="./assets/img/Disney%20New%20York%20Times%20article%20SAS%202%20dashboard.png" alt="As seen in NY Times">
   <img src="./assets/img/Disney%20New%20York%20Times%20article%20SAS%203%20dashboard.png" alt="As seen in NY Times">
   </details>
-  
 <br>
 
 ### **Marketing Reporting & Analytics Manager** | The Walt Disney Company | Orlando, FL | July 2007 – November 2008
@@ -305,7 +297,6 @@
   <img src="./assets/img/Disney_CMR_DecisionTree.png" alt="CMR Decision Tree">
   <img src="./assets/img/Disney_CMR_DecisionTreeVariables.png" alt="CMR Decision Tree">
   </details>
-  
 <br>
 
 ### **Senior Credit Policy Data Manager** | CitiMortgage (Citigroup) | St. Louis, MO | August 2005 – June 2007
@@ -316,19 +307,16 @@
   <blockquote> I used Microsoft Access to create a Credit Policy Glossary.</blockquote>
   <img src="./assets/img/Citi_Credit_Policy_Glossary.png" alt="Credit Policy Glossary">
   </details>
-  
 <br>
 
 ### **Assistant Traffic Engineer** | City of Columbia, Missouri Government | Columbia, MO | September 2003 – August 2005
   <details  closed>
   <summary>highlights:</summary>
    
-  <blockquote>Managed transportation and traffic-calming projects using engineering and cost/benefit analysis. Collected and assembled traffic data used in transportation studies and reports. Performed topographic and engineering surveys. Drafts resolutions, ordinances, and memos for City Council consideration. Prepared engineering designs, plans, specifications, and cost estimates for traffic control devices and signals. Participated in the review of construction and development plans and subdivision plats to ensure compliance with regulation and standards. Analyzed traffic impacts from new development or redevelopment projects. Prepared transportation improvement program and traffic impact studies. Performed traffic engineering analyses. Attended Public Hearings and City Council Meetings.</blockquote>
+  <blockquote>Managed transportation and traffic-calming projects using engineering and cost/benefit analysis. Collected and assembled traffic data used in transportation studies and reports. Performed topographic and engineering surveys. Drafts resolutions, ordinances, and memos for City Council consideration. Prepared engineering designs, plans, specifications, and cost estimates for traffic control devices and signals. Participated in the review of construction and development plans and subdivision plats to ensure compliance with regulation and standards. Analyzed traffic impacts from new development or redevelopment projects. Prepared transportation improvement program and traffic impact studies. Launched the "Adopt-A-Crosswalk" program. Performed traffic engineering analyses. Attended Public Hearings and City Council Meetings.</blockquote>
   <img src="./assets/img/TrafficEngineering_memo.png" alt="Traffic Engineering memo">
-
-  
   </details>
-
+<br>
 <hr>
 
 ## Certifications
@@ -360,7 +348,6 @@
 ![Microsoft Specialist](<assets/img/MicrosoftSpecialist.png>)
 </details>
 -->
-
 <hr>
 
 ## Continuing Education Units
