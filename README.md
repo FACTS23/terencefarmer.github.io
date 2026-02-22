@@ -91,6 +91,7 @@
 - #### Advanced SQL Skills
   <details  closed>
   <summary>see examples:</summary>
+  
   1. <ins>Window Functions (Analytical Processing)</ins>
   <blockquote> Used extensively to perform calculations across a set of table rows that are related to the current row</blockquote>
   
@@ -188,6 +189,7 @@
   <pre><code class="language-sql">
   set CURDATE = to_date('2023-01-01');
   </code></pre>
+  
   </details>
 <br>
 
