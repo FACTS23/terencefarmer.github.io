@@ -396,7 +396,6 @@
 <hr>
 
 ## Awards & Recognitions
-
 <details  closed>
 <summary></summary>
 
@@ -410,9 +409,9 @@
 <img src="./assets/img/Broward_Covid_letter.png" alt="Broward Covid">
 <img src="./assets/img/BrowardCovid_NACo_Award.png" alt="Broward Covid">
 </details>
+<br>
 
 ## Public Speaking
-
 <details  closed>
 <summary></summary>
 
@@ -426,10 +425,9 @@
 <img src="./assets/img/BEYA_talk.png" alt="BEYA">
  </a>
 </details>
-
+<br>
 
 ## Volunteerism
-
 <details  closed>
 <summary></summary>
 
@@ -437,9 +435,9 @@
 <img src="./assets/img/CPR_front.bmp" alt="CPR">
 <img src="./assets/img/AdultLiteracyLeague.png" alt="Adult Literacy League">
 </details>
+<br>
 
 ## Hobbies
-
 <details  closed>
 <summary></summary>
 
