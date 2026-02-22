@@ -21,7 +21,7 @@
 ## Experience
 ### **Senior Director of Risk Data Science** | DigniFi, Inc. | Fort Lauderdale, FL | January 2022 – February 2026 | *Financial Services*, *FinTech*, *Risk*
  
-- #### Data Science
+- #### Data Science and Modeling
   <details  closed>
   <summary>see examples</summary>
   <blockquote>Using Python with PyCharm, I created Decision Trees and Logistic Models to identify the strength of model predictor variables</blockquote>
@@ -267,7 +267,7 @@
 <br>
 
 ### **Senior Industrial Engineer** | The Walt Disney Company | Orlando, FL | November 2008 – November 2011 | *Hospitality Data Engineering*
-- #### Visualizations
+- #### Operations Reporting
   <details  closed>
   <summary>see examples:</summary>
   <blockquote> I used Advanced SAS Programming and multiple database connections (MySQL,Oracle,IBM) to create real-time operations monitoring. These efforts were spotlighted in the New York Times.</blockquote>
@@ -280,7 +280,7 @@
 <br>
 
 ### **Marketing Reporting & Analytics Manager** | The Walt Disney Company | Orlando, FL | July 2007 – November 2008 | *Hospitality Marketing Analytics*
-- #### Analysis
+- #### Customer Analysis
   <details  closed>
   <summary>see examples:</summary>
   <blockquote> I used SAS to perform analysis and modeling of Marketing efforts.</blockquote>
@@ -435,7 +435,7 @@
 </details>
 <br>
 
-## Volunteerism
+## Volunteerism and Outreach
 <details  closed>
 <summary></summary>
 <blockquote>Passionate about education and community quality of life issues</blockquote>
