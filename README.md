@@ -76,8 +76,7 @@
   <summary>see examples:</summary>
   <blockquote>I managed more than 30 reports using efficient coding and dashboarding</blockquote>
   <img src="./assets/img/Tableau%20gallery.jpg" alt="Tableau gallery">
-  
-   <blockquote>This automated and interactive report provided executives, peers, and auditors with real-time information</blockquote>
+  <blockquote>This automated and interactive report provided executives, peers, and auditors with real-time information</blockquote>
   <img src="./assets/img/Deliquencies%20and%20Loss%20WasIs%20automated%20Tableau.jpg" alt="WasIs">
   </details>
 
@@ -92,7 +91,6 @@
 - #### Advanced SQL Skills
   <details  closed>
   <summary>see examples:</summary>
-  
   1. <ins>Window Functions (Analytical Processing)</ins>
   <blockquote> Used extensively to perform calculations across a set of table rows that are related to the current row</blockquote>
   
@@ -115,7 +113,7 @@
   ratio_to_report("Application") 
    over (partition by s.SUBMIT_MONTH) as "% Application Validation"
   </code></pre>
-
+  <br>
   2. <ins>Common Table Expressions (CTEs)</ins>
   <blockquote> For complex queries, I utilize multiple, named sub-queries (CTEs) which significantly improves query readability, modularity, and maintainability by breaking down logic into manageable steps</blockquote>
       
@@ -133,7 +131,7 @@
   INNER JOIN CREDIT ...
   /* The main query combines the named steps  */
   </code></pre>
-  
+  <br>
   3. <ins>Conditional Logic and Data Transformation</ins>
   <blockquote> Conditional expressions utilized for classifying data, applying business rules, and managing data quality. Specifically, complex CASE and IFF Statements are used to categorize loans, flag time periods, and translate coded values into meaningful descriptions.</blockquote>
   
@@ -154,7 +152,7 @@
   '1201', 'OFAC LIST TEMPORARILY UNAVAILABLE',
   '1202', 'OFAC NO RECORD FOUND ') AS ofac_messageText
   </code></pre>
-  
+  <br>
   4. <ins>Advanced String and JSON Parsing</ins>
   <blockquote> Extensive use of regular expressions (regexp_substr) and JSON path functions (json_extract_path_text) to extract specific data elements embedded within complex text or JSON/Variant columns, such as from audit logs or credit bureau API requests and responses. This is crucial for pulling specific attributes like credit scores or decline reasons from raw log data.</blockquote>
   
@@ -171,7 +169,7 @@
   CAST(json_extract_path_text(REQUEST,'\"experian\".\"income_insight\"') AS NUMBER(38,0)) 
    AS INCOME_INSIGHT_CODE
   </code></pre>
-  
+  <br>
   5. <ins>Date/Time and Variable Management</ins>
   <blockquote> The queries demonstrate sophisticated handling of dynamic timeframes, which is common in financial and analytical reporting.</blockquote>
   
@@ -287,7 +285,7 @@
 <br>
 
 ### **Senior Credit Policy Data Manager** | CitiMortgage (Citigroup) | St. Louis, MO | August 2005 – June 2007
-- #### Visualizations
+- #### Documentation
   <details  closed>
   <summary>see examples:</summary>
   <blockquote> I used Microsoft Access to create a Credit Policy Glossary.</blockquote>
@@ -298,7 +296,23 @@
 ### **Assistant Traffic Engineer** | City of Columbia, Missouri Government | Columbia, MO | September 2003 – August 2005
   <details  closed>
   <summary>highlights:</summary>
-  <blockquote>Managed transportation and traffic-calming projects using engineering and cost/benefit analysis. Collected and assembled traffic data used in transportation studies and reports. Performed topographic and engineering surveys. Drafts resolutions, ordinances, and memos for City Council consideration. Prepared engineering designs, plans, specifications, and cost estimates for traffic control devices and signals. Participated in the review of construction and development plans and subdivision plats to ensure compliance with regulation and standards. Analyzed traffic impacts from new development or redevelopment projects. Prepared transportation improvement program and traffic impact studies. Launched the "Adopt-A-Crosswalk" program. Performed traffic engineering analyses. Attended Public Hearings and City Council Meetings.</blockquote>
+  <blockquote>Managed transportation and traffic-calming projects using engineering and cost/benefit analysis. Collected and assembled traffic data used in transportation studies and reports. Performed topographic and engineering surveys. Drafts resolutions, ordinances, and memos for City Council consideration. Prepared engineering designs, plans, specifications, and cost estimates for traffic control devices and signals. Participated in the review of construction and development plans and subdivision plats to ensure compliance with regulation and standards. Analyzed traffic impacts from new development or redevelopment projects. Prepared transportation improvement program and traffic impact studies. Supported the launch of the "Adopt-A-Crosswalk" program. Performed traffic engineering analyses. Attended Public Hearings and City Council Meetings. Met with developers, attorneys, elected officials and citizens.</blockquote>
+  <blockquote>Pedestrian Island design and installation</blockquote>
+  <img src="./assets/img/TrafficEngineering_pedestrianisland_memo.png" alt="Traffic Engineering pedestrian island memo">
+  <img src="./assets/img/TrafficEngineering_pedestrianisland_drawing.png" alt="Traffic Engineering pedestrian island drawing">
+  <br>
+  <blockquote>Speed hump design and installation</blockquote>
+  <img src="./assets/img/TrafficEngineering_speedhump_plan.png" alt="Traffic Engineering speedhump plan">
+  <img src="./assets/img/TrafficEngineering_speedhump_drawing.png" alt="Traffic Engineering speedhump drawing">
+  <img src="./assets/img/TrafficEngineering_speedhump_picture.png" alt="Traffic Engineering speedhump picture">
+  <br>
+  <blockquote>Questionnaires and Project Mangement</blockquote>
+  <img src="./assets/img/TrafficEngineering_TrafficQuestionnaire.png" alt="Traffic Engineering Traffic Questionnaire">
+  <img src="./assets/img/TrafficEngineering_traffic_calming_process.png" alt="Traffic Engineering traffic calming process">
+  <br>
+  <blockquote>Traffic Studies</blockquote>
+  <img src="./assets/img/TrafficEngineering_trafficstudy.png" alt="Traffic Engineering traffics tudy">
+  <img src="./assets/img/TrafficEngineering_crosswalkstudy.png" alt="Traffic Engineering cross walkstudy">
   <img src="./assets/img/TrafficEngineering_memo.png" alt="Traffic Engineering memo">
   </details>
 <br>
@@ -348,7 +362,7 @@
 |**Databricks Fundamentals**|Databricks Academy|*2026*|![Databricks Fundamentals](<assets/img/DatabricksFundamentals.png>)
 |**Microsoft Azure Fundamentals**|Microsoft|*2020*|
 |**Power BI Dashboarding**|Microsoft|*2020*|
-|**Credit Scorecard Development and Implementation**|SAS|*2020*|
+|**Credit Scorecard Development and Implementation**|SAS|*2020*| ![SAS Credit Scorecard Development and Implementation](<assets/img/SASCreditScorecardDevelopmentandImplementation.png>)
 |**Building and Solving Optimization Models**|SAS|*2018*| ![SAS Optimization Models](<assets/img/SASOptimizationModels.png>)
 |**Survival Data Mining**|SAS| *2018*|![SAS Data Mining](<assets/img/SASDataMining.png>)
 |**Using SAS Programs to Execute Pig and HiveQL in Hadoop**|SAS|*2018*|![SAS Hadoop](<assets/img/SASHadoop.png>)
