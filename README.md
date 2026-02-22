@@ -19,7 +19,7 @@
 <hr>
 
 ## Experience
-### **Senior Director of Risk Data Science** | DigniFi, Inc. | Fort Lauderdale, FL | January 2022 – February 2026
+### **Senior Director of Risk Data Science** | DigniFi, Inc. | Fort Lauderdale, FL | January 2022 – February 2026 | *Financial Services*, *FinTech*, *Risk*
  
 - #### Data Science
   <details  closed>
@@ -197,7 +197,7 @@
   </details>
 <br>
 
-### **Principal Consultant** | Farmer Analytical Consulting Technology Services LLC  | Fort Lauderdale, FL | August 2023 – Present
+### **Principal Consultant** | Farmer Analytical Consulting Technology Services LLC  | Fort Lauderdale, FL | August 2023 – Present | *Data Science Consulting*
 - #### Projects
   <details  closed>
   <summary>see examples:</summary>
@@ -211,7 +211,7 @@
   </details>
  <br>
  
-### **Innovation Unit Supervisor** | Broward County Government | Fort Lauderdale, FL | March 2020 – January 2022
+### **Innovation Unit Supervisor** | Broward County Government | Fort Lauderdale, FL | March 2020 – January 2022 | *Government Innovation*, *Smart Cities*
 - #### Visualizations
   <details  closed>
   <summary>see examples:</summary>
@@ -223,7 +223,7 @@
   </details>
 <br>
 
-### **Senior Risk Analyst** | Southeast Toyota Finance | Fort Lauderdale, FL | January 2018 – March 2020
+### **Senior Risk Analyst** | Southeast Toyota Finance | Fort Lauderdale, FL | January 2018 – March 2020 | *Financial Services*, *Risk Analytics*
   <details  closed>
   <summary>highlights:</summary>
   <blockquote>Supported the Risk Management Department with credit modeling, policy changes, fraud analytics, portfolio trends, and data visualization for Toyota’s regional consumer lending division serving over 177 dealers. Managed the Loan Origination data warehousing environment to enable the timely presentation of insights to senior executives, with an emphasis on explanatory analysis. Leveraged high-level SAS SQL programming techniques such as macro coding, background processing, and parallel execution of scripts to reduce data extraction time and efficiently disseminate information via Tableau dashboards.
@@ -231,7 +231,7 @@
   </details>
 <br>
 
-### **Manager, Tool & Analytics** | Citrix Systems | Fort Lauderdale, FL | January 2017 – October 2017
+### **Manager, Tool & Analytics** | Citrix Systems | Fort Lauderdale, FL | January 2017 – October 2017 | *Software*
   <details  closed>
   <summary>highlights:</summary>
  <blockquote>Designed and maintained Tableau dashboards for corporate insights, operational analysis and ad-hoc reporting. Owned the project to introduce Customer Effort Scoring as a leading indicator of satisfaction and retention, which entailed designing and automating survey processes to more than 30K customers and analyzing website traffic.</blockquote>
@@ -245,7 +245,7 @@
   </details>
 <br>
 
-### **Experience Insights Analytics Manager** | The Walt Disney Company | Orlando, FL | January 2014 – January 2017
+### **Experience Insights Analytics Manager** | The Walt Disney Company | Orlando, FL | January 2014 – January 2017 | *Hospitality Data Scientist*
 - #### Personalization
   <details  closed>
   <summary>see examples:</summary>
@@ -256,7 +256,7 @@
   </details>
 <br>
 
-### **Senior Revenue Analyst** | The Walt Disney Company | Orlando, FL | November 2011 – December 2013
+### **Senior Revenue Analyst** | The Walt Disney Company | Orlando, FL | November 2011 – December 2013 | *Hospitality Data Analyst*
 - #### Visualizations
   <details  closed>
   <summary>see examples:</summary>
@@ -266,7 +266,7 @@
   </details>
 <br>
 
-### **Senior Industrial Engineer** | The Walt Disney Company | Orlando, FL | November 2008 – November 2011
+### **Senior Industrial Engineer** | The Walt Disney Company | Orlando, FL | November 2008 – November 2011 | *Hospitality Data Engineering*
 - #### Visualizations
   <details  closed>
   <summary>see examples:</summary>
@@ -279,7 +279,7 @@
   </details>
 <br>
 
-### **Marketing Reporting & Analytics Manager** | The Walt Disney Company | Orlando, FL | July 2007 – November 2008
+### **Marketing Reporting & Analytics Manager** | The Walt Disney Company | Orlando, FL | July 2007 – November 2008 | *Hospitality Marketing Analytics*
 - #### Analysis
   <details  closed>
   <summary>see examples:</summary>
@@ -290,8 +290,8 @@
   </details>
 <br>
 
-### **Senior Credit Policy Data Manager** | CitiMortgage (Citigroup) | St. Louis, MO | August 2005 – June 2007
-- #### Documentation
+### **Senior Credit Policy Data Manager** | CitiMortgage (Citigroup) | St. Louis, MO | August 2005 – June 2007 | *Financial Services*
+- #### Technical Documentation
   <details  closed>
   <summary>see examples:</summary>
   <blockquote> I used Microsoft Access to create a Credit Policy Glossary.</blockquote>
@@ -299,7 +299,7 @@
   </details>
 <br>
 
-### **Assistant Traffic Engineer** | City of Columbia, Missouri Government | Columbia, MO | September 2003 – August 2005
+### **Assistant Traffic Engineer** | City of Columbia, Missouri Government | Columbia, MO | September 2003 – August 2005 | *Government Transportation and Engineering*
   <details  closed>
   <summary>highlights:</summary>
   <blockquote>Managed transportation and traffic-calming projects using engineering and cost/benefit analysis. Collected and assembled traffic data used in transportation studies and reports. Performed topographic and engineering surveys. Drafts resolutions, ordinances, and memos for City Council consideration. Prepared engineering designs, plans, specifications, and cost estimates for traffic control devices and signals. Participated in the review of construction and development plans and subdivision plats to ensure compliance with regulation and standards. Analyzed traffic impacts from new development or redevelopment projects. Prepared transportation improvement program and traffic impact studies. Supported the launch of the "Adopt-A-Crosswalk" program. Performed traffic engineering analyses. Attended Public Hearings and City Council Meetings. Met with developers, attorneys, elected officials and citizens.</blockquote>
