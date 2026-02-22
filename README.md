@@ -24,7 +24,6 @@
 - #### Data Science
   <details  closed>
   <summary>see examples</summary>
-
   <blockquote>Using Python with PyCharm, I created Decision Trees and Logistic Models to identify the strength of model predictor variables</blockquote>
   <img src="./assets/img/Decision%20Tree%20for%20Take%20Rate%201%20Python.png" alt="Python Decision Tree">
   <pre><code class="language-python">
@@ -68,7 +67,6 @@
 - #### Visualizations
   <details>
   <summary>see examples</summary>
-
   <blockquote> using Snowflake advanced SQL, Tableau and geo mapping, I created and published a Dashboard to analyze a new strategy implementation</blockquote>
   <img src="./assets/img/Credit%20Strategy%20analysis%20automation%20Tableau.jpg" alt="Credit Strategy Analysis Analysis">
   </details>
@@ -76,7 +74,6 @@
 - #### Reporting
   <details  closed>
   <summary>see examples:</summary>
-
   <blockquote>I managed more than 30 reports using efficient coding and dashboarding</blockquote>
   <img src="./assets/img/Tableau%20gallery.jpg" alt="Tableau gallery">
   
@@ -87,7 +84,6 @@
 - #### Automations
   <details  closed>
   <summary>see examples:</summary>
-
   <blockquote>Using Snowflake advanced SQL, Tableau and Adobe, I created a live PDF process that automatically identifies issues and areas of investigation</blockquote>
   <img src="./assets/img/Credit%20Policy%20Monitoring%20p1%20automation%20Tableau.jpg" alt="Credit Policy Monitoring with Tableau Dashboard">
   <img src="./assets/img/Credit%20Policy%20Monitoring%20p2%20automation%20Tableau.jpg" alt="Credit Policy Monitoring with Tableau Dashboard">
@@ -201,7 +197,6 @@
 - #### Projects
   <details  closed>
   <summary>see examples:</summary>
-
   <blockquote>I support a private equity fund with identifying  acquisition opportunities by creating custom models, heat maps, and market reports utilizing ESRI ArcGIS, Python, Excel, and Tableau.</blockquote>
   <img src="./assets/img/FACTS_Heat_Map_1.png" alt="FACTS Heat Map">
   <img src="./assets/img/FACTS_Heat_Map_2.png" alt="FACTS Heat Map">
@@ -216,7 +211,6 @@
 - #### Visualizations
   <details  closed>
   <summary>see examples:</summary>
-
   <blockquote> I used PowerBI and ArcGIS to create public-facing dashboards and newsletters. I received recognition for supporting the community during the COVID pandemic.</blockquote>
   <img src="./assets/img/Broward%20Covid%20dashboard%201%20PowerBI.png" alt="Covid PowerBI Dashboard">
   <img src="./assets/img/Broward%20Animal%20Care%20Dashboard%20ArcGIS.png" alt="Animal Shelter ArcGIS Dashboard">
@@ -228,7 +222,6 @@
 ### **Senior Risk Analyst** | Southeast Toyota Finance | Fort Lauderdale, FL | January 2018 – March 2020
   <details  closed>
   <summary>highlights:</summary>
-   
   <blockquote>Supported the Risk Management Department with credit modeling, policy changes, fraud analytics, portfolio trends, and data visualization for Toyota’s regional consumer lending division serving over 177 dealers. Managed the Loan Origination data warehousing environment to enable the timely presentation of insights to senior executives, with an emphasis on explanatory analysis. Leveraged high-level SAS SQL programming techniques such as macro coding, background processing, and parallel execution of scripts to reduce data extraction time and efficiently disseminate information via Tableau dashboards.
   </blockquote>
   </details>
@@ -237,14 +230,12 @@
 ### **Manager, Tool & Analytics** | Citrix Systems | Fort Lauderdale, FL | January 2017 – October 2017
   <details  closed>
   <summary>highlights:</summary>
-   
  <blockquote>Designed and maintained Tableau dashboards for corporate insights, operational analysis and ad-hoc reporting. Owned the project to introduce Customer Effort Scoring as a leading indicator of satisfaction and retention, which entailed designing and automating survey processes to more than 30K customers and analyzing website traffic.</blockquote>
- </details>
+  </details>
 
 - #### Project Tracking
   <details  closed>
   <summary>see examples:</summary>
-
   <blockquote>Used Tableau to track Software implementation.</blockquote>
     <img src="./assets/img/Citrix_projectracking.png" alt="Citrix projec tracking">
   </details>
@@ -254,7 +245,6 @@
 - #### Personalization
   <details  closed>
   <summary>see examples:</summary>
-
   <blockquote> I used SAS and Tableau to create personalized itineraries. I shared these methods across the company and was recognized by Disney with a technology grant.</blockquote>
   <img src="./assets/img/Disney%20itinerary%20recommendation%20Tableau.png" alt="Disney Custom Itinerary">
   <img src="./assets/img/Disney%20itinerary%20recommendation%20Guide%20Setup.png" alt="Disney Custom Itinerary design">
@@ -266,7 +256,6 @@
 - #### Visualizations
   <details  closed>
   <summary>see examples:</summary>
-
   <blockquote> I used Advanced SAS Programming to publish booking and rate calendars for ease of accessibility for front-line workers.</blockquote>
   <img src="./assets/img/Disney_RM_BookingCalendar.png" alt="Disney Booking Calendar"><br>
   <img src="./assets/img/Disney_RM_SeasonCalendar.png" alt="Disney Seasons Calendar"><br>
@@ -277,7 +266,6 @@
 - #### Visualizations
   <details  closed>
   <summary>see examples:</summary>
-
   <blockquote> I used Advanced SAS Programming and multiple database connections (MySQL,Oracle,IBM) to create real-time operations monitoring. These efforts were spotlighted in the New York Times.</blockquote>
   <img src="./assets/img/Disney%20New%20York%20Times%20article%20training%201%20SAS.jpg" alt="SAS Dashboard - Proc Ganno"><br>
   <br> 
@@ -291,7 +279,6 @@
 - #### Analysis
   <details  closed>
   <summary>see examples:</summary>
-
   <blockquote> I used SAS to perform analysis and modeling of Marketing efforts.</blockquote>
   <img src="./assets/img/Disney_CMR_MarketingLift.png" alt="CMR Marketing Lift">
   <img src="./assets/img/Disney_CMR_DecisionTree.png" alt="CMR Decision Tree">
@@ -303,7 +290,6 @@
 - #### Visualizations
   <details  closed>
   <summary>see examples:</summary>
-
   <blockquote> I used Microsoft Access to create a Credit Policy Glossary.</blockquote>
   <img src="./assets/img/Citi_Credit_Policy_Glossary.png" alt="Credit Policy Glossary">
   </details>
@@ -312,7 +298,6 @@
 ### **Assistant Traffic Engineer** | City of Columbia, Missouri Government | Columbia, MO | September 2003 – August 2005
   <details  closed>
   <summary>highlights:</summary>
-   
   <blockquote>Managed transportation and traffic-calming projects using engineering and cost/benefit analysis. Collected and assembled traffic data used in transportation studies and reports. Performed topographic and engineering surveys. Drafts resolutions, ordinances, and memos for City Council consideration. Prepared engineering designs, plans, specifications, and cost estimates for traffic control devices and signals. Participated in the review of construction and development plans and subdivision plats to ensure compliance with regulation and standards. Analyzed traffic impacts from new development or redevelopment projects. Prepared transportation improvement program and traffic impact studies. Launched the "Adopt-A-Crosswalk" program. Performed traffic engineering analyses. Attended Public Hearings and City Council Meetings.</blockquote>
   <img src="./assets/img/TrafficEngineering_memo.png" alt="Traffic Engineering memo">
   </details>
