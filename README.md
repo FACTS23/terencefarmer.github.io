@@ -63,6 +63,7 @@
   <img src="./assets/img/Logistic%20Regression%20Model%20Validation%20p2%20automation%20Tableau.jpg" alt="Logistic Regression Analysis">
   <img src="./assets/img/Logistic%20Regression%20Model%20Validation%20p3%20automation%20Tableau.jpg" alt="Logistic Regression Analysis">
   </details>
+  <br>
 
 - #### Visualizations
   <details>
@@ -70,6 +71,7 @@
   <blockquote> using Snowflake advanced SQL, Tableau and geo mapping, I created and published a Dashboard to analyze a new strategy implementation</blockquote>
   <img src="./assets/img/Credit%20Strategy%20analysis%20automation%20Tableau.jpg" alt="Credit Strategy Analysis Analysis">
   </details>
+  <br>
 
 - #### Reporting
   <details  closed>
@@ -79,6 +81,7 @@
   <blockquote>This automated and interactive report provided executives, peers, and auditors with real-time information</blockquote>
   <img src="./assets/img/Deliquencies%20and%20Loss%20WasIs%20automated%20Tableau.jpg" alt="WasIs">
   </details>
+  <br>
 
 - #### Automations
   <details  closed>
@@ -87,6 +90,7 @@
   <img src="./assets/img/Credit%20Policy%20Monitoring%20p1%20automation%20Tableau.jpg" alt="Credit Policy Monitoring with Tableau Dashboard">
   <img src="./assets/img/Credit%20Policy%20Monitoring%20p2%20automation%20Tableau.jpg" alt="Credit Policy Monitoring with Tableau Dashboard">
   </details>
+  <br>
 
 - #### Advanced SQL Skills
   <details  closed>
