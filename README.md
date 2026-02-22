@@ -317,6 +317,7 @@
   <img src="./assets/img/TrafficEngineering_memo.png" alt="Traffic Engineering memo">
   </details>
 <br>
+<br>
 <hr>
 
 ## Certifications
