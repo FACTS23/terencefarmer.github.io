@@ -366,6 +366,7 @@
 |**Python Data Analysis**| LinkedIn Learning |*2026*| ![Python Data Analysis](<assets/img/PythonDataAnalysis.png>)
 |**The Data Science of Economics, Banking, and Finance**|LinkedIn Learning|*2026*|![The Data Science of Economics Banking and Finance](<assets/img/DataScienceofEconomicsBankingFinance.png>)
 |**Databricks Fundamentals**|Databricks Academy|*2026*|![Databricks Fundamentals](<assets/img/DatabricksFundamentals.png>)
+|**dbt Fundamentals**|dbt Labs|*2026*|<img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/175267039" alt="dbt Fundamentals badge">
 |**Bank Secrecy Act (BSA) and Anti-Money Laundering (AML)**|AFSA| *2022*|![BSA_AML](<assets/img/BSA_AML certificate_4134319.png>)
 |**Fair and Responsible Lending**|AFSA| *2022*|![Fair and Responsible Lending](<assets/img/Fair and Responsible Lending certificate_4137023.png>)
 |**Spatial Data Science: The New Frontier in Analytics**|ESRI| *2021*|![Spatial Data Science](<assets/img/SpatialDataScience.png>)
