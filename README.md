@@ -290,7 +290,7 @@
   </details>
 <br>
 
-### **Senior Credit Policy Data Manager** | CitiMortgage (Citigroup) | St. Louis, MO | August 2005 – June 2007 | *Financial Services*
+### **Senior Credit Policy Data Manager** | CitiMortgage (Citigroup) | St. Louis, MO | August 2005 – June 2007 | *Financial Services*, *Consumer Lending*, *Risk*
 - #### Technical Documentation
   <details  closed>
   <summary>see examples:</summary>
