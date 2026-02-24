@@ -231,7 +231,7 @@
   </details>
 <br>
 
-### **Manager, Tool & Analytics** | Citrix Systems | Fort Lauderdale, FL | January 2017 – October 2017 | *Software*
+### **Manager, Tool & Analytics** | Citrix Systems | Fort Lauderdale, FL | January 2017 – October 2017 | *Software*, *SaaS*, *Technical Support*
   <details  closed>
   <summary>highlights:</summary>
  <blockquote>Designed and maintained Tableau dashboards for corporate insights, operational analysis and ad-hoc reporting. Owned the project to introduce Customer Effort Scoring as a leading indicator of satisfaction and retention, which entailed designing and automating survey processes to more than 30K customers and analyzing website traffic.</blockquote>
