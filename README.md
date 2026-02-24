@@ -360,7 +360,7 @@
 
 |   |   |   |   |
 |--|--|--|--|
-|**Using ChatGPT and Generative AI in FinTech**|NASBA|*2026*|![Using ChatGPT and Generative AI in FinTech](<assets/img/UsingChatGPTand GenerativeAIinFinTech.png>)
+|**Using ChatGPT and Generative AI in FinTech**|LinkedIn Learning<br>NASBA|*2026*|![Using ChatGPT and Generative AI in FinTech](<assets/img/UsingChatGPTand GenerativeAIinFinTech.png>)
 |**Generative Al Fundamentals**| Databricks Academy |*2026*|![Generative Al Fundamentals](<assets/img/GenerativeAIFundamentals.png>)
 |**Project Management Foundations**| LinkedIn Learning<br>PMI |*2026*|![Project Management Foundations](<assets/img/ProjectMagementFoundations.png>)
 |**Python Data Analysis**| LinkedIn Learning |*2026*| ![Python Data Analysis](<assets/img/PythonDataAnalysis.png>)
