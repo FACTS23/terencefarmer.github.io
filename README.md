@@ -201,7 +201,7 @@
 - #### Projects
   <details  closed>
   <summary>see examples:</summary>
-  <blockquote>I support a private equity fund with identifying  acquisition opportunities by creating custom models, heat maps, and market reports utilizing ESRI ArcGIS, Python, Excel, and Tableau.</blockquote>
+  <blockquote>I support a private equity fund with identifying  acquisition opportunities and creating pitch decks by creating custom models, heat maps, and market reports utilizing ESRI ArcGIS, Python, Excel, and Tableau.</blockquote>
   <img src="./assets/img/FACTS_Heat_Map_1.png" alt="FACTS Heat Map">
   <img src="./assets/img/FACTS_Heat_Map_2.png" alt="FACTS Heat Map">
   <img src="./assets/img/FACTS_SiteRankings1.png" alt="FACTS Site Rankings">
