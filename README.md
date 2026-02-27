@@ -454,7 +454,7 @@
 <blockquote>I have visited more than 40 countries!</blockquote>
 <img src="./assets/img/TravelMap.png" alt="Travels">
 </details>
-
+<br>
 
 ## Positive Feedback
 <details  closed>
@@ -462,6 +462,6 @@
 <blockquote>Profile assestments and feedback provided</blockquote>
 <img src="./assets/img/Emergenetics.png" alt="Emergenetics">
 <img src="./assets/img/Dig_reviews.png" alt="Dig_reviews">
-<img src="./assets/img/motivosity_blurbss.png" alt="motivosity_blurbs">
+<img src="./assets/img/motivosity_blurbs.png" alt="motivosity_blurbs">
 <img src="./assets/img/Reviews_positive_mention.png" alt="Reviews_positive_mention">
 </details>
