@@ -459,7 +459,11 @@
 ## Positive Feedback
 <details  closed>
 <summary></summary>
-<blockquote>Profile assestments and feedback provided</blockquote>
+ 
+
+Profile assestments and *positive* feedback provided:
+*An informed head with a warm heart*
+
 <img src="./assets/img/Emergenetics.png" alt="Emergenetics">
 <img src="./assets/img/Dig_reviews.png" alt="Dig_reviews">
 <img src="./assets/img/motivosity_blurbs.png" alt="motivosity_blurbs">
