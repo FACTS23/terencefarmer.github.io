@@ -22,6 +22,7 @@
   <blockquote> Artificial Intelligence, Data Mining, Machine Learning, Deep Learning, Smart Systems, Sensor Networks, Emerging Wireless Network Technologies, Software Engineering, Multimedia Systems, Analysis of Algorithms, Object-Oriented Software Design, Software Optimization, Operations Research, Nonlinear Optimization, Stochastic Modeling, Strategic Enterprise Management, Advanced Engineering Statistics, Quality Control Systems, Advanced Integrated Production Systems, Advanced Computer Aided Design, Scheduling Systems, Mathematical Finance, Advanced Calculus, Complex Analysis, Applied Analysis, Numerical Analysis, Advanced Differential Equations, Abstract Algebra, Theory of Functions of Real Variables
   </blockquote>
 </details>
+<br>
 <hr>
 
 ## Experience
