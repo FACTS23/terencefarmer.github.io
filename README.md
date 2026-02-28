@@ -15,10 +15,11 @@
 |**M.S.**|**Applied Mathematics** |University of Missouri|*1999-2000*|![MS Applied Mathematics](<assets/img/MSAppliedMathematics2000.png>)
 |\*Ph.D. Student|Applied Mathematics|University of Missouri|*1997-1999*|<sub>*No Degree*, *passed Ph.D. Qualifying Exam*<br>Concentration: Applied Analysis<br>Research: “The Laplacian in Ellipsoidal Coordinates”</sub>
 |**B.S.**|**Mathematics** |Alabama State University|*1993-1997*|![BS Mathematics](<assets/img/BachelorofScienceDegree.png>)
+
 ### Graduate Courses:
 <details  closed>
   <summary></summary>
-  <blockquote> Artificial Intelligence, Data Mining, Machine Learning, Deep Learning, Smart Systems, Sensor Networks, Emerging Wireless Network Technologies, Software Engineering, Multimedia Systems, Analysis of Algorithms, Object-Oriented Software Design, Software Optimization, Operations Research, Nonlinear Optimization, Stochastic Modeling, Strategic Enterprise Management, Advanced Engineering Statistics, Quality Control Systems, Advanced Integrated Production Systems, Advanced Computer Aided Design, Scheduling Systems
+  <blockquote> Artificial Intelligence, Data Mining, Machine Learning, Deep Learning, Smart Systems, Sensor Networks, Emerging Wireless Network Technologies, Software Engineering, Multimedia Systems, Analysis of Algorithms, Object-Oriented Software Design, Software Optimization, Operations Research, Nonlinear Optimization, Stochastic Modeling, Strategic Enterprise Management, Advanced Engineering Statistics, Quality Control Systems, Advanced Integrated Production Systems, Advanced Computer Aided Design, Scheduling Systems, Mathematical Finance, Advanced Calculus, Complex Analysis, Applied Analysis, Numerical Analysis, Advanced Differential Equations, Abstract Algebra, Theory of Functions of Real Variables
   </blockquote>
 </details>
 <hr>
