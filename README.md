@@ -463,14 +463,12 @@
 </details>
 <br>
 
-## Positive Feedback
+## Feedback
 <details  closed>
-<summary></summary>
- 
-
-Profile assestments and *positive* feedback provided:
-*An informed head with a warm heart*
-
+<summary>
+Profile assessments and positive feedback provided by peers and colleagues.
+<blockquote>Motto: An informed head with a warm heart</blockquote>
+</summary>
 <img src="./assets/img/Emergenetics.png" alt="Emergenetics">
 <img src="./assets/img/Dig_reviews.png" alt="Dig_reviews">
 <img src="./assets/img/motivosity_blurbs.png" alt="motivosity_blurbs">
