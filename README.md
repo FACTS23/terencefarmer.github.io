@@ -6,9 +6,10 @@
 </details>
 
 ## Education
+<!--
 <details  open>
 <summary></summary>
-  
+-->
 |   |   |   |   |   |
 |--|--|--|--|-----|
 |**M.S.**|**Computer Science**|Florida Atlantic University|*2019-2020*|![MS Computer Science](<assets/img/MS_Computer_Science.png>)
@@ -30,8 +31,10 @@
 <hr>
 
 ## Experience
+<!--
 <details  open>
 <summary></summary>
+-->
 
 ### **Senior Director of Risk Data Science** | DigniFi, Inc. | Fort Lauderdale, FL | January 2022 – February 2026 | *Financial Services*, *FinTech*, *Risk*
  
@@ -236,7 +239,27 @@
   <img src="./assets/img/Broward%20Animal%20Care%20Dashboard%20ArcGIS.png" alt="Animal Shelter ArcGIS Dashboard">
   <img src="./assets/img/Broward%20Animal%20Care%20Dashboard%202%20ArcGIS.png" alt="Animal Shelter ArcGIS Dashboard">
   <img src="./assets/img/Broward%20Animal%20Care%20Newsletter%20ArcGIS.png" alt="Animal Shelter ArcGIS Newsletter">
+  <blockquote> I performed Labor Forecasting.</blockquote>
+  <img src="./assets/img/Broward%20Covid%20dashboard%201%20PowerBI.png" alt="Covid PowerBI Dashboard">
+  <img src="./assets/img/Broward%20Animal%20Care%20Dashboard%20ArcGIS.png" alt="Animal Shelter ArcGIS Dashboard">
+  <img src="./assets/img/Broward%20Animal%20Care%20Dashboard%202%20ArcGIS.png" alt="Animal Shelter ArcGIS Dashboard">
+  <img src="./assets/img/Broward%20Animal%20Care%20Newsletter%20ArcGIS.png" alt="Animal Shelter ArcGIS Newsletter">
   </details>
+
+- #### Innovation
+  <details  closed>
+  <summary>see examples:</summary>
+  <blockquote> Introduced new technologies.</blockquote>
+  <img src="./assets/img/Broward_realtimelocation.png" alt="Broward real time location">
+  </details>
+  
+- #### Labor Operations
+  <details  closed>
+  <summary>see examples:</summary>
+  <blockquote> I performed Labor Forecasting.</blockquote>
+  <img src="./assets/img/Broward_labor_forecast.png" alt="Broward labor forecast">
+  </details>
+  
 <br>
 
 ### **Senior Risk Analyst** | Southeast Toyota Finance | Fort Lauderdale, FL | January 2018 – March 2020 | *Financial Services*, *Risk Analytics*
@@ -337,18 +360,19 @@
   <img src="./assets/img/TrafficEngineering_crosswalkstudy.png" alt="Traffic Engineering cross walkstudy">
   <img src="./assets/img/TrafficEngineering_memo.png" alt="Traffic Engineering memo">
   </details>
-
+<!--
 </details>
+-->
 <br>
 <br>
 <hr>
 
 ## Certifications
+<!--
 <details  open>
 <summary></summary>
-
+-->
 <img src="./assets/img/Certifications.png" alt="Certifications">
-
 
 |   |   |   |   |
 |--|--|--|--|
@@ -375,12 +399,16 @@
 ![Microsoft Specialist](<assets/img/MicrosoftSpecialist.png>)
 </details>
 -->
+<!--
 </details>
+-->
 <hr>
 
 ## Continuous Learning
+<!--
 <details  open>
 <summary></summary>
+-->
 
 |   |   |   |   |
 |--|--|--|--|
@@ -427,8 +455,9 @@
   <img src="./assets/img/Advanced%20Wiring%20and%20NEC%20Code.png" alt="Advanced Wiring and NEC Code">
   <img src="./assets/img/Introduction%20to%20Urban%20and%20Regional%20Planning%20Concepts.png" alt="Introduction to Urban and Regional Planning Concepts">
   </details>
-
+<!--
 </details>
+-->
 <br>
 
 <hr>
