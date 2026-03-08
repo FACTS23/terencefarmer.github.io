@@ -6,7 +6,9 @@
 </details>
 
 ## Education
-
+<details  open>
+<summary></summary>
+  
 |   |   |   |   |   |
 |--|--|--|--|-----|
 |**M.S.**|**Computer Science**|Florida Atlantic University|*2019-2020*|![MS Computer Science](<assets/img/MS_Computer_Science.png>)
@@ -15,6 +17,8 @@
 |**M.S.**|**Applied Mathematics** |University of Missouri|*1999-2000*|![MS Applied Mathematics](<assets/img/MSAppliedMathematics2000.png>)
 |\*Ph.D. Student|Applied Mathematics|University of Missouri|*1997-1999*|<sub>*No Degree*, *passed Ph.D. Qualifying Exam*<br>Concentration: Applied Analysis<br>Research: “The Laplacian in Ellipsoidal Coordinates”</sub>
 |**B.S.**|**Mathematics** |Alabama State University|*1993-1997*|![BS Mathematics](<assets/img/BachelorofScienceDegree.png>)
+
+</details>
 
 ### Graduate Courses:
 <details  closed>
@@ -26,6 +30,9 @@
 <hr>
 
 ## Experience
+<details  open>
+<summary></summary>
+
 ### **Senior Director of Risk Data Science** | DigniFi, Inc. | Fort Lauderdale, FL | January 2022 – February 2026 | *Financial Services*, *FinTech*, *Risk*
  
 - #### Data Science and Modeling
@@ -83,6 +90,8 @@
 - #### Reporting
   <details  closed>
   <summary>see examples:</summary>
+  <blockquote>I presented the monthly company-wide updates for the credit and risk department</blockquote>
+  <img src="./assets/img/PerformingCompanyUpdates.png" alt="Performing Company Updates">
   <blockquote>I managed more than 30 reports using efficient coding and dashboarding</blockquote>
   <img src="./assets/img/Tableau%20gallery.jpg" alt="Tableau gallery">
   <blockquote>This automated and interactive report provided executives, peers, and auditors with real-time information</blockquote>
@@ -328,13 +337,18 @@
   <img src="./assets/img/TrafficEngineering_crosswalkstudy.png" alt="Traffic Engineering cross walkstudy">
   <img src="./assets/img/TrafficEngineering_memo.png" alt="Traffic Engineering memo">
   </details>
+
+</details>
 <br>
 <br>
 <hr>
 
 ## Certifications
+<details  open>
+<summary></summary>
 
 <img src="./assets/img/Certifications.png" alt="Certifications">
+
 
 |   |   |   |   |
 |--|--|--|--|
@@ -361,9 +375,12 @@
 ![Microsoft Specialist](<assets/img/MicrosoftSpecialist.png>)
 </details>
 -->
+</details>
 <hr>
 
 ## Continuous Learning
+<details  open>
+<summary></summary>
 
 |   |   |   |   |
 |--|--|--|--|
@@ -402,13 +419,15 @@
 - Survival Data Mining | SAS | 2018
 -->
 
-<details  closed>
-<summary>more credentials:</summary>
+  <details  closed>
+  <summary>more credentials:</summary>
+  
+  <img src="./assets/img/ESRI%20Learning%20ArcGIS%209.jpg" alt="ESRI Learning ArcGIS 9">
+  <img src="./assets/img/Web%20Authoring%20Fundamentals.png" alt="Web Authoring Fundamentals">
+  <img src="./assets/img/Advanced%20Wiring%20and%20NEC%20Code.png" alt="Advanced Wiring and NEC Code">
+  <img src="./assets/img/Introduction%20to%20Urban%20and%20Regional%20Planning%20Concepts.png" alt="Introduction to Urban and Regional Planning Concepts">
+  </details>
 
-<img src="./assets/img/ESRI%20Learning%20ArcGIS%209.jpg" alt="ESRI Learning ArcGIS 9">
-<img src="./assets/img/Web%20Authoring%20Fundamentals.png" alt="Web Authoring Fundamentals">
-<img src="./assets/img/Advanced%20Wiring%20and%20NEC%20Code.png" alt="Advanced Wiring and NEC Code">
-<img src="./assets/img/Introduction%20to%20Urban%20and%20Regional%20Planning%20Concepts.png" alt="Introduction to Urban and Regional Planning Concepts">
 </details>
 <br>
 
@@ -443,6 +462,8 @@
 <a href="https://youtu.be/kzWSFDw_11M?t=678" target="_blank" rel="noopener noreferrer">
 <img src="./assets/img/BEYA_talk.png" alt="BEYA">
  </a>
+<blockquote>Appearance in Disney televised commercial</blockquote>
+<img src="./assets/img/DisneyMediaPromotionSWAC.png" alt="Disney Media">
 </details>
 <br>
 
