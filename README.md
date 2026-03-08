@@ -10,6 +10,7 @@
 <details  open>
 <summary></summary>
 -->
+
 |   |   |   |   |   |
 |--|--|--|--|-----|
 |**M.S.**|**Computer Science**|Florida Atlantic University|*2019-2020*|![MS Computer Science](<assets/img/MS_Computer_Science.png>)
@@ -19,7 +20,9 @@
 |\*Ph.D. Student|Applied Mathematics|University of Missouri|*1997-1999*|<sub>*No Degree*, *passed Ph.D. Qualifying Exam*<br>Concentration: Applied Analysis<br>Research: “The Laplacian in Ellipsoidal Coordinates”</sub>
 |**B.S.**|**Mathematics** |Alabama State University|*1993-1997*|![BS Mathematics](<assets/img/BachelorofScienceDegree.png>)
 
+<!--
 </details>
+-->
 
 ### Graduate Courses:
 <details  closed>
