@@ -494,7 +494,7 @@
 <a href="https://youtu.be/kzWSFDw_11M?t=678" target="_blank" rel="noopener noreferrer">
 <img src="./assets/img/BEYA_talk.png" alt="BEYA">
  </a>
-<blockquote>Appearance in Disney televised commercial</blockquote>
+<blockquote>Appeared in Disney televised commercial</blockquote>
 <img src="./assets/img/DisneyMediaPromotionSWAC.png" alt="Disney Media">
 </details>
 <br>
