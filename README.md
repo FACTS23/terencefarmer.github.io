@@ -85,6 +85,7 @@
   </details>
   <br>
 
+<!--
 - #### Initiative
   <details>
   <summary>see examples</summary>
@@ -92,6 +93,7 @@
   <img src="./assets/img/DigniFiAutomotiveExperience.png" alt="DigniFi Automotive Experience">
   </details>
   <br>
+-->
 
 - #### Visualizations
   <details>
