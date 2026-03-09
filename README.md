@@ -85,6 +85,14 @@
   </details>
   <br>
 
+- #### Initiative
+  <details>
+  <summary>see examples</summary>
+  <blockquote>Conducted dealerships site vistits and participated in focus groups</blockquote>
+  <img src="./assets/img/DigniFiAutomotiveExperience.png" alt="DigniFi Automotive Experience">
+  </details>
+  <br>
+
 - #### Visualizations
   <details>
   <summary>see examples</summary>
@@ -234,6 +242,18 @@
  <br>
  
 ### **Innovation Unit Supervisor** | Broward County Government | Fort Lauderdale, FL | March 2020 – January 2022 | *Government Innovation*, *Smart Cities*
+
+- #### Innovation
+  <details  closed>
+  <summary>Overview:</summary>
+  <blockquote>Inaugural supervisor for Broward County Innovation</blockquote>
+  <a href="https://broward-innovation-citizen-portal-bcgis.hub.arcgis.com/" target="_blank" rel="noopener noreferrer">
+  <img src="./assets/img/BrowardInnovationCitizenPortal.png" alt="Broward Innovation Citizen Portal">
+  <a href="https://experience.arcgis.com/experience/e0322242fd9d4f89aadfdf4d85d1aaca/" target="_blank" rel="noopener noreferrer">
+  <img src="./assets/img/BrowardMobilityAdvancementProgram.png" alt="Broward Mobility Advancement Program">
+  </a>
+  </details>
+  
 - #### Visualizations
   <details  closed>
   <summary>see examples:</summary>
@@ -249,7 +269,7 @@
   <img src="./assets/img/Broward%20Animal%20Care%20Newsletter%20ArcGIS.png" alt="Animal Shelter ArcGIS Newsletter">
   </details>
 
-- #### Innovation
+- #### New Technologies
   <details  closed>
   <summary>see examples:</summary>
   <blockquote> Introduced new technologies.</blockquote>
