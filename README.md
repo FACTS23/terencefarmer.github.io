@@ -314,6 +314,7 @@
   <blockquote> I used SAS and Tableau to create personalized itineraries. I shared these methods across the company and was recognized by Disney with a technology grant.</blockquote>
   <img src="./assets/img/Disney%20itinerary%20recommendation%20Tableau.png" alt="Disney Custom Itinerary">
   <img src="./assets/img/Disney%20itinerary%20recommendation%20Guide%20Setup.png" alt="Disney Custom Itinerary design">
+  <img src="./assets/img/DisneyOnsite.png" alt="Disney Onsite">
   <img src="./assets/img/Disney%20personalization%20strategy%20training%20PPT.jpg" alt="Disney Training Session">
   </details>
 <br>
