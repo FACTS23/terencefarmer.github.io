@@ -236,6 +236,7 @@
   <blockquote>I support a private equity fund with identifying  acquisition opportunities and creating pitch decks by creating custom models, heat maps, and market reports utilizing ESRI ArcGIS, Python, Excel, and Tableau.</blockquote>
   <img src="./assets/img/FACTS_Heat_Map_1.png" alt="FACTS Heat Map">
   <img src="./assets/img/FACTS_Heat_Map_2.png" alt="FACTS Heat Map">
+  <img src="./assets/img/FactsHeatMapPresentation.png" alt="FACTS Heat Map Presentation">
   <img src="./assets/img/FACTS_SiteRankings1.png" alt="FACTS Site Rankings">
   <img src="./assets/img/FACTS_WhatsInMyCommunity.png" alt="FACTS Whats In My Community">
   <img src="./assets/img/FACTS_TapestryReport.png" alt="FACTS Tapestry Report">
