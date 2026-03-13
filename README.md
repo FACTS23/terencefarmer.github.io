@@ -252,6 +252,7 @@
   <blockquote>Inaugural supervisor for Broward County Innovation</blockquote>
   <a href="https://broward-innovation-citizen-portal-bcgis.hub.arcgis.com/" target="_blank" rel="noopener noreferrer">
   <img src="./assets/img/BrowardInnovationCitizenPortal.png" alt="Broward Innovation Citizen Portal">
+  </a>
   <a href="https://experience.arcgis.com/experience/e0322242fd9d4f89aadfdf4d85d1aaca/" target="_blank" rel="noopener noreferrer">
   <img src="./assets/img/BrowardMobilityAdvancementProgram.png" alt="Broward Mobility Advancement Program">
   </a>
