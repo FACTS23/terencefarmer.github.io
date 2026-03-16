@@ -525,6 +525,7 @@
 <blockquote>Passionate about education and community quality of life issues</blockquote>
 <img src="./assets/img/CPR_front.bmp" alt="CPR">
 <img src="./assets/img/AdultLiteracyLeague.png" alt="Adult Literacy League">
+<img src="./assets/img/UpwardBound_20140702.jpg" alt="Upward Bound">
 </details>
 <br>
 
