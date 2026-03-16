@@ -252,6 +252,7 @@
   <blockquote>Inaugural supervisor for Broward County Innovation</blockquote>
   <a href="https://broward-innovation-citizen-portal-bcgis.hub.arcgis.com/" target="_blank" rel="noopener noreferrer">
   <img src="./assets/img/BrowardInnovationCitizenPortal.png" alt="Broward Innovation Citizen Portal">
+  </a>
   <a href="https://experience.arcgis.com/experience/e0322242fd9d4f89aadfdf4d85d1aaca/" target="_blank" rel="noopener noreferrer">
   <img src="./assets/img/BrowardMobilityAdvancementProgram.png" alt="Broward Mobility Advancement Program">
   </a>
@@ -261,11 +262,6 @@
   <details  closed>
   <summary>see examples:</summary>
   <blockquote> I used PowerBI and ArcGIS to create public-facing dashboards and newsletters. I received recognition for supporting the community during the COVID pandemic.</blockquote>
-  <img src="./assets/img/Broward%20Covid%20dashboard%201%20PowerBI.png" alt="Covid PowerBI Dashboard">
-  <img src="./assets/img/Broward%20Animal%20Care%20Dashboard%20ArcGIS.png" alt="Animal Shelter ArcGIS Dashboard">
-  <img src="./assets/img/Broward%20Animal%20Care%20Dashboard%202%20ArcGIS.png" alt="Animal Shelter ArcGIS Dashboard">
-  <img src="./assets/img/Broward%20Animal%20Care%20Newsletter%20ArcGIS.png" alt="Animal Shelter ArcGIS Newsletter">
-  <blockquote> I performed Labor Forecasting.</blockquote>
   <img src="./assets/img/Broward%20Covid%20dashboard%201%20PowerBI.png" alt="Covid PowerBI Dashboard">
   <img src="./assets/img/Broward%20Animal%20Care%20Dashboard%20ArcGIS.png" alt="Animal Shelter ArcGIS Dashboard">
   <img src="./assets/img/Broward%20Animal%20Care%20Dashboard%202%20ArcGIS.png" alt="Animal Shelter ArcGIS Dashboard">
