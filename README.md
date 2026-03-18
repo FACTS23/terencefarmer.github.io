@@ -5,6 +5,75 @@
 <img src="./assets/img/Headshot2024_1a.png" alt="Profile Picture">
 </details>
 
+## Highlights
+<details  closed>
+  <summary>Design and maintain enterprise-level dashboards that visualize risk metrics, control effectiveness, and audit outcomes using Power BI and Tableau.</summary>
+
+  <blockquote> 
+  Tableau Dashboards supporting Financial Controls and Risk
+  </blockquote>
+  <img src="./assets/img/Credit%20Policy%20Monitoring%20p1%20automation%20Tableau.jpg" alt="Credit Policy Monitoring with Tableau Dashboard">
+  <img src="./assets/img/Credit%20Policy%20Monitoring%20p2%20automation%20Tableau.jpg" alt="Credit Policy Monitoring with Tableau Dashboard">
+  <img src="./assets/img/Tableau%20gallery.jpg" alt="Tableau gallery">
+  <blockquote> 
+  PowerBI Dashboards detailing Outcomes of Covid
+  </blockquote>
+  <img src="./assets/img/Broward%20Covid%20dashboard%201%20PowerBI.png" alt="Covid PowerBI Dashboard">
+</details>
+
+<details  closed>
+  <summary>Partner with IT teams to ensure seamless data ingestion into the data lake, including defining data requirements and validating data pipelines.</summary>
+
+  <img src="./assets/img/Citi_Credit_Policy_Glossary.png" alt="Credit Policy Glossary">
+</details>
+
+
+<details  closed>
+  <summary>Build and maintain semantic models and self-service analytics layers to support audit and risk teams.</summary>
+  <blockquote>Audit and Compliance tasks:  </blockquote>
+  <br>
+  <blockquote>
+  Bank Testing, OFAC reporting, BSA reporting, FDIC exam, Fair Lending samples, Extended Fraud alerts, FCRA Permission to pull credit, Active Duty alerts, Adverse Action notification, Credit Bureau requests, Policy Remediation, and Fraud Claims</blockquote>
+  <br>
+  <img src="./assets/img/CMS Audit OFAC Screening sql.png" alt="CMS Audit OFAC Screening sql">
+  <img src="./assets/img/TableauSemanticLayer1.png" alt="Tableau Semantic Layer">
+</details>
+
+<details  closed>
+  <summary>Develop predictive and descriptive models that support risk profiling and controlled process design.</summary>
+
+   <img src="./assets/img/Decision%20Tree%20for%20Take%20Rate%201%20Python.png" alt="Python Decision Tree">
+  <pre><code class="language-python">
+  import pandas as pd
+  import numpy as np
+  import statsmodels.api as sm
+  from matplotlib import pyplot as plt
+  import sklearn.linear_model as lm
+  from sklearn.linear_model import LogisticRegression
+  from sklearn.tree import DecisionTreeClassifier, plot_tree
+  from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
+  from sklearn.datasets import make_classification
+
+  ... 
+   VARS = ['APPROVED_AMOUNT', 'APR','VANTAGE', 'OFFER_TIER_DELTA','TIER_2'  ,'TIER_3'  ,'TIER_4'  ,'TIER_5'  ,'TIER_6'  ,'TIER_7']
+  ...
+  X = data[dti_model]
+  y = data['FUNDED_FLAG']
+  ...
+  model = DecisionTreeClassifier(max_depth=5)
+  model.fit(X_train, y_train)
+  </code></pre>
+</details>
+
+<details  closed>
+  <summary>Translate complex datasets into clear, actionable insights and narratives for senior leadership.</summary>
+
+  <img src="./assets/img/PerformingCompanyUpdates.png" alt="Performing Company Updates">
+</details>
+
+<br>
+<hr>
+
 ## Education
 <!--
 <details  open>
@@ -27,8 +96,8 @@
 ### Graduate Courses:
 <details  closed>
   <summary></summary>
-  <blockquote> Artificial Intelligence, Data Mining, Machine Learning, Deep Learning, Smart Systems, Sensor Networks, Emerging Wireless Network Technologies, Software Engineering, Multimedia Systems, Analysis of Algorithms, Object-Oriented Software Design, Software Optimization, Operations Research, Nonlinear Optimization, Stochastic Modeling, Strategic Enterprise Management, Advanced Engineering Statistics, Quality Control Systems, Advanced Integrated Production Systems, Advanced Computer Aided Design, Scheduling Systems, Mathematical Finance, Advanced Calculus, Complex Analysis, Applied Analysis, Numerical Analysis, Advanced Differential Equations, Abstract Algebra, Theory of Functions of Real Variables
-  </blockquote>
+  <blockquote> Artificial Intelligence, Data Mining, Machine Learning, Deep Learning, Smart Systems, Sensor Networks, Emerging Wireless Network Technologies, Software Engineering, Multimedia Systems, Analysis of Algorithms, Object-Oriented Software Design, Software Optimization, Operations Research, Nonlinear Optimization, Stochastic Modeling, Strategic Enterprise Management, Advanced Engineering Statistics, Quality Control Systems, Advanced Integrated Production Systems, Advanced Computer Aided Design, Scheduling Systems, Mathematical Finance, Advanced Calculus, Complex Analysis, Applied Analysis, Numerical Analysis, Advanced Differential Equations, Abstract Algebra, Theory of Functions of Real Variables</blockquote>
+
 </details>
 <br>
 <hr>
@@ -525,7 +594,6 @@
 <blockquote>Passionate about education and community quality of life issues</blockquote>
 <img src="./assets/img/CPR_front.bmp" alt="CPR">
 <img src="./assets/img/AdultLiteracyLeague.png" alt="Adult Literacy League">
-<img src="./assets/img/UpwardBound_20140702.jpg" alt="Upward Bound">
 </details>
 <br>
 
