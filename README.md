@@ -1,5 +1,5 @@
 # Terence Farmer: Portfolio
-<details  open>
+<details  closed>
 <summary></summary>
 
 <img src="./assets/img/Headshot2024_1a.png" alt="Profile Picture">
@@ -10,30 +10,39 @@
   <summary>Design and maintain enterprise-level dashboards that visualize risk metrics, control effectiveness, and audit outcomes using Power BI and Tableau.</summary>
 
   <blockquote> 
+  PowerBI public-facing Dashboards detailing Outcomes and Forecastings of Covid
+  </blockquote>
+  <img src="./assets/img/Broward%20Covid%20dashboard%201%20PowerBI.png" alt="Covid PowerBI Dashboard">
+  <img src="./assets/img/Broward_Covid_main_page.png" alt="Broward Covid main page">
+  <img src="./assets/img/Broward%20Covid%20dashboard%20forecasting%20PowerBI.png" alt="Broward Covid forecasting">
+  <blockquote> 
   Tableau Dashboards supporting Financial Controls and Risk
   </blockquote>
   <img src="./assets/img/Credit%20Policy%20Monitoring%20p1%20automation%20Tableau.jpg" alt="Credit Policy Monitoring with Tableau Dashboard">
   <img src="./assets/img/Credit%20Policy%20Monitoring%20p2%20automation%20Tableau.jpg" alt="Credit Policy Monitoring with Tableau Dashboard">
-  <img src="./assets/img/Tableau%20gallery.jpg" alt="Tableau gallery">
   <blockquote> 
-  PowerBI Dashboards detailing Outcomes of Covid
+  Build and manage more than 30 automated dashboards for Risk, Compliance, Sales, Servicing, Business Intelligence, Finance, and other business units
   </blockquote>
-  <img src="./assets/img/Broward%20Covid%20dashboard%201%20PowerBI.png" alt="Covid PowerBI Dashboard">
+  <img src="./assets/img/Tableau%20gallery.jpg" alt="Tableau gallery">
 </details>
 
 <details  closed>
   <summary>Partner with IT teams to ensure seamless data ingestion into the data lake, including defining data requirements and validating data pipelines.</summary>
-
+  
+  <blockquote> 
+  Responsible for Underwriting Model governance policy, data definitions, validation, config files, and debugging
+  </blockquote>
   <img src="./assets/img/Citi_Credit_Policy_Glossary.png" alt="Credit Policy Glossary">
+  <img src="./assets/img/Logistic%20Regression%20Model%20Validation%20p2%20automation%20Tableau.jpg" alt="Model Validation">
 </details>
-
 
 <details  closed>
   <summary>Build and maintain semantic models and self-service analytics layers to support audit and risk teams.</summary>
-  <blockquote>Audit and Compliance tasks:  </blockquote>
+  
+  <blockquote>Support several Audit and Compliance tasks:</blockquote>
   <br>
   <blockquote>
-  Bank Testing, OFAC reporting, BSA reporting, FDIC exam, Fair Lending samples, Extended Fraud alerts, FCRA Permission to pull credit, Active Duty alerts, Adverse Action notification, Credit Bureau requests, Policy Remediation, and Fraud Claims</blockquote>
+  Bank Testing, Stress Testing, OFAC reporting, BSA reporting, FDIC exam, Fair Lending samples, Extended Fraud alerts, FCRA Permission to pull credit, Active Duty alerts, Adverse Action notification, Credit Bureau requests, Policy Remediation, and Fraud Claims</blockquote>
   <br>
   <img src="./assets/img/CMS Audit OFAC Screening sql.png" alt="CMS Audit OFAC Screening sql">
   <img src="./assets/img/TableauSemanticLayer1.png" alt="Tableau Semantic Layer">
@@ -41,7 +50,10 @@
 
 <details  closed>
   <summary>Develop predictive and descriptive models that support risk profiling and controlled process design.</summary>
-
+  
+  <blockquote> 
+  Various Risk modeling strategies for deliquencies, funding amounts, and losses using Python
+  </blockquote>
    <img src="./assets/img/Decision%20Tree%20for%20Take%20Rate%201%20Python.png" alt="Python Decision Tree">
   <pre><code class="language-python">
   import pandas as pd
@@ -61,14 +73,27 @@
   y = data['FUNDED_FLAG']
   ...
   model = DecisionTreeClassifier(max_depth=5)
-  model.fit(X_train, y_train)
   </code></pre>
+
+  <br>
+  <blockquote> 
+  Predictive Modeling and monitoring of attraction wait times at Disney World
+  </blockquote>
+  <img src="./assets/img/DisneyWaitModelMonitoring.png" alt="Disney Wait Model Monitoring">
+  
 </details>
 
 <details  closed>
   <summary>Translate complex datasets into clear, actionable insights and narratives for senior leadership.</summary>
 
+  <blockquote> 
+  Generate and present monthly deck to the leadership
+  </blockquote>
   <img src="./assets/img/PerformingCompanyUpdates.png" alt="Performing Company Updates">
+  <blockquote> 
+  Build custom reports based on site visits to clients and focus groups
+  </blockquote>
+  <img src="./assets/img/DigniFiAutomotiveExperience.png" alt="DigniFi Automotive Experience">
 </details>
 
 <br>
