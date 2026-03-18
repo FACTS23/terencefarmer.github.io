@@ -33,6 +33,7 @@
   Responsible for Underwriting Model governance policy, data definitions, validation, config files, and debugging
   </blockquote>
   <img src="./assets/img/Citi_Credit_Policy_Glossary.png" alt="Credit Policy Glossary">
+  <img src="./assets/img/RM_MonitoringDashboard.jpg" alt="RM Monitoring Dashboard">
   <img src="./assets/img/Logistic%20Regression%20Model%20Validation%20p2%20automation%20Tableau.jpg" alt="Model Validation">
 </details>
 
