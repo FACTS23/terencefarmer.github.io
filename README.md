@@ -444,6 +444,7 @@
   <img src="./assets/img/Disney_CMR_MarketingLift.png" alt="CMR Marketing Lift">
   <img src="./assets/img/Disney_CMR_DecisionTree.png" alt="CMR Decision Tree">
   <img src="./assets/img/Disney_CMR_DecisionTreeVariables.png" alt="CMR Decision Tree">
+  <img src="./assets/img/CMR_response_rates.png" alt="CMR_response_rates">
   </details>
 <br>
 
