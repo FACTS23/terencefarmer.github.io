@@ -97,6 +97,14 @@
   <img src="./assets/img/DigniFiAutomotiveExperience.png" alt="DigniFi Automotive Experience">
 </details>
 
+<details  closed>
+  <summary>Transform data into insights, make strategic recommendations with a holistic commercial approach, and communicate effectively to leadership to get buy-in. Build out and automate reports and dashboards to monitor the behavior and profitability of various segments</summary>
+
+  <img src="./assets/img/Disney_XI_analysis2.png" alt="Disney XI analysis2">
+  <img src="./assets/img/Disney_XI_analysis.png" alt="Disney XI analysis">
+  <img src="./assets/img/CMR_response_rates.png" alt="CMR response rates">
+</details>
+
 <br>
 <hr>
 
